@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar/Navbar";
 import Header from "./container/Header";
 import Footer from "./components/Footer";
 import AboutUs from "./container/AboutUS";
@@ -8,6 +8,8 @@ import CallToActionA from "./container/CallToActionA";
 import CallToActionB from "./container/CallToActionB";
 import Team from "./container/Team";
 import Articles from "./container/Articles";
+import "./App.css";
+
 
 function App() {
   return (
