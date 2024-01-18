@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "tailwindcss/base";
+/* @tailwind components;
+@tailwind utilities; */
 
 :root {
   --font-base: "Roboto", sans-serif;
   --font-alt: "Open Sans", sans-serif;
 
   --color-golden: #dcca87;
+  --color-main: #ac2333;
+  --color-main-dark: #6E000D;
   --color-black: #0c0c0c;
   --color-gray: #545454;
   --color-crimson: #f5efdb;

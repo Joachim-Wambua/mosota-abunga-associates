@@ -1,30 +1,140 @@
 .nav-wrapper {
-  width: 72%;
-  margin: auto;
+  position: fixed;
+  width: 100%;
+  padding-top: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
+  z-index: 2;
 }
 
 .nav-logo {
+  flex-grow: 1;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .nav-logo img {
-  width: 135px;
+  width: 120px;
 }
 
 .nav-links {
-  flex: 1;
+  flex-grow: 1;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   list-style: none;
 }
 
 .nav-links li {
   margin: 0 1rem;
   cursor: pointer;
+}
+
+.nav-links li:hover {
+  color: #ac2333;
+}
+
+.profile-btn {
+  flex-grow: 1;
+  display: flex;
+  margin: 0.5rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profile_button {
+  whitespace: "nowrap";
+}
+
+.navbar-sm {
+  display: none;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.drop-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-sm-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color-black);
+  transition: 0.5s ease;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.navbar-sm-overlay .overlay_close {
+  font-size: 63px;
+  color: var(--color-main);
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.navbar-sm-overlay .overlay_close:hover {
+  color: var(--color-main-dark);
+}
+
+.nav-links-sm {
+  list-style: none;
+}
+
+.nav-links-sm li {
+  margin: 2rem;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 2rem;
+  font-family: var(--font-base);
+  font-weight: 600;
+}
+
+.nav-links-sm li:hover {
+  color: var(--color-main);
+}
+
+.hamburger-menu {
+  color: var(--color-main);
+  cursor: pointer;
+}
+
+.hamburger-menu:hover {
+  color: var(--color-main-dark);
+  cursor: pointer;
+}
+
+.profile-btns {
+  display: flex;
+  position: absolute;
+  bottom: 3rem;
+}
+
+.spacer {
+  margin: 1.5rem;
+}
+
+@media screen and (max-width: 1150px) {
+  .nav-links {
+    display: none;
+  }
+
+  .navbar-sm {
+    display: flex;
+  }
+
+  .profile-btn {
+    display: none;
+  }
+
+  .nav-logo img {
+    width: 120px;
+  }
 }

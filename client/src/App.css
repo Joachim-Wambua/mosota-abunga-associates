@@ -1,9 +1,65 @@
 .p_opensans {
   font-family: var(--font-base);
-  /* color: var(--color-white); */
+  color: var(--color-white);
   font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: capitalize;
   line-height: 28px;
   font-size: 16px;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  height: 100vh;
+  background-image: url("https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705580776/header-img_v82yvl.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  float: right;
+  color: white;
+  text-align: center;
+}
+
+.header-title {
+  font-weight: 900;
+}
+
+
+@media screen and (min-width: 2000px) {
+  
+}
+
+@media screen and (max-width: 1150px) {
+  .header-content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  
+}
+
+@media screen and (max-width: 650px) {
+  
+}
+
+@media screen and (max-width: 450px) {
+
 }
