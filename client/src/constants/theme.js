@@ -25,7 +25,7 @@ const theme = createTheme({
       light: "#f2f2f2",
       dark: "#AC2333",
       contrastText: "#000",
-    }
+    },
   },
 
   typography: {
@@ -39,7 +39,7 @@ const theme = createTheme({
     h3: {
       fontFamily: "'Roboto', sans-serif",
       fontWeight: 800,
-      lineHeight: 'normal',
+      lineHeight: "normal",
     },
     body: {
       fontFamily: "'Roboto', sans-serif",
