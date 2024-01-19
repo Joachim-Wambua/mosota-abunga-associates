@@ -13,9 +13,9 @@ const theme = createTheme({
       contrastText:
         getContrastRatio(maroonMain, "#fff") > 4.5 ? "#fff" : "#111",
     },
-    maroon_secondary: {
-      main: "#AC2333",
-      light: "#E33045",
+    maroon_dark: {
+      main: "#6E000D",
+      light: "#990012",
       // dark: will be calculated from palette.secondary.main,
       contrastText: "#6E000D",
     },

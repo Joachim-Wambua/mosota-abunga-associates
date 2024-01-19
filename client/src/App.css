@@ -169,7 +169,40 @@
 }
 
 .slick-dots li.slick-active button:before {
-  color: #ac2333;
+  background-color: #ac2333;
+}
+
+/* Services */
+.services {
+  background-color: #d0d0d0;
+  padding: 3rem 0 3rem 0;
+}
+
+.shadow-3xl {
+  margin-top: 1rem;
+  margin: 1rem 2rem 0 2rem;
+  background-color: #f2f2f2;
+  --tw-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: 0 10px 40px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.icon-container {
+  background: var(--color-main);
+}
+
+.service-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 50px;
+}
+
+.service-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: justify;
 }
 
 @media screen and (max-width: 1280px) {

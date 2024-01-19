@@ -49,4 +49,25 @@ const practices = [
   },
 ];
 
-export default practices;
+const services = [
+  {
+    title: "Commercial Law",
+    img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705666213/labour-law_l9aigm.png",
+    description:
+      "Trust Mosota Abunga & Associates Advocates for all your commercial legal needs in Kenya. Our seasoned experts specialize in litigation, contract, and employment law. Whether it's a dispute or essential legal documents, we've got you covered. Choose experience, choose excellence.",
+  },
+  {
+    title: "Property Law",
+    img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705666213/property-law_hqwlxe.png",
+    description:
+      "Secure your property investment with Mosota Abunga & Associates Advocates. We offer a range of legal property services, from conveyancing to development and dispute resolution. Choose us for expert care of your commercial and residential interests in Kenya.",
+  },
+  {
+    title: "Litigation",
+    img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705678555/gavel_ekfc38.png",
+    description:
+      "Count on Mosota Abunga & Associates Advocates for your litigation needs in Kenya. We specialize in out-of-court settlements, dispute resolution, and courtroom representation. Our dedicated team ensures your best interests are protected. Choose confidence—choose us for expert legal representation.",
+  },
+];
+
+export { practices, services };
