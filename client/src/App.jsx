@@ -1,6 +1,6 @@
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./constants/theme";
-import Navbar from "./components/NavBar/Navbar"; 
+// import Navbar from "./components/NavBar/Navbar"; 
 import Header from "./container/Header";
 import Footer from "./components/Footer";
 import AboutUs from "./container/AboutUS";

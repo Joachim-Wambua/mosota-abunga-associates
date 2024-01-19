@@ -40,6 +40,8 @@ const theme = createTheme({
       fontFamily: "'Roboto', sans-serif",
       fontWeight: 800,
       lineHeight: "normal",
+      fontSize: "2.7rem",
+      color: "#AC2333"
     },
     body: {
       fontFamily: "'Roboto', sans-serif",

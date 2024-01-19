@@ -41,25 +41,132 @@
   font-weight: 900;
 }
 
+.practice-content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 12rem;
+}
+
+.card {
+  width: 24rem;
+  height: 36rem;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  color: #fff;
+}
+.card img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  transition: opacity 0.2s ease-out;
+}
+.card h2 {
+  position: absolute;
+  inset: auto auto 30px 12px;
+  margin: 0;
+  transition: inset 0.3s 0.3s ease-out;
+  font-family: "Open Sans", sans-serif;
+  font-size: larger;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.card p,
+.card a {
+  position: absolute;
+  font-size: normal;
+  text-align: justify;
+  opacity: 0;
+  max-width: 80%;
+  transition: opacity 0.3s ease-out;
+}
+.card p {
+  inset: auto auto 80px 12px;
+}
+.card a {
+  inset: auto auto 40px 12px;
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.card:hover h2 {
+  inset: auto auto 270px 12px;
+  transition: inset 0.3s ease-out;
+}
+.card:hover p,
+.card:hover a {
+  opacity: 1;
+  transition: opacity 0.5s 0.1s ease-in;
+}
+.card a:hover{
+  color: #cdcdcd;
+}
+
+.card:hover img {
+  filter: brightness(50%);
+  transition: opacity 0.3s ease-in;
+  opacity: 1;
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #ac2333;
+  font-size: 24px;
+}
+
+.slick-dots li button:before {
+  padding-top: 18px;
+  color: #ac2333;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ac2333;
+}
 
 @media screen and (min-width: 2000px) {
-  
 }
 
 @media screen and (max-width: 1150px) {
   .header-content {
     width: 100%;
   }
+
+  .practice-content {
+    margin: 0 4rem;
+  }
+
+  .card:hover h2 {
+    inset: auto auto 300px 12px;
+  }
 }
 
 @media screen and (max-width: 850px) {
-  
+  .practice-content {
+    margin: 0 2rem;
+  }
+
+  .card:hover h2 {
+    inset: auto auto 250px 12px;
+  }
 }
 
 @media screen and (max-width: 650px) {
-  
 }
 
 @media screen and (max-width: 450px) {
-
 }
