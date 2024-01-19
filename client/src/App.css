@@ -214,7 +214,7 @@
   display: flex;
   flex-direction: row;
   max-width: 900px;
-  height: 450px;
+  height: 480px;
   margin: auto;
   margin-top: 1.8rem;
   background: #fff;
@@ -236,7 +236,7 @@
 .profile-wrapper .img-area {
   position: relative;
   z-index: 0;
-  height: 200px;
+  height: auto;
   flex-basis: 50%;
   height: auto;
 }
@@ -247,18 +247,6 @@
   position: relative;
   z-index: 1;
   flex-basis: 60%;
-}
-
-.profile-wrapper .profile-content h1 {
-  line-height: 1;
-  margin: 0;
-  font-size: 1.6rem;
-  font-family: "Roboto", sans-serif;
-}
-
-.profile-wrapper .profile-content h2 {
-  font-size: 20px;
-  font-weight: 700;
 }
 
 @media screen and (max-width: 1280px) {
@@ -298,7 +286,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .practice-content {
     margin: 0 2rem;
   }
@@ -315,12 +303,15 @@
     display: flex;
     flex-direction: column;
   }
+  .profile-wrapper {
+    margin: 2.4rem;
+    height: fit-content;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .profile-wrapper {
     flex-direction: column;
-    height: auto;
     margin: 1rem;
   }
 }

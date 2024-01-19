@@ -1,4 +1,6 @@
-import { Typography } from "@mui/material";
+import { Typography, Button, IconButton } from "@mui/material";
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Team = () => {
   return (
@@ -50,6 +52,31 @@ const Team = () => {
                 voluptates voluptas quis minima facere quisquam, pariatur
                 possimus assumenda recusandae quas! Harum, voluptate soluta.
               </Typography>
+              <Button
+                variant="outlined"
+                size="large"
+                color="maroon_primary"
+                style={{ marginBottom: "1rem" }}
+              >
+                <Typography
+                  variant="body2"
+                  style={{ fontWeight: 600, padding: 3 }}
+                >
+                  Full Profile
+                </Typography>
+              </Button>
+
+              <div className="flex pb-10">
+                <IconButton color="maroon_primary" >
+                  <FaLinkedinIn
+                    style={{ marginRight: "10px" }}
+                  />
+                </IconButton>
+
+                <IconButton color="maroon_primary" >
+                  <MdEmail color="maroon_primary" />
+                </IconButton>
+              </div>
             </div>
           </div>
         </div>
