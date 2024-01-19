@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <>
       <section id="about-section">
-        <div className="about text-center">
+        <div className="text-center">
           <Typography
             variant="h3"
             style={{ marginBottom: "0.75rem", color: "#Ac2333" }}

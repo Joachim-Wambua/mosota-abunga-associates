@@ -169,7 +169,7 @@
 }
 
 .slick-dots li.slick-active button:before {
-  background-color: #ac2333;
+  color: #ac2333;
 }
 
 /* Services */
@@ -200,9 +200,65 @@
 }
 
 .service-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-align: justify;
+}
+
+.profile-section {
+  background-color: #f2f2f2;
+  padding-bottom: 3.6rem;
+}
+
+.profile-wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+  height: 450px;
+  margin: auto;
+  margin-top: 1.8rem;
+  background: #fff;
+  line-height: 1.5;
+  border-radius: 9px;
+  overflow: hidden;
+  z-index: 0;
+  background-color: #fff;
+}
+
+.profile-wrapper .img-box {
+  position: relative;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  transition: 0.9s;
+}
+
+.profile-wrapper .img-area {
+  position: relative;
+  z-index: 0;
+  height: 200px;
+  flex-basis: 50%;
+  height: auto;
+}
+
+.profile-wrapper .profile-content {
+  padding: 1rem;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  flex-basis: 60%;
+}
+
+.profile-wrapper .profile-content h1 {
+  line-height: 1;
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.profile-wrapper .profile-content h2 {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 1280px) {
@@ -261,7 +317,12 @@
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
+  .profile-wrapper {
+    flex-direction: column;
+    height: auto;
+    margin: 1rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
