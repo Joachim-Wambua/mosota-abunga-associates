@@ -48,6 +48,21 @@
   margin: 0 12rem;
 }
 
+.cta-one-section {
+  background-image: url("https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705664540/cta-image_tx8leg.png");
+  padding: 3rem 0;
+  margin: 2rem 0;
+  height: auto;
+  color: #fff;
+}
+
+.cta-one-content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 12rem;
+}
+
 .card {
   width: 24rem;
   height: 36rem;
@@ -95,7 +110,6 @@
   text-decoration: none;
 }
 
-
 .card:hover h2 {
   inset: auto auto 270px 12px;
   transition: inset 0.3s ease-out;
@@ -105,7 +119,7 @@
   opacity: 1;
   transition: opacity 0.5s 0.1s ease-in;
 }
-.card a:hover{
+.card a:hover {
   color: #cdcdcd;
 }
 
@@ -150,6 +164,10 @@
     margin: 0 4rem;
   }
 
+  .cta-one-content {
+    margin: 0 4rem;
+  }
+
   .card:hover h2 {
     inset: auto auto 300px 12px;
   }
@@ -158,6 +176,11 @@
 @media screen and (max-width: 850px) {
   .practice-content {
     margin: 0 2rem;
+  }
+
+  .cta-one-content {
+    margin: 0 2rem;
+
   }
 
   .card:hover h2 {

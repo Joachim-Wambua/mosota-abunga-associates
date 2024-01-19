@@ -44,7 +44,7 @@ const PracticeAreas = () => {
   return (
     <section style={{ backgroundColor: "#fff" }}>
       <div className="practice-content pt-10 text-center">
-        <Typography variant="h3" style={{ marginBottom: "1rem" }}>
+        <Typography variant="h3" style={{ marginBottom: "1rem", color: '#Ac2333' }}>
           Practice Areas
         </Typography>
         <Typography variant="body1">
