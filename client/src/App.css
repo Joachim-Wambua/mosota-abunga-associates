@@ -63,6 +63,26 @@
   margin: 0 12rem;
 }
 
+.about-image {
+  margin: 0 0 0 12rem;
+}
+
+.about-image img {
+  width: 540px;
+  border-radius: 45px;
+}
+
+.about-text {
+  text-align: justify;
+}
+
+.abt-txt {
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 2rem;
+}
+
 .card {
   width: 24rem;
   height: 36rem;
@@ -152,7 +172,10 @@
   color: #ac2333;
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (max-width: 1280px) {
+  .about-image {
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 1150px) {
@@ -171,6 +194,19 @@
   .card:hover h2 {
     inset: auto auto 300px 12px;
   }
+
+  .about-image {
+    margin: 0 3rem;
+  }
+
+  .about-text {
+    padding-top: 3rem;
+    margin: 0 0 0 3rem;
+  }
+
+  .abt-txt {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -180,11 +216,15 @@
 
   .cta-one-content {
     margin: 0 2rem;
-
   }
 
   .card:hover h2 {
     inset: auto auto 250px 12px;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
   }
 }
 
