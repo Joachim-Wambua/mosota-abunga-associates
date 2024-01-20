@@ -1,8 +1,45 @@
-import { Typography, Button, IconButton } from "@mui/material";
-import { FaLinkedinIn } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { Typography } from "@mui/material";
+import ProfileCard from "../components/ProfileCard";
+import { profiles } from "../constants/data";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Team = () => {
+  const settings = {
+    accessibility: true,
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <>
       <section id="lawyers" className="pt-10 profile-section">
@@ -15,69 +52,13 @@ const Team = () => {
           </Typography>
         </div>
 
-        <div className="profile-wrapper">
-          <div className="img-area">
-            <div className="img-box">
-              <img
-                src="https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689915/Wakili_iuvm0z.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="profile-content">
-            <div className="profile-title">
-              <Typography variant="h3" style={{ marginBottom: "0.75rem" }}>
-                Victor Mosota
-              </Typography>
-              <Typography
-                variant="subtitle2"
-                style={{ marginBottom: "0.75rem" }}
-              >
-                LLB, LLM, MBA
-              </Typography>
-              <Typography
-                variant="subtitle1"
-                style={{ marginBottom: "0.75rem" }}
-              >
-                Legal Practice Director
-              </Typography>
-              <Typography
-                variant="subtitle1"
-                style={{ marginBottom: "0.75rem" }}
-              >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
-                harum ea similique vero voluptatibus, esse enim omnis
-                necessitatibus sint explicabo pariatur asperiores perspiciatis
-                ullam quasi animi magnam, quos earum commodi? Consequatur
-                voluptates voluptas quis minima facere quisquam, pariatur
-                possimus assumenda recusandae quas! Harum, voluptate soluta.
-              </Typography>
-              <Button
-                variant="outlined"
-                size="large"
-                color="maroon_primary"
-                style={{ marginBottom: "1rem" }}
-              >
-                <Typography
-                  variant="body2"
-                  style={{ fontWeight: 600, padding: 3 }}
-                >
-                  Full Profile
-                </Typography>
-              </Button>
-
-              <div className="flex pb-10">
-                <IconButton color="maroon_primary" >
-                  <FaLinkedinIn
-                    style={{ marginRight: "10px" }}
-                  />
-                </IconButton>
-
-                <IconButton color="maroon_primary" >
-                  <MdEmail color="maroon_primary" />
-                </IconButton>
-              </div>
-            </div>
+        <div className="w-3/4 m-auto pb-10">
+          <div className="mt-10">
+            <Slider {...settings}>
+              {profiles.map((profile) => (
+                <ProfileCard key={profile.name} {...profile} />
+              ))}
+            </Slider>
           </div>
         </div>
       </section>

@@ -70,4 +70,31 @@ const services = [
   },
 ];
 
-export { practices, services };
+const profiles = [
+  {
+    name: "Victor Mosota",
+    profile_img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689915/Wakili_iuvm0z.jpg",
+    credentials: "LLB, LLM, MBA",
+    role: "Legal Practice Director",
+    profile:
+      "Victor is a highly experienced and practical commercial and property lawyer (with almost a decade of licenced legal experience).\n\nPrior to establishing Mosota Abunga & Associates Advocates, Victor was a commercial and property lawyer at one of Africa's leading top-tier law firms.",
+  },
+  {
+    name: "Lawyer 2",
+    profile_img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+    credentials: "LLB, LLM, MBA",
+    role: "Associate Advocate",
+    profile:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quiharum ea similique vero voluptatibus, esse enim omnisnecessitatibus sint explicabo pariatur asperiores perspiciatis ullam quasi animi magnam, quos earum commodi? Consequatur voluptates voluptas quis minima facere quisquam, pariatur possimus assumenda recusandae quas! Harum, voluptate soluta.",
+  },
+  {
+    name: "Lawyer 3",
+    profile_img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689939/20231214171639_IMG_0006_qgx3xx.jpg",
+    credentials: "LLB, LLM, MBA",
+    role: "Associate Advocate",
+    profile:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quiharum ea similique vero voluptatibus, esse enim omnisnecessitatibus sint explicabo pariatur asperiores perspiciatis ullam quasi animi magnam, quos earum commodi? Consequatur voluptates voluptas quis minima facere quisquam, pariatur possimus assumenda recusandae quas! Harum, voluptate soluta.",
+  },
+];
+
+export { practices, services, profiles };
