@@ -3,7 +3,7 @@ import { Typography } from "@mui/material";
 const AboutUs = () => {
   return (
     <>
-      <section id="about-section">
+      <section id="about-section" className="about-section" >
         <div className="text-center">
           <Typography
             variant="h3"

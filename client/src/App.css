@@ -51,7 +51,6 @@
 .cta-one-section {
   background-image: url("https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705664540/cta-image_tx8leg.png");
   padding: 3rem 0;
-  margin: 2rem 0;
   height: auto;
   color: #fff;
 }
@@ -61,6 +60,10 @@
   align-items: center;
   text-align: center;
   margin: 0 12rem;
+}
+
+.about-section {
+  padding-top: 2rem;
 }
 
 .about-image {
@@ -373,6 +376,49 @@
   color: white;
   border: 1px solid #ac2333;
   background-color: #ac2333;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #242424;
+  padding-top: 0;
+}
+
+.footer-start {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0;
+  padding: 0 2rem;
+}
+
+.company-info {
+  flex: 1;
+  margin: 1rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-start p {
+  font-size: 13px;
+  padding: 3px 0;
+}
+
+.middle-footer,
+.footer-end {
+  flex: 1;
+  color: white;
 }
 
 @media screen and (max-width: 1280px) {

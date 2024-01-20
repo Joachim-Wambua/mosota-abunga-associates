@@ -3,7 +3,7 @@ import { Typography } from "@mui/material";
 const Articles = () => {
   return (
     <>
-      <section id="articles" className="mt-8">
+      <section id="articles" className="my-8">
         <div className="text-center">
           <Typography
             variant="h3"
