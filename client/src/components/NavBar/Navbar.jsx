@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button, Typography, Menu, MenuItem } from "@mui/material";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -10,6 +10,17 @@ const Navbar = () => {
   const [aboutAnchorEl, setAboutAnchorEl] = useState(null);
   const [practiceAnchorEl, setPracticeAnchorEl] = useState(null);
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [logoSrc, setLogoSrc] = useState(
+    "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705499896/lpv4hjkskmzrjqi0wbmg.png"
+  );
+  const [buttonColor, setButtonColor] = useState("white");
+
+  const originalLogo =
+    "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705499896/lpv4hjkskmzrjqi0wbmg.png";
+
+  const scrolledLogoSrc =
+    "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705499897/gmzjo9mpovuxnxtivtgj.png";
 
   const handleAboutMenuOpen = (event) => {
     setAboutAnchorEl(event.currentTarget);
@@ -24,13 +35,33 @@ const Navbar = () => {
     setPracticeAnchorEl(null);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      if (isScrolled !== scrolled) {
+        setScrolled(isScrolled);
+        setLogoSrc(isScrolled ? scrolledLogoSrc : logoSrc);
+        setButtonColor(isScrolled ? "black" : "white");
+      }
+      // Check if the user has scrolled back to the top
+      if (!isScrolled && window.scrollY === 0) {
+        setLogoSrc(originalLogo);
+        setButtonColor("white");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrolled]);
+
   return (
-    <nav className="nav-wrapper">
+    <nav className={`nav-wrapper ${scrolled ? "scrolled" : ""}`}>
       <div className="nav-logo">
-        <img
-          src="https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705499896/lpv4hjkskmzrjqi0wbmg.png"
-          alt="logo"
-        />
+        <img src={logoSrc} alt="logo" />
       </div>
       <ul className="nav-links">
         <li className="p_opensans">
@@ -110,12 +141,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="profile-btn">
-        <Button
-          variant="contained"
-          className="profile_button"
-          size="medium"
-          color="maroon_primary"
-        >
+        <Button variant="contained" size="medium" color="maroon_primary">
           <Typography
             variant="body1"
             style={{ fontWeight: 600 }}
@@ -128,13 +154,10 @@ const Navbar = () => {
         <Button
           className="profile_button"
           size="medium"
-          style={{ marginTop: "0.5rem" }}
-          color="white"
-          startIcon={<FaPhoneAlt />}
+          style={{ marginTop: "0.5rem", color: buttonColor }}
+          startIcon={<FaPhoneAlt className="call-icon" />}
         >
-          <Typography variant="body2" style={{ fontWeight: 600 }}>
-            +254 725 735 499
-          </Typography>
+          <p style={{ fontWeight: 600 }}>+254 725 735 499</p>
         </Button>
       </div>
 
