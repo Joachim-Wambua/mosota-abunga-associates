@@ -6,7 +6,7 @@ const CallToActionB = () => {
       <section className="cta-one-section" id="cta-one">
         <div className="cta-one-content text-center">
           <Typography variant="h3" style={{ marginBottom: "1.8rem" }}>
-            DISCUSS YOUR MATTER WITH OUR LAWYERS TODAY
+            DISCUSS YOUR LEGAL MATTER WITH OUR LAWYERS TODAY
           </Typography>
           <Typography
             variant="h4"

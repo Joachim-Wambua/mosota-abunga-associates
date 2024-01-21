@@ -71,7 +71,9 @@ const Articles = () => {
                 className="card__image"
               />
               <figcaption className="card__caption">
-                <h2 className="card__title">Retaining Land Disputes in Kenya</h2>
+                <h2 className="card__title">
+                  Retaining Land Disputes in Kenya
+                </h2>
                 <p className="card__snippet">
                   If you and your neighbour are having a dispute about who has
                   responsibility for the maintenance, repair or replacement of a

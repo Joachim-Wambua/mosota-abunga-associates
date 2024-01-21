@@ -3,7 +3,7 @@ import { Typography } from "@mui/material";
 const AboutUs = () => {
   return (
     <>
-      <section id="about-section" className="about-section" >
+      <section id="about-section" className="about-section">
         <div className="text-center">
           <Typography
             variant="h3"
@@ -24,18 +24,16 @@ const AboutUs = () => {
           </div>
 
           <div className="about-text flex flex-1 flex-col ml-10 mx-12">
-            <p className="abt-txt lg:max-w-lg leading-7" >
-              Mosota Abunga & Associates Advocates stands out as a boutique law
+            <p className="abt-txt lg:max-w-lg leading-7">
+              Mosota Abunga & Associates Advocates, LLP stands out as a boutique law
               firm excelling in commercial, property, and dispute resolution
               law, with expertise spanning diverse legal areas. Our team,
               comprised of seasoned lawyers, is committed to delivering
               high-quality legal services. Whether you require advice, document
               review, or representation in any of our specialized practice
-              areas, Mosota Abunga & Associates Advocates ensures professional
+              areas, Mosota Abunga & Associates Advocates, LLP ensures professional
               and competent assistance. When you need a lawyer in Kenya, entrust
-              your legal matters to us. With a broad range of practice areas,
-              our specialist team guarantees nothing less than the best outcomes
-              tailored to your needs.
+              your legal matters to us.
             </p>
           </div>
         </div>

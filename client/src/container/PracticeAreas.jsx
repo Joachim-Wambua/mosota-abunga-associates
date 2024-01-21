@@ -53,8 +53,8 @@ const PracticeAreas = () => {
         <Typography variant="body1">
           As a specialist law firm in Kenya, we practice across a range of
           areas, including business law, commercial law, property law, trusts
-          law, intellectual property law, employment law, defamation, disputes,
-          estate planning and litigation.
+          law, intellectual property law, employment law, disputes, estate
+          planning, electoral dispute resolution and litigation.
         </Typography>
       </div>
 

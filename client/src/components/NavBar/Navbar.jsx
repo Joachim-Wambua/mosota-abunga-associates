@@ -65,7 +65,7 @@ const Navbar = () => {
       </div>
       <ul className="nav-links">
         <li className="p_opensans">
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="p_opensans">
           <a
@@ -126,18 +126,18 @@ const Navbar = () => {
             MenuListProps={{ onMouseLeave: handleMenuClose }}
           >
             <MenuItem onClick={handleMenuClose}>
-              <a href="#">About Us</a>
+              <a href="/about">About Us</a>
             </MenuItem>
             <MenuItem onClick={handleMenuClose}>
-              <a href="#">Our Lawyers</a>
+              <a href="/lawyers">Our Lawyers</a>
             </MenuItem>
           </Menu>
         </li>
         <li className="p_opensans">
-          <a href="#">Articles</a>
+          <a href="/articles">Articles</a>
         </li>
         <li className="p_opensans">
-          <a href="#">Contact</a>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
       <div className="profile-btn">
@@ -179,7 +179,7 @@ const Navbar = () => {
 
             <ul className="nav-links-sm">
               <li className="p_opensans">
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li className="p_opensans">
                 <a
@@ -228,7 +228,7 @@ const Navbar = () => {
                   </MenuItem>
                 </Menu>
               </li>
-              <li className="p_opensans">
+              <li>
                 <a
                   className="drop-menu"
                   href="#"
@@ -244,18 +244,18 @@ const Navbar = () => {
                   MenuListProps={{ onMouseLeave: handleMenuClose }}
                 >
                   <MenuItem onClick={handleMenuClose}>
-                    <a href="#">About Us</a>
+                    <a href="/about">About Us</a>
                   </MenuItem>
                   <MenuItem onClick={handleMenuClose}>
-                    <a href="#">Our Lawyers</a>
+                    <a href="/lawyers">Our Lawyers</a>
                   </MenuItem>
                 </Menu>
               </li>
               <li className="p_opensans">
-                <a href="#">Articles</a>
+                <a href="/articles">Articles</a>
               </li>
               <li className="p_opensans">
-                <a href="#">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
 

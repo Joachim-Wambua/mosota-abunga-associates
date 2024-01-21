@@ -47,6 +47,12 @@ const practices = [
     description:
       "In family and succession law, our expert lawyers offer comprehensive advice on marriage and divorce, children's care, and succession planning/administration. Trust us for skillful guidance in these crucial matters.",
   },
+  {
+    title: "Standard Operating Procedures for Gold Purchase",
+    img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705860450/scottsdale-mint-2jjc94apOCY-unsplash_vyz31q.jpg",
+    description:
+      "Unlock gold acquisition excellence with our expert-guided Standard Operating Procedures (SOPs). From transparent processes to seamless administration, trust us for top-tier guidance in gold purchase.",
+  },
 ];
 
 const services = [
@@ -54,34 +60,36 @@ const services = [
     title: "Commercial Law",
     img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705666213/labour-law_l9aigm.png",
     description:
-      "Trust Mosota Abunga & Associates Advocates for all your commercial legal needs in Kenya. Our seasoned experts specialize in litigation, contract, and employment law. Whether it's a dispute or essential legal documents, we've got you covered. Choose experience, choose excellence.",
+      "Trust Mosota Abunga & Associates Advocates, LLP for all your commercial legal needs in Kenya. Our seasoned experts specialize in litigation, contract, and employment law. Whether it's a dispute or essential legal documents, we've got you covered.",
   },
   {
     title: "Property Law",
     img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705666213/property-law_hqwlxe.png",
     description:
-      "Secure your property investment with Mosota Abunga & Associates Advocates. We offer a range of legal property services, from conveyancing to development and dispute resolution. Choose us for expert care of your commercial and residential interests in Kenya.",
+      "Secure your property investment with Mosota Abunga & Associates Advocates, LLP. We offer a range of legal property services, from conveyancing to development and dispute resolution. Choose us for expert care of your commercial and residential interests in Kenya.",
   },
   {
     title: "Litigation",
     img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705678555/gavel_ekfc38.png",
     description:
-      "Count on Mosota Abunga & Associates Advocates for your litigation needs in Kenya. We specialize in out-of-court settlements, dispute resolution, and courtroom representation. Our dedicated team ensures your best interests are protected. Choose confidence—choose us for expert legal representation.",
+      "Count on Mosota Abunga & Associates Advocates, LLP for your litigation needs in Kenya. We specialize in out-of-court settlements, dispute resolution, and courtroom representation. Our dedicated team ensures your best interests are protected. Choose confidence—choose us for expert legal representation.",
   },
 ];
 
 const profiles = [
   {
     name: "Victor Mosota",
-    profile_img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689915/Wakili_iuvm0z.jpg",
-    credentials: "LLB, LLM, MBA",
+    profile_img:
+      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689915/Wakili_iuvm0z.jpg",
+    credentials: "LLB, Dip.KSL",
     role: "Legal Practice Director",
     profile:
-      "Victor is a highly experienced and practical commercial and property lawyer (with almost a decade of licenced legal experience).\n\nPrior to establishing Mosota Abunga & Associates Advocates, Victor was a commercial and property lawyer at one of Africa's leading top-tier law firms.",
+      "Victor is a highly experienced and practical commercial and property lawyer (with almost a decade of licenced legal experience).\n\nPrior to establishing Mosota Abunga & Associates Advocates, LLP , Victor was a commercial and property lawyer at one of Africa's leading top-tier law firms.",
   },
   {
     name: "Lawyer 2",
-    profile_img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+    profile_img:
+      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
     credentials: "LLB, LLM, MBA",
     role: "Associate Advocate",
     profile:
@@ -89,7 +97,8 @@ const profiles = [
   },
   {
     name: "Lawyer 3",
-    profile_img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689939/20231214171639_IMG_0006_qgx3xx.jpg",
+    profile_img:
+      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689939/20231214171639_IMG_0006_qgx3xx.jpg",
     credentials: "LLB, LLM, MBA",
     role: "Associate Advocate",
     profile:
