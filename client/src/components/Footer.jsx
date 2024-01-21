@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-end text-center">
-            <h4 className="text-white text-2xl leading-normal font-medium mb-6">
+            <h4 className="text-white text-2xl leading-normal font-medium mt-6 mb-6">
               Contact Us
             </h4>
             <p>Phone: 0725 735 499</p>

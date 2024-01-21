@@ -42,7 +42,7 @@ const PracticeAreas = () => {
   };
 
   return (
-    <section style={{ backgroundColor: "#fff" }}>
+    <section className="mb-10" style={{ backgroundColor: "#fff" }}>
       <div className="practice-content pt-10 text-center">
         <Typography
           variant="h3"

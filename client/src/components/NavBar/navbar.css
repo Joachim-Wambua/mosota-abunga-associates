@@ -75,7 +75,7 @@
   width: 100%;
   height: 100%;
   background: var(--color-black);
-  transition: 0.5s ease;
+  transition: 0.5s ease-in-out;
   flex-direction: column;
   z-index: 1;
 }
@@ -145,5 +145,12 @@
 
   .nav-logo img {
     width: 120px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile-btns {
+    display: flex;
+    flex-direction: column;
   }
 }

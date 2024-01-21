@@ -483,8 +483,11 @@
 
 @media screen and (max-width: 600px) {
   .profile-wrapper {
-    /* flex-direction: column; */
     margin: 1rem;
+  }
+
+  .footer-start {
+    flex-direction: column;
   }
 }
 

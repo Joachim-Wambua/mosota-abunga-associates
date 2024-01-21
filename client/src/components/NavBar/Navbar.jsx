@@ -138,7 +138,7 @@ const Navbar = () => {
         </li>
         <li className="p_opensans">
           <a href="#">Contact</a>
-        </li>
+        </li>``
       </ul>
       <div className="profile-btn">
         <Button variant="contained" size="medium" color="maroon_primary">
