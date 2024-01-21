@@ -3,7 +3,7 @@ import theme from "./constants/theme";
 // import Navbar from "./components/NavBar/Navbar"; 
 import Header from "./container/Header";
 import Footer from "./components/Footer";
-import AboutUs from "./container/AboutUS";
+import AboutUs from "./container/AboutUs";
 import Services from "./container/Services";
 import PracticeAreas from "./container/PracticeAreas";
 import CallToActionA from "./container/CallToActionA";
