@@ -43,7 +43,6 @@
   justify-content: center;
 }
 
-
 .header-content {
   display: flex;
   flex-direction: column;
@@ -62,6 +61,11 @@
   align-items: center;
   text-align: center;
   margin: 0 12rem;
+}
+
+.about-list {
+  list-style: circle;
+  padding-left: 5%;
 }
 
 .cta-one-section {
@@ -87,7 +91,7 @@
 }
 
 .about-image img {
-  width: 540px;
+  width: 480px;
   border-radius: 45px;
 }
 
