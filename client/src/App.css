@@ -21,12 +21,28 @@
   background-position: center;
 }
 
+.header-style {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-color: #cd6370;
+  background-blend-mode: multiply;
+}
+
 .main-header {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.dynamic-header {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .header-content {
   display: flex;
