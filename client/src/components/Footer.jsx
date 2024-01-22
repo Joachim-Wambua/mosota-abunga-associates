@@ -52,7 +52,7 @@ const Footer = () => {
             <h4 className="text-white text-2xl leading-normal font-medium mt-6 mb-6">
               Contact Us
             </h4>
-            <p>Phone: 0725 735 499</p>
+            <p>Phone: +254 720 101 101</p>
             <p>Email: info@mosotaabungaassociates.co.ke</p>
             <p>Website Terms | Privacy Policy</p>
           </div>

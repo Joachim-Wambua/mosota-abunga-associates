@@ -157,7 +157,7 @@ const Navbar = () => {
           style={{ marginTop: "0.5rem", color: buttonColor }}
           startIcon={<FaPhoneAlt className="call-icon" />}
         >
-          <p style={{ fontWeight: 600 }}>+254 725 735 499</p>
+          <p style={{ fontWeight: 600 }}>+254 720 101 101</p>
         </Button>
       </div>
 
@@ -283,7 +283,7 @@ const Navbar = () => {
                 startIcon={<FaPhoneAlt />}
               >
                 <Typography variant="body2" style={{ fontWeight: 600 }}>
-                  +254 725 735 499
+                  +254 720 101 101
                 </Typography>
               </Button>
             </div>
