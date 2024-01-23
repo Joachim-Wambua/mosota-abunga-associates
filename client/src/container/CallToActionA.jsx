@@ -10,10 +10,10 @@ const CallToActionA = () => {
           </Typography>
           <Typography variant="body1">
             For a lawyer in Kenya that you can trust to represent your best
-            interests, contact the team at Mosota Abunga & Associates Advocates, LLP.
-            We are proud to be a team of specialist senior lawyers with years of
-            experience in commercial, property and litigation in Kenya. Rely on
-            our team for the best advice and legal representation in all
+            interests, contact the team at Mosota Abunga & Associates Advocates,
+            LLP. We are proud to be a team of specialist senior lawyers with
+            years of experience in commercial, property and litigation in Kenya.
+            Rely on our team for the best advice and legal representation in all
             matters.
           </Typography>
           <Typography
@@ -28,16 +28,12 @@ const CallToActionA = () => {
             CONTACT OUR TEAM
           </Typography>
           <div className="mt-5">
-                <Button
-                  variant="contained"
-                  color="maroon_primary"
-                  size="large"
-                >
-                  <Typography variant="body1" style={{ fontWeight: 600 }}>
-                    CONTACT US
-                  </Typography>
-                </Button>
-              </div>
+            <Button variant="contained" color="maroon_primary" size="large">
+              <Typography variant="body1" style={{ fontWeight: 600 }}>
+                CONTACT US
+              </Typography>
+            </Button>
+          </div>
         </div>
       </section>
     </>
