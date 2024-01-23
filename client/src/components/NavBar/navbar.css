@@ -120,6 +120,14 @@
   cursor: pointer;
 }
 
+.white-icon {
+  color: white !important; /* Update the color for the white icon */
+}
+
+.maroon-icon {
+  color: #ac2333 !important; /* Update the color for the maroon icon */
+}
+
 .profile-btns {
   display: flex;
   position: absolute;

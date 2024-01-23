@@ -163,8 +163,10 @@ const Navbar = () => {
 
       <div className="navbar-sm">
         <GiHamburgerMenu
-          className="hamburger-menu"
-          fontSize={27}
+          className={`hamburger-menu ${
+            scrolled ? "maroon-icon" : "white-icon"
+          }`}
+          fontSize={30}
           color="maroon_primary"
           onClick={() => setToggleMenu(true)}
         />
