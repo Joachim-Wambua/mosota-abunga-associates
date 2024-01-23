@@ -1,6 +1,14 @@
 import { Typography, Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 const CallToActionB = () => {
+  const navigate = useNavigate();
+
+  // Function to handle Contact Button Clicks
+  const handleContactButtonClick = () => {
+    // Navigate to the desired endpoint
+    navigate("/contact");
+  };
   return (
     <>
       <section className="cta-one-section" id="cta-one">
@@ -19,7 +27,12 @@ const CallToActionB = () => {
             CONTACT OUR TEAM
           </Typography>
           <div className="mt-5">
-            <Button variant="outlined" color="white" size="large">
+            <Button
+              variant="outlined"
+              color="white"
+              size="large"
+              onClick={handleContactButtonClick}
+            >
               <Typography variant="body1" style={{ fontWeight: 600 }}>
                 Get In Touch
               </Typography>

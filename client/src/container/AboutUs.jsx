@@ -1,6 +1,15 @@
-import { Typography } from "@mui/material";
+import { Typography, Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 const AboutUs = () => {
+  const navigate = useNavigate();
+  
+  // Function to handle About Page Button Clicks
+  const handleAboutClick = () => {
+    // Navigate to the desired endpoint
+    navigate("/about");
+  }
+  
   return (
     <>
       <section id="about-section" className="about-section">
@@ -25,16 +34,27 @@ const AboutUs = () => {
 
           <div className="about-text flex flex-1 flex-col ml-10 mx-12">
             <p className="abt-txt lg:max-w-lg leading-7">
-              Mosota Abunga & Associates Advocates, LLP stands out as a boutique law
-              firm excelling in commercial, property, and dispute resolution
+              Mosota Abunga & Associates Advocates, LLP stands out as a boutique
+              law firm excelling in commercial, property, and dispute resolution
               law, with expertise spanning diverse legal areas. Our team,
               comprised of seasoned lawyers, is committed to delivering
               high-quality legal services. Whether you require advice, document
               review, or representation in any of our specialized practice
-              areas, Mosota Abunga & Associates Advocates, LLP ensures professional
-              and competent assistance. When you need a lawyer in Kenya, entrust
-              your legal matters to us.
+              areas, Mosota Abunga & Associates Advocates, LLP ensures
+              professional and competent assistance. When you need a lawyer in
+              Kenya, entrust your legal matters to us.
             </p>
+
+            <div className="mt-8 flex items-center justify-start">
+              <Button variant="outlined" size="large" color="maroon_primary" onClick={handleAboutClick}>
+                <Typography
+                  variant="body2"
+                  style={{ fontWeight: 600, padding: 3 }}
+                >
+                  Learn More
+                </Typography>
+              </Button>
+            </div>
           </div>
         </div>
       </section>

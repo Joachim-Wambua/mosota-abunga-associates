@@ -21,18 +21,6 @@ const Services = () => {
             <ServiceCard key={service.title} {...service} />
           ))}
         </div>
-
-        <div className="mt-8" >
-          <Button
-            variant="outlined"
-            size="large"
-            color="maroon_primary"
-          >
-            <Typography variant="body2" style={{ fontWeight: 600, padding: 3 }}>
-              Learn More
-            </Typography>
-          </Button>
-        </div>
       </section>
     </>
   );

@@ -1,7 +1,15 @@
 import { Typography, Container, Button } from "@mui/material";
 import Navbar from "../components/NavBar/Navbar";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  const handleContactButtonClick = () => {
+    // Navigate to the desired endpoint
+    navigate("/contact");
+  };
+
   return (
     <>
       <header className="header-container">
@@ -23,6 +31,7 @@ const Header = () => {
                   variant="contained"
                   color="maroon_primary"
                   size="large"
+                  onClick={handleContactButtonClick}
                 >
                   <Typography variant="body1" style={{ fontWeight: 600 }}>
                     CONTACT US
