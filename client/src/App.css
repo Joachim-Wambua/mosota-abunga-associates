@@ -18,13 +18,12 @@
   height: 100vh;
   background-image: url("https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705580776/header-img_v82yvl.png");
   background-size: cover;
-  background-position: center;
 }
 
 .header-style {
   height: 60vh;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-color: #cd6370;
   background-blend-mode: multiply;
 }
@@ -447,6 +446,9 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.article-card {
+  font-family: 'Roboto', sans-serif;
+}
 
 
 @media screen and (max-width: 1280px) {

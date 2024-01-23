@@ -1,12 +1,12 @@
 import { Typography, Container } from "@mui/material";
 import Navbar from "../components/NavBar/Navbar";
 
-const DynamicHeader = ({ headerTitle, src }) => {
+const DynamicHeader = ({ headerTitle, src, backgroundPosition }) => {
   return (
     <>
       <header
         className="header-style"
-        style={{ backgroundImage: `url(${src})` }}
+        style={{ backgroundImage: `url(${src})`, backgroundPosition: backgroundPosition}}
       >
         <Navbar />
         <div className="dynamic-header">
