@@ -1,9 +1,29 @@
+import Footer from "../components/Footer";
+import LawyerCard from "../components/LawyerCard";
+import DynamicHeader from "../components/DynamicHeader";
+import { profiles } from "../constants/data";
+
 const Lawyers = () => {
   return (
-    <div>
-      Lawyers
-    </div>
-  )
-}
+    <>
+      <DynamicHeader
+        headerTitle="Our Lawyers"
+        src="https://res.cloudinary.com/dfdn7sxwi/image/upload/v1706117437/closeup-gavel-judgement-concept_2_hcuagb.jpg"
+      />
+      {profiles.map((profile) => (
+        <LawyerCard
+          name={profile.name}
+          profile_img={profile.profile_img}
+          credentials={profile.credentials}
+          role={profile.role}
+          profile={profile.profile}
+          key={profile.name}
+        />
+      ))}
+      ;
+      <Footer />
+    </>
+  );
+};
 
-export default Lawyers
+export default Lawyers;

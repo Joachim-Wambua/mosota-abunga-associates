@@ -16,7 +16,7 @@ const Footer = () => {
               />
             </a>
             <p className="mt-6 text-base leading-7 text-white sm:max-w-sm">
-              Mosota Abunga & Associates Advocates
+              Mosota Abunga & Associates Advocates, LLP
             </p>
             <p className="mt-6 text-base leading-7 text-white sm:max-w-sm">
               ‘Arc of Justice’
@@ -54,11 +54,13 @@ const Footer = () => {
             </h4>
             <p>Phone: +254 720 101 101</p>
             <p>Email: info@mosotaabungaassociates.co.ke</p>
+            {/* TODO: Add another email */}
+            {/* <p>Email: info@mosotaabungaassociates.co.ke</p> */}
             <p>Website Terms | Privacy Policy</p>
           </div>
         </div>
         <div className="mb-6 text-[12px] text-white">
-          <p>@Copyright MAA Advocates 2023</p>
+          <p>@Copyright MAA Advocates 2024</p>
         </div>
       {/* </div> */}
     </footer>
