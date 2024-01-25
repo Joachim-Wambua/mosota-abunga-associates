@@ -11,6 +11,9 @@ const Navbar = () => {
   const [practiceAnchorEl, setPracticeAnchorEl] = useState(null);
   const [toggleMenu, setToggleMenu] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pdfLink =
+    "https://drive.google.com/uc?export=download&id=1v9If8Ny0188o883QfoNqWbjjo1y4rB_M";
+
   const [logoSrc, setLogoSrc] = useState(
     "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705499896/lpv4hjkskmzrjqi0wbmg.png"
   );
@@ -141,7 +144,12 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="profile-btn">
-        <Button variant="contained" size="medium" color="maroon_primary">
+        <Button
+          variant="contained"
+          size="medium"
+          color="maroon_primary"
+          href={pdfLink}
+        >
           <Typography
             variant="body1"
             style={{ fontWeight: 600 }}
@@ -267,6 +275,7 @@ const Navbar = () => {
                 className="profile_button"
                 size="medium"
                 color="maroon_primary"
+                href={pdfLink}
               >
                 <Typography
                   variant="body1"

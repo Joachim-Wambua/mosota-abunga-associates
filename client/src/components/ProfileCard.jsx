@@ -55,7 +55,7 @@ const ProfileCard = ({ name, profile_img, credentials, role, profile }) => {
 
             <div className="flex pb-10">
               <IconButton color="maroon_primary">
-                <FaLinkedinIn style={{ marginRight: "10px" }} />
+                <FaLinkedinIn />
               </IconButton>
 
               <IconButton color="maroon_primary">
