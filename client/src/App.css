@@ -99,7 +99,7 @@
 }
 
 .lawyer-section {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .abt-txt {
@@ -276,6 +276,15 @@
   flex-basis: 60%;
 }
 
+.menu-item:hover {
+  color: #ac2333; /* Change text color on hover */
+
+}
+
+.menu-link:hover {
+  color: #ac2333; /* Change text color on hover */
+}
+
 /* Articles Section */
 .container {
   display: flex;
@@ -444,16 +453,14 @@
   color: white;
 }
 
-
 /* Contact Form */
 .contact-section {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .article-card {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
 
 @media screen and (max-width: 1280px) {
   .about-image {

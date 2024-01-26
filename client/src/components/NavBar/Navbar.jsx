@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import { Button, Typography, Menu, MenuItem } from "@mui/material";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { Button, Typography, Menu, MenuItem, MenuList } from "@mui/material";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdArrowDropDown } from "react-icons/md";
+import { RxHamburgerMenu } from "react-icons/rx";
 import { IoIosClose } from "react-icons/io";
 import "./navbar.css";
 
@@ -64,18 +64,16 @@ const Navbar = () => {
   return (
     <nav className={`nav-wrapper ${scrolled ? "scrolled" : ""}`}>
       <div className="nav-logo">
-        <img src={logoSrc} alt="logo" />
+        <a href="/">
+          <img src={logoSrc} alt="logo" />
+        </a>
       </div>
       <ul className="nav-links">
         <li className="p_opensans">
           <a href="/">Home</a>
         </li>
         <li className="p_opensans">
-          <a
-            className="drop-menu"
-            href="#"
-            onMouseOver={handlePracticeMenuOpen}
-          >
+          <a className="drop-menu" href="#" onClick={handlePracticeMenuOpen}>
             Practice <MdArrowDropDown />
           </a>
           <Menu
@@ -83,42 +81,50 @@ const Navbar = () => {
             anchorEl={practiceAnchorEl}
             open={Boolean(practiceAnchorEl)}
             onClose={handleMenuClose}
-            MenuListProps={{ onMouseLeave: handleMenuClose }}
+            MenuListProps={{ onClick: handleMenuClose }}
           >
-            <MenuItem onClick={handleMenuClose}>
-              <a href="#">Corporate & Commercial</a>
-            </MenuItem>
-            <MenuItem onClick={handleMenuClose}>
-              <a href="#">Media & Technology</a>
-            </MenuItem>
-            <MenuItem onClick={handleMenuClose}>
-              <a href="#">Energy (Oil & Gas)</a>
-            </MenuItem>
-            <MenuItem onClick={handleMenuClose}>
-              <a href="#">Public-Private Law</a>
-            </MenuItem>
-            <MenuItem onClick={handleMenuClose}>
-              <a href="#">Financial Transactions</a>
-            </MenuItem>
-            <MenuItem onClick={handleMenuClose}>
-              <a href="#">Criminal Law</a>
-            </MenuItem>
-            <MenuItem onClick={handleMenuClose}>
-              <a href="#">Property & Real Estate</a>
-            </MenuItem>
-            <MenuItem onClick={handleMenuClose}>
-              <a href="#">Immigration & Labor</a>
-            </MenuItem>
-            <MenuItem onClick={handleMenuClose}>
-              <a href="#">Family & Succession</a>
-            </MenuItem>
-            <MenuItem onClick={handleMenuClose}>
-              <a href="#">Tax Law</a>
-            </MenuItem>
+            <MenuList
+              style={{
+                backgroundColor: "#f2f2f2",
+                boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
+                borderRadius: "9px",
+              }}
+            >
+              <MenuItem className="menu-item" onClick={handleMenuClose}>
+                <a className="menu-link" href="#">Corporate & Commercial</a>
+              </MenuItem>
+              <MenuItem className="menu-item" onClick={handleMenuClose}>
+                <a className="menu-link" href="#">Media & Technology</a>
+              </MenuItem>
+              <MenuItem className="menu-item" onClick={handleMenuClose}>
+                <a className="menu-link" href="#">Energy (Oil & Gas)</a>
+              </MenuItem>
+              <MenuItem className="menu-item" onClick={handleMenuClose}>
+                <a className="menu-link" href="#">Public-Private Law</a>
+              </MenuItem>
+              <MenuItem className="menu-item" onClick={handleMenuClose}>
+                <a className="menu-link" href="#">Financial Transactions</a>
+              </MenuItem>
+              <MenuItem className="menu-item" onClick={handleMenuClose}>
+                <a className="menu-link" href="#">Criminal Law</a>
+              </MenuItem>
+              <MenuItem className=""menu-item onClick={handleMenuClose}>
+                <a className="menu-link" href="#">Property & Real Estate</a>
+              </MenuItem>
+              <MenuItem className="menu-item" onClick={handleMenuClose}>
+                <a className="menu-link" href="#">Immigration & Labor</a>
+              </MenuItem>
+              <MenuItem className="menu-item" onClick={handleMenuClose}>
+                <a className="menu-link" href="#">Family & Succession</a>
+              </MenuItem>
+              <MenuItem className="menu-item" onClick={handleMenuClose}>
+                <a className="menu-link" href="#">Tax Law</a>
+              </MenuItem>
+            </MenuList>
           </Menu>
         </li>
         <li className="p_opensans">
-          <a className="drop-menu" href="#" onMouseOver={handleAboutMenuOpen}>
+          <a className="drop-menu" href="#" onClick={handleAboutMenuOpen}>
             About <MdArrowDropDown />
           </a>
           <Menu
@@ -126,14 +132,26 @@ const Navbar = () => {
             anchorEl={aboutAnchorEl}
             open={Boolean(aboutAnchorEl)}
             onClose={handleMenuClose}
-            MenuListProps={{ onMouseLeave: handleMenuClose }}
+            MenuListProps={{ onClick: handleMenuClose }}
           >
-            <MenuItem onClick={handleMenuClose}>
-              <a href="/about">About Us</a>
-            </MenuItem>
-            <MenuItem onClick={handleMenuClose}>
-              <a href="/lawyers">Our Lawyers</a>
-            </MenuItem>
+            <MenuList
+              style={{
+                backgroundColor: "#f2f2f2",
+                boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
+                borderRadius: "9px",
+              }}
+            >
+              <MenuItem className="menu-item" onClick={handleMenuClose}>
+                <a className="menu-link" href="/about">
+                  About Us
+                </a>
+              </MenuItem>
+              <MenuItem className="menu-item" onClick={handleMenuClose}>
+                <a className="menu-link" href="/lawyers">
+                  Our Lawyers
+                </a>
+              </MenuItem>
+            </MenuList>
           </Menu>
         </li>
         <li className="p_opensans">
@@ -170,7 +188,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-sm">
-        <GiHamburgerMenu
+        <RxHamburgerMenu
           className={`hamburger-menu ${
             scrolled ? "maroon-icon" : "white-icon"
           }`}
@@ -195,7 +213,7 @@ const Navbar = () => {
                 <a
                   className="drop-menu"
                   href="#"
-                  onMouseOver={handlePracticeMenuOpen}
+                  onClick={handlePracticeMenuOpen}
                 >
                   Practice <MdArrowDropDown />
                 </a>
@@ -204,46 +222,70 @@ const Navbar = () => {
                   anchorEl={practiceAnchorEl}
                   open={Boolean(practiceAnchorEl)}
                   onClose={handleMenuClose}
-                  MenuListProps={{ onMouseLeave: handleMenuClose }}
+                  MenuListProps={{ onClick: handleMenuClose }}
                 >
-                  <MenuItem onClick={handleMenuClose}>
-                    <a href="#">Corporate & Commercial</a>
-                  </MenuItem>
-                  <MenuItem onClick={handleMenuClose}>
-                    <a href="#">Media & Technology</a>
-                  </MenuItem>
-                  <MenuItem onClick={handleMenuClose}>
-                    <a href="#">Energy (Oil & Gas)</a>
-                  </MenuItem>
-                  <MenuItem onClick={handleMenuClose}>
-                    <a href="#">Public-Private Law</a>
-                  </MenuItem>
-                  <MenuItem onClick={handleMenuClose}>
-                    <a href="#">Financial Transactions</a>
-                  </MenuItem>
-                  <MenuItem onClick={handleMenuClose}>
-                    <a href="#">Criminal Law</a>
-                  </MenuItem>
-                  <MenuItem onClick={handleMenuClose}>
-                    <a href="#">Property & Real Estate</a>
-                  </MenuItem>
-                  <MenuItem onClick={handleMenuClose}>
-                    <a href="#">Immigration & Labor</a>
-                  </MenuItem>
-                  <MenuItem onClick={handleMenuClose}>
-                    <a href="#">Family & Succession</a>
-                  </MenuItem>
-                  <MenuItem onClick={handleMenuClose}>
-                    <a href="#">Tax Law</a>
-                  </MenuItem>
+                  <MenuList
+                    style={{
+                      backgroundColor: "#f2f2f2",
+                      boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
+                      borderRadius: "9px",
+                    }}
+                  >
+                    <MenuItem className="menu-item" onClick={handleMenuClose}>
+                      <a className="menu-link" href="#">
+                        Corporate & Commercial
+                      </a>
+                    </MenuItem>
+                    <MenuItem className="menu-item" onClick={handleMenuClose}>
+                      <a className="menu-link" href="#">
+                        Media & Technology
+                      </a>
+                    </MenuItem>
+                    <MenuItem className="menu-item" onClick={handleMenuClose}>
+                      <a className="menu-link" href="#">
+                        Energy (Oil & Gas)
+                      </a>
+                    </MenuItem>
+                    <MenuItem className="menu-item" onClick={handleMenuClose}>
+                      <a className="menu-link" href="#">
+                        Public-Private Law
+                      </a>
+                    </MenuItem>
+                    <MenuItem className="menu-item" onClick={handleMenuClose}>
+                      <a className="menu-link" href="#">
+                        Financial Transactions
+                      </a>
+                    </MenuItem>
+                    <MenuItem className="menu-item" onClick={handleMenuClose}>
+                      <a className="menu-link" href="#">
+                        Criminal Law
+                      </a>
+                    </MenuItem>
+                    <MenuItem className="menu-item" onClick={handleMenuClose}>
+                      <a className="menu-link" href="#">
+                        Property & Real Estate
+                      </a>
+                    </MenuItem>
+                    <MenuItem className="menu-item" onClick={handleMenuClose}>
+                      <a className="menu-link" href="#">
+                        Immigration & Labor
+                      </a>
+                    </MenuItem>
+                    <MenuItem className="menu-item" onClick={handleMenuClose}>
+                      <a className="menu-link" href="#">
+                        Family & Succession
+                      </a>
+                    </MenuItem>
+                    <MenuItem className="menu-item" onClick={handleMenuClose}>
+                      <a className="menu-link" href="#">
+                        Tax Law
+                      </a>
+                    </MenuItem>
+                  </MenuList>
                 </Menu>
               </li>
               <li>
-                <a
-                  className="drop-menu"
-                  href="#"
-                  onMouseOver={handleAboutMenuOpen}
-                >
+                <a className="drop-menu" href="#" onClick={handleAboutMenuOpen}>
                   About <MdArrowDropDown />
                 </a>
                 <Menu
@@ -251,14 +293,26 @@ const Navbar = () => {
                   anchorEl={aboutAnchorEl}
                   open={Boolean(aboutAnchorEl)}
                   onClose={handleMenuClose}
-                  MenuListProps={{ onMouseLeave: handleMenuClose }}
+                  MenuListProps={{ onClick: handleMenuClose }}
                 >
-                  <MenuItem onClick={handleMenuClose}>
-                    <a href="/about">About Us</a>
-                  </MenuItem>
-                  <MenuItem onClick={handleMenuClose}>
-                    <a href="/lawyers">Our Lawyers</a>
-                  </MenuItem>
+                  <MenuList
+                    style={{
+                      backgroundColor: "#f2f2f2",
+                      boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
+                      borderRadius: "9px",
+                    }}
+                  >
+                    <MenuItem className="menu-item" onClick={handleMenuClose}>
+                      <a className="menu-link" href="/about">
+                        About Us
+                      </a>
+                    </MenuItem>
+                    <MenuItem className="menu-item" onClick={handleMenuClose}>
+                      <a className="menu-link" href="/lawyers">
+                        Our Lawyers
+                      </a>
+                    </MenuItem>
+                  </MenuList>
                 </Menu>
               </li>
               <li className="p_opensans">
