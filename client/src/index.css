@@ -17,8 +17,6 @@
   --color-crimson: #f5efdb;
   --color-grey: #aaaaaa;
   --color-white: #ffffff;
-
-  font-family: "Roboto", sans-serif;
 }
 
 * {
@@ -27,11 +25,6 @@
   margin: 0;
   scroll-behavior: smooth;
   font-family: "Roboto" sans-serif;
-}
-
-a {
-  color: unset;
-  text-decoration: none;
 }
 
 .slide-bottom {
