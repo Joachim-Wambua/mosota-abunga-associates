@@ -45,7 +45,6 @@ const theme = createTheme({
     body: {
       fontFamily: "'Roboto', sans-serif",
     },
-    // Add more specific font styles as needed
   },
 });
 

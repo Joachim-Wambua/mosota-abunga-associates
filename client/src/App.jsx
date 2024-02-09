@@ -16,6 +16,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Article from "./pages/Article";
 import Lawyers from "./pages/Lawyers";
+import Practice from "./pages/Practice";
 
 import "./App.css";
 
@@ -30,6 +31,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/articles" element={<Article />} />
             <Route path="/lawyers" element={<Lawyers />} />
+            <Route path="/practice" element={<Practice />} />
+
           </Routes>
         </Router>
       </ThemeProvider>
