@@ -40,7 +40,7 @@ const LawyerCard = ({ id, name, profile_img, credentials, role, profile }) => {
                 className="bg-[#AC2333] hover:bg-[#990012] text-white font-bold py-2 px-4 rounded-full"
                 onClick={handleClick}
               >
-                View Full Profile
+                Full Profile
               </button>
             </div>
           </div>
@@ -53,6 +53,7 @@ const LawyerCard = ({ id, name, profile_img, credentials, role, profile }) => {
           />
         </div>
       </div>
+      <hr className="my-6 mx-48 border-t border-gray-300" />
     </>
   );
 };

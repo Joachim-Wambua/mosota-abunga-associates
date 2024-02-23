@@ -86,7 +86,6 @@ const profiles = [
     role: "Legal Practice Director",
     profile:
       "Victor is a highly experienced and practical commercial and property lawyer (with almost a decade of licenced legal experience).\n\nPrior to establishing Mosota Abunga & Associates Advocates, LLP , Victor was a commercial and property lawyer at one of Africa's leading top-tier law firms.",
-    profileLink: `/lawyers/victor-mosota`,
   },
   {
     id: "dennis-kariuki",
@@ -97,7 +96,6 @@ const profiles = [
     role: "Associate Advocate",
     profile:
       "Dennis Kariuki, Esq. is a seasoned advocate with over seven years of expertise across civil litigation, commercial transactions, criminal law, succession law, and conveyancing. His adeptness extends from client interviews to courtroom proceedings, showcasing his versatility and adaptability. With a commitment to excellence and a passion for justice, Dennis is your trusted ally in navigating complex legal landscapes.",
-    profileLink: `/lawyers/dennis-kariuki`,
   },
   {
     id: "terry-misiko",
@@ -108,9 +106,29 @@ const profiles = [
     role: "Associate Advocate",
     profile:
       "Meet Terry, an Advocate of the High Court of Kenya with a passion for diverse legal realms. Specializing in complex commercial litigation, employment law, conveyancing, and more, she brings a wealth of expertise to our team. Terry's dedication to family law extends to championing the Rights of the Child, both locally and internationally. With her sharp analytical skills and adept management, she ensures the seamless delivery of top-notch legal services to our clients.",
-    profileLink: `/lawyers/terry-misiko`,
   },
-  
+
+  {
+    id: "lyster-moenga",
+    name: "Lyster Moenga",
+    profile_img:
+      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+    credentials: "LLB, LLM, MBA",
+    role: "Associate Advocate",
+    profile:
+      "Lyster Moenga is an advocate of the High Court of Kenya. Her practice focuses mainly on Conveyancing, Criminal law, Commercial law, and Family & Succession. She is a passionate and focused lawyer who strives to exceed expectations when delivering legal services and ensure the best results for the firm.",
+  },
+
+  {
+    id: "brian-anyanzwa",
+    name: "Brian Anyanzwa",
+    profile_img:
+      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+    credentials: "LLB, LLM, MBA",
+    role: "Associate Advocate",
+    profile:
+      "Brian Anyanzwa is a licensed legal practitioner and an Advocate of the High Court of Kenya. He has vast experience in Conveyancing, Commercial law, and Criminal Litigation. He is the head of Criminal Litigation at the firm.",
+  },
 ];
 
 const lawyerProfiles = [
@@ -248,7 +266,7 @@ const lawyerProfiles = [
     name: "Terry Misiko",
     role: "Associate",
     profile:
-      "Terry is an Advocate of the High Court of Kenya. She has a proficiency and keen interest in various areas of legal practice and advisory, including complex commercial and civil litigation, employment law, conveyancing, banking, and securities perfection among others. Her interest in family law has seen her actively engage in research, trainings and legal matters surrounding Rights of the Child and Children in Conflict with the Law both in Kenya and Internationally. Her experience coupled with situation analysis and management is a great addition to the team, aiding in and ensuring delivery of efficient and effective services to the Firm’s Clients.",
+      "Terry is an Advocate of the High Court of Kenya. She has a proficiency and keen interest in various areas of legal practice and advisory, including complex commercial and civil litigation, employment law, conveyancing, banking, and securities perfection among others. \n\nHer interest in family law has seen her actively engage in research, trainings and legal matters surrounding Rights of the Child and Children in Conflict with the Law both in Kenya and Internationally. Her experience coupled with situation analysis and management is a great addition to the team, aiding in and ensuring delivery of efficient and effective services to the Firm’s Clients.",
     profileImg:
       "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
     education: [

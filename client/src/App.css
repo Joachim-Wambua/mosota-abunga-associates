@@ -278,7 +278,6 @@
 
 .menu-item:hover {
   color: #ac2333; /* Change text color on hover */
-
 }
 
 .menu-link:hover {
@@ -410,6 +409,15 @@
   background-color: #ac2333;
 }
 
+/* Resume Styles */
+.resume-details {
+  grid-column: span 4 / span 4;
+}
+
+.resume-about {
+  grid-column: span 8 / span 8;
+}
+
 /* Footer */
 .footer {
   width: 100%;
@@ -519,6 +527,14 @@
   .profile-wrapper {
     flex-direction: column;
     height: fit-content;
+  }
+
+  .resume-details {
+    grid-column: span 12 / span 12;
+  }
+
+  .resume-about {
+    grid-column: span 12 / span 12;
   }
 }
 

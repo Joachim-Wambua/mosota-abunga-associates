@@ -19,7 +19,6 @@ const Lawyers = () => {
           credentials={profile.credentials}
           role={profile.role}
           profile={profile.profile}
-          profileLink={profile.profileLink}
           key={profile.name}
         />
       ))}

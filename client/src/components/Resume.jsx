@@ -29,16 +29,20 @@ const Resume = () => {
 
   return (
     <>
-      <DynamicHeader headerTitle={`Our Lawyers | ${lawyer.name}`}  />
+      <DynamicHeader
+        headerTitle={`Our Lawyers | ${lawyer.name}`}
+        src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1708713677/still-life-with-scales-justice_5_1_1_xjtkba.jpg"
+        backgroundPosition="center"
+      />
       <div className="bg-gray-100 px-20">
         <div className="container mx-auto py-8">
-          <div className="grid grid-cols-4 sm:grid-cols-12 gap-6 px-4">
-            <div className="col-span-4 sm:col-span-3">
+          <div className="resume-section grid grid-cols-12 gap-6 px-4">
+            <div className="resume-details">
               <div className="bg-white shadow rounded-lg p-6">
                 <div className="flex flex-col items-center">
                   <img
                     src={lawyer.profileImg}
-                    className="w-32 h-32 bg-gray-300 rounded-full object-cover object-top mb-4 shrink-0"
+                    className="w-40 h-40 bg-gray-300 rounded-full object-cover object-top mb-4 shrink-0"
                   ></img>
                   <h1 className="text-xl font-bold">{lawyer.name}</h1>
                   <p className="text-gray-700">{lawyer.role}</p>
@@ -111,7 +115,7 @@ const Resume = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-4 sm:col-span-9">
+            <div className="resume-about">
               <div className="bg-white shadow rounded-lg p-6">
                 <h2 className="text-xl font-bold mb-4">
                   About {lawyer.name.split(" ")[0]}
