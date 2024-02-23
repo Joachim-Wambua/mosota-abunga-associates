@@ -8,7 +8,6 @@ const LawyerProfile = () => {
   return (
     <>
       <Navbar />
-      <DynamicHeader />
       <Resume />
       <Footer />
     </>
