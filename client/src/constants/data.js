@@ -78,32 +78,313 @@ const services = [
 
 const profiles = [
   {
-    name: "Victor Mosota",
+    id: "victor-mosota",
+    name: "Victor Mosota, Esq.",
     profile_img:
       "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689915/Wakili_iuvm0z.jpg",
     credentials: "LLB, Dip.KSL",
     role: "Legal Practice Director",
     profile:
       "Victor is a highly experienced and practical commercial and property lawyer (with almost a decade of licenced legal experience).\n\nPrior to establishing Mosota Abunga & Associates Advocates, LLP , Victor was a commercial and property lawyer at one of Africa's leading top-tier law firms.",
+    profileLink: `/lawyers/victor-mosota`,
   },
   {
-    name: "Lawyer 2",
+    id: "terry-misiko",
+    name: "Terry Misiko",
     profile_img:
       "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
     credentials: "LLB, LLM, MBA",
     role: "Associate Advocate",
     profile:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quiharum ea similique vero voluptatibus, esse enim omnisnecessitatibus sint explicabo pariatur asperiores perspiciatis ullam quasi animi magnam, quos earum commodi? Consequatur voluptates voluptas quis minima facere quisquam, pariatur possimus assumenda recusandae quas! Harum, voluptate soluta.",
+      "Meet Terry, an Advocate of the High Court of Kenya with a passion for diverse legal realms. Specializing in complex commercial litigation, employment law, conveyancing, and more, she brings a wealth of expertise to our team. Terry's dedication to family law extends to championing the Rights of the Child, both locally and internationally. With her sharp analytical skills and adept management, she ensures the seamless delivery of top-notch legal services to our clients.",
+    profileLink: `/lawyers/terry-misiko`,
   },
   {
-    name: "Lawyer 3",
+    id: "dennis-kariuki",
+    name: "Dennis Kariuki, Esq.",
     profile_img:
       "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689939/20231214171639_IMG_0006_qgx3xx.jpg",
     credentials: "LLB, LLM, MBA",
     role: "Associate Advocate",
     profile:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quiharum ea similique vero voluptatibus, esse enim omnisnecessitatibus sint explicabo pariatur asperiores perspiciatis ullam quasi animi magnam, quos earum commodi? Consequatur voluptates voluptas quis minima facere quisquam, pariatur possimus assumenda recusandae quas! Harum, voluptate soluta.",
+      "Dennis Kariuki, Esq. is a seasoned advocate with over seven years of expertise across civil litigation, commercial transactions, criminal law, succession law, and conveyancing. His adeptness extends from client interviews to courtroom proceedings, showcasing his versatility and adaptability. With a commitment to excellence and a passion for justice, Dennis is your trusted ally in navigating complex legal landscapes.",
+    profileLink: `/lawyers/dennis-kariuki`,
   },
 ];
 
-export { practices, services, profiles };
+const lawyerProfiles = [
+  {
+    id: "victor-mosota",
+    name: "Victor Mosota, Esq.",
+    role: "Managing Partner",
+    profile:
+      "Victor Mosota is an Advocate of the High Court of Kenya and a distinguished legal professional who has handled numerous complex and precedent-setting litigation matters in criminal law. He has been recognized for his consistent contribution to the rule of law both domestically and internationally. As a leading figure in the firm, Mosota has been responsible for the strategic management and operation of the firm's affairs. In addition to his work in criminal law, Mosota has amassed extensive expertise in constitutional law. He has been involved in numerous cases related to rights and has also demonstrated a solid background in handling cases related to the right to fair administrative action as part of the rights and fundamental freedoms under the Bill of Rights. His experience extends to cases related to inheritance and the distribution of estates. He has successfully managed business assets, investment incentives, foreign investment, exchange controls, taimplications, and professional undertakings. Notably, Mosota has a comprehensive understanding of the Law of Contract. He has dealt with numerous cases related to the formation, performance, and enforceability of contracts. His legal practice also includes involvement in public interest litigation cases, judicial review proceedings, tax practice, strategic interest litigation, complex commercial litigation, land and environmental litigation, as well as employment and labour relations proceedings. In 2023, Mosota, was awarded the Jurist of the Year Award by the the Kenyan Section of the International Commission of Jurists (ICJ Kenya)Chartered Institute of Arbitrators (Kenya Branch). He was also ranked among the Top 3 Arbitrators in Kenya by Chambers and Partners, and among the Top 4 Arbitrators in Kenya by The Lawyer Africa. These accolades serve as a testament to his dedication and expertise in the field of law.",
+    profileImg:
+      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689915/Wakili_iuvm0z.jpg",
+    education: [
+      {
+        degree: "Master in Law  LL.M International Business Law",
+        university: "University of Essex",
+      },
+      {
+        degree: "Bachelor in Law  LL.B",
+        university: "Moi University",
+      },
+      {
+        degree: "Postgraduate Diploma in Law",
+        university: "Kenya School of Law",
+      },
+      {
+        degree: "Certified Public Secretary",
+        university: "CPS (K)",
+      },
+    ],
+    memberships: [
+      "Law Society of Kenya",
+      "Institute of Human Resource Management",
+    ],
+    practiceAreas: [
+      "Criminal and Civil Litigation",
+      "Commercial and Corporate Transactions",
+      "Conveyancing and Real Estate Management",
+      "Alternative Dispute Resolution",
+      "Intellectual Property",
+      "Data Protection",
+      "Employment Law",
+      "Succession and Family Law",
+      "Local and International Trade Law",
+    ],
+    career: [
+      {
+        role: "Managing Partner",
+        date: "2023 - To Date",
+        firm: "Mosota Abunga & Associates Advocates, LLP",
+      },
+      {
+        role: "Associate Advocate",
+        date: "",
+        firm: "Nchogu, Omwanza & Nyasimi Advocates",
+      },
+      {
+        role: "Associate Advocate",
+        date: "",
+        firm: "Ahmednasir Abdullahi Advocates LLP",
+      },
+    ],
+  },
+
+  {
+    id: "dennis-kariuki",
+    name: "Dennis Kariuki, Esq.",
+    role: "Associate",
+    profile:
+      "Dennis Kariuki, Esq., is a highly skilled advocate with over seven years of experience in the legal services industry. He has a proven track record of success in various areas of law, including civil litigation, commercial transactions, criminal law, succession law, and conveyancing.<br/><br/> His duties include conducting client interviews to understand their legal needs and concerns, drafting and instituting legal proceedings, and attending court sessions for a variety of matters spanning civil, criminal, and commercial law. He has also prepared various conveyances, demonstrating his comprehensive understanding of property and land laws.<br/><br/> With hands-on experience, Kariuki is versatile and adaptable to different legal environments. His commitment to providing top-notch service to clients, coupled with his confidence in handling complex legal matters, sets him apart in the legal field. He is driven by a strong sense of values, a passion for truth, and a thirst for justice.<br/><br/> In summary, Dennis Kariuki, Esq., is a dedicated legal professional who brings a wealth of experience, expertise, and commitment to his practice. His comprehensive understanding of various areas of law, combined with his passion for justice and truth, make him an invaluable asset to his clients and to his firm.",
+    profileImg:
+      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689939/20231214171639_IMG_0006_qgx3xx.jpg",
+    education: [
+      {
+        degree: "Bachelor of Laws. LL. B",
+        university: "Jomo Kenyatta University of Agriculture and Technology",
+      },
+      {
+        degree: "Postgraduate Diploma",
+        university: "Kenya School of Law",
+      },
+      {
+        degree: "Diploma in Information Technology",
+        university: "",
+      },
+    ],
+    memberships: ["Law Society of Kenya", "Computer Society of Kenya"],
+    practiceAreas: [
+      "Criminal Litigation",
+      "Conveyancing & Real Estate",
+      "Corporate & Commercial Law",
+      "Family & Succession Law",
+      "Civil Litigation",
+      "Alternative Dispute Resolution",
+      "Intellectual Property",
+      "Administrative Law",
+      "Compliance and Tax Consultancy",
+      "Escrow Management",
+    ],
+    career: [
+      {
+        role: "Associate",
+        date: "2024",
+        firm: "Mosota Abunga & Associates Advocates, LLP",
+      },
+      {
+        role: "Associate",
+        date: "2023",
+        firm: "Masila & Mworia Advocates, LLP",
+      },
+      {
+        role: "Associate",
+        date: "2022",
+        firm: "Mob Owino & Company Advocates, LLP",
+      },
+      {
+        role: "Associate",
+        date: "2019 - 2020",
+        firm: "Turn-o-Metal Engineers LTD",
+      },
+      {
+        role: "Associate",
+        date: "2017-2018",
+        firm: "Rachuonyo & Rachuonyo Advocates",
+      },
+      {
+        role: "Associate",
+        date: "2014",
+        firm: "Wetangula, Adan & Makokha Advocates",
+      },
+      {
+        role: "",
+        date: "2013",
+        firm: "The National Bank of Kenya",
+      },
+    ],
+  },
+
+  {
+    id: "terry-misiko",
+    name: "Terry Misiko",
+    role: "Associate",
+    profile:
+      "Terry is an Advocate of the High Court of Kenya. She has a proficiency and keen interest in various areas of legal practice and advisory, including complex commercial and civil litigation, employment law, conveyancing, banking, and securities perfection among others. Her interest in family law has seen her actively engage in research, trainings and legal matters surrounding Rights of the Child and Children in Conflict with the Law both in Kenya and Internationally. Her experience coupled with situation analysis and management is a great addition to the team, aiding in and ensuring delivery of efficient and effective services to the Firm’s Clients.",
+    profileImg:
+      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+    education: [
+      {
+        degree: "Bachelor of Laws. LL. B",
+        university: "The Catholic University of Eastern Africa (CUEA)",
+      },
+      {
+        degree: "Postgraduate Diploma",
+        university: "Kenya School of Law",
+      },
+      {
+        degree: "Online Child Protection Course",
+        university:
+          "African Advanced Level Telecommunications Institute (AFRALTI)",
+      },
+    ],
+    memberships: [
+      "Law Society of Kenya",
+      "Amnesty International (voluntary membership)",
+    ],
+    practiceAreas: [
+      "Family Law",
+      "Conveyancing Law",
+      "Data Protection Law",
+      "Commercial & Corporate Law",
+      "Banking Law",
+    ],
+    career: [
+      {
+        role: "Managing Partner",
+        date: "2023 - To Date",
+        firm: "Mosota Abunga & Associates Advocates, LLP",
+      },
+      {
+        role: "Associate",
+        date: "2021 - 2022",
+        firm: "Wandabwa & Associates Advocates",
+      },
+      {
+        role: "Pupillage",
+        date: "2020 - 2021",
+        firm: "Musyoki Mugaka & Associates Advocates",
+      },
+    ],
+  },
+
+  {
+    id: "lyster-moenga",
+    name: "Lyster Moenga",
+    role: "Associate",
+    profile:
+      "Lyster Moenga is an advocate of the High Court of Kenya. Her practice focuses mainly on Conveyancing, Criminal law, Commercial law, and Family & Succession. She is a passionate and focused lawyer who strives to exceed expectations when delivering legal services and ensure the best results for the firm.",
+    profileImg:
+      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+    education: [
+      {
+        degree: "Bachelor of Laws. LL. B",
+        university: " Kabarak University",
+      },
+      {
+        degree: "Postgraduate Diploma",
+        university: "Kenya School of Law",
+      },
+      {
+        degree: "Certified Public Secretary",
+        university: "CPS (K)",
+      },
+    ],
+    memberships: ["Law Society of Kenya"],
+    practiceAreas: [
+      "Criminal Litigation",
+      "Conveyancing Law",
+      "Commercial & Corporate Law",
+      "Family & Succession Law",
+      "Civil Litigation",
+    ],
+    career: [
+      {
+        role: "Associate",
+        date: "2023 - To Date",
+        firm: "Mosota Abunga & Associates Advocates, LLP",
+      },
+      {
+        role: "Pupillage",
+        date: "2021 - 2022",
+        firm: "Office of the Director of Public Prosecutions",
+      },
+    ],
+  },
+  {
+    id: "brian-anyanzwa",
+    name: "Brian Anyanzwa",
+    role: "Associate",
+    profile:
+      "Brian Anyanzwa is a licensed legal practitioner and an Advocate of the High Court of Kenya. He has vast experience in Conveyancing, Commercial law, and Criminal Litigation. He is the head of Criminal Litigation at the firm.",
+    profileImg:
+      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+    education: [
+      {
+        degree: "Bachelor of Laws. LL. B",
+        university: "Moi University",
+      },
+      {
+        degree: "Postgraduate Diploma",
+        university: "Kenya School of Law",
+      },
+      {
+        degree: "Certified Public Secretary",
+        university: "CPS (K)",
+      },
+    ],
+    memberships: ["Law Society of Kenya"],
+    practiceAreas: [
+      "Criminal Litigation",
+      "Conveyancing Law",
+      "Commercial Law",
+      "Civil Litigation",
+    ],
+    career: [
+      {
+        role: "Associate",
+        date: "2023 - To Date",
+        firm: "Mosota Abunga & Associates Advocates, LLP",
+      },
+      {
+        role: "Pupillage",
+        date: "2021 - 2022",
+        firm: "Khaminwa & Khaminwa",
+      },
+    ],
+  },
+];
+
+export { practices, services, profiles, lawyerProfiles };

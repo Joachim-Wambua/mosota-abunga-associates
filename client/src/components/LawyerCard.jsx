@@ -1,4 +1,14 @@
-const LawyerCard = ({ name, profile_img, credentials, role, profile }) => {
+import { useNavigate } from "react-router-dom";
+
+const LawyerCard = ({ id, name, profile_img, credentials, role, profile }) => {
+  const navigate = useNavigate();
+
+  // Function to handle Contact Button Clicks
+  const handleClick = () => {
+    // Navigate to the desired endpoint
+    navigate(`/lawyers/${id}`);
+  };
+
   return (
     <>
       <div className="lawyer-section max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
@@ -26,7 +36,10 @@ const LawyerCard = ({ name, profile_img, credentials, role, profile }) => {
             <p className="pt-8 text-sm">{profile}</p>
 
             <div className="pt-12 pb-8">
-              <button className="bg-[#AC2333] hover:bg-[#990012] text-white font-bold py-2 px-4 rounded-full">
+              <button
+                className="bg-[#AC2333] hover:bg-[#990012] text-white font-bold py-2 px-4 rounded-full"
+                onClick={handleClick}
+              >
                 View Full Profile
               </button>
             </div>

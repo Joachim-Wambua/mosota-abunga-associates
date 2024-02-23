@@ -17,6 +17,8 @@ import Contact from "./pages/Contact";
 import Article from "./pages/Article";
 import Lawyers from "./pages/Lawyers";
 import Practice from "./pages/Practice";
+import LawyerProfile from "./pages/LawyerProfile"; // Import the LawyerProfile component here
+import { lawyerProfiles } from "./constants/data";
 
 import "./App.css";
 
@@ -32,7 +34,15 @@ function App() {
             <Route path="/articles" element={<Article />} />
             <Route path="/lawyers" element={<Lawyers />} />
             <Route path="/practice" element={<Practice />} />
-
+            <Route path="/lawyers/:id" element={<LawyerProfile />} />
+            {/* Render LawyerProfile component for each lawyer profile */}
+            {/* {lawyerProfiles.map((lawyer, index) => (
+              <Route
+                key={index}
+                path={`/lawyers/${lawyer.id}`}
+                element={<LawyerProfile lawyer={lawyer} />}
+              />
+            ))} */}
           </Routes>
         </Router>
       </ThemeProvider>

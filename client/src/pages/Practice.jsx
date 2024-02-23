@@ -1,4 +1,3 @@
-import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 
 const Practice = () => {
@@ -33,7 +32,7 @@ const Practice = () => {
       {/* Pagination component */}
       <div className="w-1/3 p-8">
         <Stack spacing={2}>
-          <Pagination count={10} color="primary" />
+          
         </Stack>
       </div>
     </div>
