@@ -6,7 +6,10 @@ const DynamicHeader = ({ headerTitle, src, backgroundPosition }) => {
     <>
       <header
         className="header-style"
-        style={{ backgroundImage: `url(${src})`, backgroundPosition: backgroundPosition}}
+        style={{
+          backgroundImage: `url(${src})`,
+          backgroundPosition: backgroundPosition,
+        }}
       >
         <Navbar />
         <div className="dynamic-header">

@@ -35,14 +35,7 @@ function App() {
             <Route path="/lawyers" element={<Lawyers />} />
             <Route path="/practice" element={<Practice />} />
             <Route path="/lawyers/:id" element={<LawyerProfile />} />
-            {/* Render LawyerProfile component for each lawyer profile */}
-            {/* {lawyerProfiles.map((lawyer, index) => (
-              <Route
-                key={index}
-                path={`/lawyers/${lawyer.id}`}
-                element={<LawyerProfile lawyer={lawyer} />}
-              />
-            ))} */}
+            <Route path="/practice/:id" element={<Practice />} />
           </Routes>
         </Router>
       </ThemeProvider>

@@ -125,11 +125,15 @@
 }
 
 .white-icon:hover {
-  color: #C3C3C3; /* Update the color for the white icon */
+  color: #c3c3c3; /* Update the color for the white icon */
 }
 
 .maroon-icon {
   color: #ac2333; /* Update the color for the maroon icon */
+}
+
+.white-menu:hover {
+  color: #c8c8c8;
 }
 
 .profile-btns {

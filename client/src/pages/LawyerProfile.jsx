@@ -1,4 +1,3 @@
-import DynamicHeader from "../components/DynamicHeader";
 import Footer from "../components/Footer";
 import Resume from "../components/Resume";
 import Navbar from "../components/NavBar/Navbar";

@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 import { FaArrowRight } from "react-icons/fa";
-import { practices } from "../constants/data";
+import { practiceAreas } from "../constants/data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -62,12 +62,12 @@ const PracticeAreas = () => {
       <div className="w-3/4 m-auto pb-10">
         <div className="mt-10">
           <Slider {...settings}>
-            {practices.map((practice) => (
+            {practiceAreas.map((practice) => (
               <div className="card" key={practice.title}>
                 <img src={practice.img} alt="" />
                 <div className="card-content">
                   <h2>{practice.title}</h2>
-                  <p>{practice.description}</p>
+                  <p>{practice.briefDescription}</p>
                   <a href="#" className="button">
                     <div className="flex flex-row justify-center items-center italic hover:underline">
                       Find out more{" "}

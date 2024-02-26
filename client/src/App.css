@@ -125,7 +125,8 @@
   height: 100%;
   top: 0;
   left: 0;
-  opacity: 0.9;
+  opacity: 1;
+  filter: brightness(75%);
   transition: opacity 0.2s ease-out;
 }
 .card h2 {
@@ -157,7 +158,7 @@
 }
 
 .card:hover h2 {
-  inset: auto auto 270px 12px;
+  inset: auto auto 240px 12px;
   transition: inset 0.3s ease-out;
 }
 .card:hover p,
@@ -278,6 +279,7 @@
 
 .menu-item:hover {
   color: #ac2333; /* Change text color on hover */
+  /* border: #ac2333; */
 }
 
 .menu-link:hover {
@@ -416,6 +418,15 @@
 
 .resume-about {
   grid-column: span 8 / span 8;
+}
+
+/* Practice Area details */
+.practice-content {
+  grid-column: span 9 / span 9;
+}
+
+.practice-pages {
+  grid-column: span 3 / span 3;
 }
 
 /* Footer */

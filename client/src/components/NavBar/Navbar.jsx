@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Button, Typography, Menu, MenuItem, MenuList } from "@mui/material";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdArrowDropDown } from "react-icons/md";
@@ -6,7 +7,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoIosClose } from "react-icons/io";
 import "./navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ id }) => {
   const [aboutAnchorEl, setAboutAnchorEl] = useState(null);
   const [practiceAnchorEl, setPracticeAnchorEl] = useState(null);
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -36,6 +37,43 @@ const Navbar = () => {
   const handleMenuClose = () => {
     setAboutAnchorEl(null);
     setPracticeAnchorEl(null);
+  };
+
+  const navigate = useNavigate();
+
+  // Function to handle Contact Button Clicks
+  const handleClick = (linkId) => {
+    // Navigate to the desired endpoint
+    switch (linkId) {
+      case "litigation-and-dispute-resolution":
+        navigate(`/practice/litigation-and-dispute-resolution`);
+        handleMenuClose();
+        break;
+      case "real-estate-and-conveyancing":
+        navigate(`/practice/real-estate-and-conveyancing`);
+        handleMenuClose();
+        break;
+      case "family-law-and-succession":
+        navigate(`/practice/family-law-and-succession`);
+        handleMenuClose();
+        break;
+      case "intellectual-property":
+        navigate(`/practice/intellectual-property`);
+        handleMenuClose();
+        break;
+      case "banking-corporate-and-financial-services":
+        navigate(`/practice/banking-corporate-and-financial-services`);
+        handleMenuClose();
+        break;
+      case "local-and-international-trade-law":
+        navigate(`/practice/local-and-international-trade-law`);
+        handleMenuClose();
+        break;
+      case "data-protection-and-security":
+        navigate(`/practice/data-protection-and-security`);
+        handleMenuClose();
+        break;
+    }
   };
 
   useEffect(() => {
@@ -83,60 +121,52 @@ const Navbar = () => {
             onClose={handleMenuClose}
             MenuListProps={{ onClick: handleMenuClose }}
           >
-            <MenuList
-              style={{
-                background: "#f2f2f2",
-              }}
-            >
-              <MenuItem className="menu-item" onClick={handleMenuClose}>
-                <a className="menu-link" href="#">
-                  Corporate & Commercial
+            <MenuList>
+              <MenuItem
+                className="menu-item"
+                onClick={() => handleClick("litigation-and-dispute-resolution")}
+              >
+                <a className="menu-link">Litigation & Dispute Resolution</a>
+              </MenuItem>
+              <MenuItem
+                className="menu-item"
+                onClick={() => handleClick("real-estate-and-conveyancing")}
+              >
+                <a className="menu-link">Real Estate & Conveyancing</a>
+              </MenuItem>
+              <MenuItem
+                className="menu-item"
+                onClick={() => handleClick("family-law-and-succession")}
+              >
+                <a className="menu-link">Family Law & Succession</a>
+              </MenuItem>
+              <MenuItem
+                className="menu-item"
+                onClick={() => handleClick("intellectual-property")}
+              >
+                <a className="menu-link">Intellectual Property</a>
+              </MenuItem>
+              <MenuItem
+                className="menu-item"
+                onClick={() =>
+                  handleClick("banking-corporate-and-financial-services")
+                }
+              >
+                <a className="menu-link">
+                  Banking, Corporate & Financial Services
                 </a>
               </MenuItem>
-              <MenuItem className="menu-item" onClick={handleMenuClose}>
-                <a className="menu-link" href="#">
-                  Media & Technology
-                </a>
+              <MenuItem
+                className="menu-item"
+                onClick={() => handleClick("local-and-international-trade-law")}
+              >
+                <a className="menu-link">Local & International Trade Law</a>
               </MenuItem>
-              <MenuItem className="menu-item" onClick={handleMenuClose}>
-                <a className="menu-link" href="#">
-                  Energy (Oil & Gas)
-                </a>
-              </MenuItem>
-              <MenuItem className="menu-item" onClick={handleMenuClose}>
-                <a className="menu-link" href="#">
-                  Public-Private Law
-                </a>
-              </MenuItem>
-              <MenuItem className="menu-item" onClick={handleMenuClose}>
-                <a className="menu-link" href="#">
-                  Financial Transactions
-                </a>
-              </MenuItem>
-              <MenuItem className="menu-item" onClick={handleMenuClose}>
-                <a className="menu-link" href="#">
-                  Criminal Law
-                </a>
-              </MenuItem>
-              <MenuItem className="" menu-item onClick={handleMenuClose}>
-                <a className="menu-link" href="#">
-                  Property & Real Estate
-                </a>
-              </MenuItem>
-              <MenuItem className="menu-item" onClick={handleMenuClose}>
-                <a className="menu-link" href="#">
-                  Immigration & Labor
-                </a>
-              </MenuItem>
-              <MenuItem className="menu-item" onClick={handleMenuClose}>
-                <a className="menu-link" href="#">
-                  Family & Succession
-                </a>
-              </MenuItem>
-              <MenuItem className="menu-item" onClick={handleMenuClose}>
-                <a className="menu-link" href="#">
-                  Tax Law
-                </a>
+              <MenuItem
+                className="menu-item"
+                onClick={() => handleClick("data-protection-and-security")}
+              >
+                <a className="menu-link">Data Protection & Security</a>
               </MenuItem>
             </MenuList>
           </Menu>
@@ -152,12 +182,7 @@ const Navbar = () => {
             onClose={handleMenuClose}
             MenuListProps={{ onClick: handleMenuClose }}
           >
-            <MenuList
-              style={{
-                backgroundColor: "#f2f2f2",
-                borderRadius: "9px",
-              }}
-            >
+            <MenuList>
               <MenuItem className="menu-item" onClick={handleMenuClose}>
                 <a className="menu-link" href="/about">
                   About Us
@@ -239,68 +264,101 @@ const Navbar = () => {
                   anchorEl={practiceAnchorEl}
                   open={Boolean(practiceAnchorEl)}
                   onClose={handleMenuClose}
-                  MenuListProps={{ onClick: handleMenuClose, sx: {py : 0} }}
+                  MenuListProps={{ onClick: handleMenuClose }}
                 >
-                  <MenuList
-                    style={{
-                      background: "#FFF",
-                    }}
-                  >
-                    <MenuItem className="menu-item" onClick={handleMenuClose}>
-                      <a className="menu-link" href="#">
-                        Corporate & Commercial
+                  <MenuList>
+                    <MenuItem
+                      className="menu-item"
+                      onClick={() =>
+                        handleClick("litigation-and-dispute-resolution")
+                      }
+                    >
+                      <a
+                        className="menu-link"
+                        href="/practice/litigation-and-dispute-resolution"
+                      >
+                        Litigation & Dispute Resolution
                       </a>
                     </MenuItem>
-                    <MenuItem className="menu-item" onClick={handleMenuClose}>
-                      <a className="menu-link" href="#">
-                        Media & Technology
+                    <MenuItem
+                      className="menu-item"
+                      onClick={() =>
+                        handleClick("real-estate-and-conveyancing")
+                      }
+                    >
+                      <a
+                        className="menu-link"
+                        href="/practice/real-estate-and-conveyancing"
+                      >
+                        Real Estate & Conveyancing
                       </a>
                     </MenuItem>
-                    <MenuItem className="menu-item" onClick={handleMenuClose}>
-                      <a className="menu-link" href="#">
-                        Energy (Oil & Gas)
+                    <MenuItem
+                      className="menu-item"
+                      onClick={() => handleClick("family-law-and-succession")}
+                    >
+                      <a
+                        className="menu-link"
+                        href="/practice/family-law-and-succession"
+                      >
+                        Family Law & Succession
                       </a>
                     </MenuItem>
-                    <MenuItem className="menu-item" onClick={handleMenuClose}>
-                      <a className="menu-link" href="#">
-                        Public-Private Law
+                    <MenuItem
+                      className="menu-item"
+                      onClick={() => handleClick("intellectual-property")}
+                    >
+                      <a
+                        className="menu-link"
+                        href="/practice/intellectual-property"
+                      >
+                        Intellectual Property
                       </a>
                     </MenuItem>
-                    <MenuItem className="menu-item" onClick={handleMenuClose}>
-                      <a className="menu-link" href="#">
-                        Financial Transactions
+                    <MenuItem
+                      className="menu-item"
+                      onClick={() =>
+                        handleClick("banking-corporate-and-financial-services")
+                      }
+                    >
+                      <a
+                        className="menu-link"
+                        href="/practice/banking-corporate-and-financial-services"
+                      >
+                        Banking, Corporate & Financial Services
                       </a>
                     </MenuItem>
-                    <MenuItem className="menu-item" onClick={handleMenuClose}>
-                      <a className="menu-link" href="#">
-                        Criminal Law
+                    <MenuItem
+                      className="menu-item"
+                      onClick={() =>
+                        handleClick("local-and-international-trade-law")
+                      }
+                    >
+                      <a
+                        className="menu-link"
+                        href="/practice/local-and-international-trade-law"
+                      >
+                        Local & International Trade Law
                       </a>
                     </MenuItem>
-                    <MenuItem className="menu-item" onClick={handleMenuClose}>
-                      <a className="menu-link" href="#">
-                        Property & Real Estate
-                      </a>
-                    </MenuItem>
-                    <MenuItem className="menu-item" onClick={handleMenuClose}>
-                      <a className="menu-link" href="#">
-                        Immigration & Labor
-                      </a>
-                    </MenuItem>
-                    <MenuItem className="menu-item" onClick={handleMenuClose}>
-                      <a className="menu-link" href="#">
-                        Family & Succession
-                      </a>
-                    </MenuItem>
-                    <MenuItem className="menu-item" onClick={handleMenuClose}>
-                      <a className="menu-link" href="#">
-                        Tax Law
+                    <MenuItem
+                      className="menu-item"
+                      onClick={() =>
+                        handleClick("data-protection-and-security")
+                      }
+                    >
+                      <a
+                        className="menu-link"
+                        href="/practice/data-protection-and-security"
+                      >
+                        Data Protection & Security
                       </a>
                     </MenuItem>
                   </MenuList>
                 </Menu>
               </li>
               <li>
-                <a className="drop-menu" href="#" onClick={handleAboutMenuOpen}>
+                <a className="drop-menu" onClick={handleAboutMenuOpen}>
                   About <MdArrowDropDown />
                 </a>
                 <Menu

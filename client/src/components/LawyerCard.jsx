@@ -53,7 +53,7 @@ const LawyerCard = ({ id, name, profile_img, credentials, role, profile }) => {
           />
         </div>
       </div>
-      <hr className="my-6 mx-48 border-t border-gray-300" />
+      <hr className="my-4 mx-48 border-t border-gray-300" />
     </>
   );
 };
