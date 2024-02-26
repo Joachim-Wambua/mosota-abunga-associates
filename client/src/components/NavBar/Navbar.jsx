@@ -7,7 +7,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoIosClose } from "react-icons/io";
 import "./navbar.css";
 
-const Navbar = ({ id }) => {
+const Navbar = () => {
   const [aboutAnchorEl, setAboutAnchorEl] = useState(null);
   const [practiceAnchorEl, setPracticeAnchorEl] = useState(null);
   const [toggleMenu, setToggleMenu] = useState(false);
