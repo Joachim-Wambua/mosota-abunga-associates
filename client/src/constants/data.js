@@ -406,6 +406,8 @@ const practiceAreas = [
     id: "litigation-and-dispute-resolution",
     title: "Litigation & Dispute Resolution",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708960047/litigation_gxztas.png",
+    banner:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979989/litigation-banner_dcoz8f.png",
     briefDescription:
       "We lead in legal representation, expertly handling criminal, civil, and succession matters. With mediation and arbitration options, we ensure swift resolutions, saving time and serving justice.",
     par1: "The firm has been at the forefront in providing representation to its clients in criminal and civil matters. We have successfully litigated and defended various cases involving criminal liability, contractual disputes, tortious liability, family, and succession matters",
@@ -416,6 +418,8 @@ const practiceAreas = [
     id: "real-estate-and-conveyancing",
     title: "Real Estate & Conveyancing",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708961090/real-estate_elwe6r.png",
+    banner:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979992/real-estate-banner_tpv15v.png",
     briefDescription:
       "Expert guidance in real estate transactions and development. From contracts to compliance, we ensure smooth processes and valuable investments.",
     par1: "Our firm has diligently engaged in assisting clients with the purchase and sale of real estate properties and commercial property. We engage the contracting parties to make sure they get value for their money. This includes conducting searches, ensuring prompt registration, payment of rates or rent, stamp duty, survey and valuation and acquisition of all relevant consents to establish the principles of perfection of title are met.",
@@ -426,6 +430,8 @@ const practiceAreas = [
     id: "family-law-and-succession",
     title: "Family Law & Succession",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708960048/family-and-succession_xx1iqj.png",
+    banner:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979988/family-banner_usb2hs.png",
     briefDescription:
       "In family and succession law, our expert lawyers offer comprehensive advice on marriage and divorce, children's care, and succession planning/administration. Trust us for skillful guidance in these crucial matters.",
     par1: "The wellbeing of a family is at the heart of a society. Therefore, while handing these disputes, we are guided by social values and aim to preserve family ties. Our firm deals with divorce matters, child maintenance & custody cases, preservation & distribution of family property among other issues.",
@@ -436,6 +442,8 @@ const practiceAreas = [
     id: "intellectual-property",
     title: "Intellectual Property",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708960044/intellectual-property_lzxwgj.png",
+    banner:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979994/ip-banner_vpnq4k.png",
     briefDescription:
       "We safeguard and maximize your intellectual property assets, from patents to trademarks. Specializing in protection and licensing, we ensure your ideas are valued and defended.",
     par1: "We understand the complexities of creating, exploiting, and enforcing intellectual property rights in the country’s growing domestic and regional markets. We therefore work hard to protect and promote clients’ ideas, inventions, and trademarks because Intellectual property is and invaluable company asset.",
@@ -446,6 +454,8 @@ const practiceAreas = [
     id: "banking-corporate-and-financial-services",
     title: "Banking, Corporate & Financial Services",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708960048/financial-services_ypegpc.png",
+    banner:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979985/financial-services-banner_bnk1jb.png",
     briefDescription:
       "Trusted advisors for distressed businesses and financial guidance. From insolvency to project finance, we specialize in navigating complex transactions and securing your financial interests.",
     par1: "Our firm advice various stakeholders with financially distressed businesses including debtors, and issuers of both publics and private securities, creditors, equity holders and investors. Clients depend on us for advice on their day-to-day banking and financial instruments as well as for our leadership in and guidance on complex cross-boarder banking and financial transactions.",
@@ -456,6 +466,8 @@ const practiceAreas = [
     id: "local-and-international-trade-law",
     title: "Local & International Trade Law",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708960044/international-trade_o3fity.png",
+    banner:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979981/intl-trade-banner_llwm8p.png",
     briefDescription:
       "Streamline cross-border transactions with our legal expertise. From M&A to trade licenses and tax compliance, we ensure success in international ventures.",
     par1: "There is a rising need for engaging in cross boarder transactions and trade laws are complex and often contentious and understanding the rules in place can create the difference between a successful or failed import-export venture. We offer an array of legal services that facilitate these transactions within existing legal frameworks.",
@@ -466,6 +478,8 @@ const practiceAreas = [
     id: "data-protection-and-security",
     title: "Data Protection and Security",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708960044/data-protectionpracticeArea_r93zbc.png",
+    banner:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979996/data-protection-banner_mh03ud.png",
     briefDescription:
       "We specialize in data security and privacy, providing litigation support and expert advice to enhance business practices and compliance.",
     par1: "As technology continuously evolves numerous concerns emerge regarding how data is collected, stored, used & disseminated and this has led to the need for transparency and formulation of privacy laws. Our team helps clients cope with data security and privacy issues and issue advice on how to improve their business procedures.",

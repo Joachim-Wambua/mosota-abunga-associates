@@ -5,7 +5,6 @@ import PracticeArea from "../components/PracticeArea";
 const Practice = () => {
   return (
     <>
-      <DynamicHeader />
       <PracticeArea />
       <Footer />
     </>

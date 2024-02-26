@@ -1,6 +1,8 @@
 import { practiceAreas } from "../constants/data";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import Navbar from "./NavBar/Navbar";
+import DynamicHeader from "./DynamicHeader";
 
 const PracticeArea = () => {
   const navigate = useNavigate();
@@ -23,6 +25,11 @@ const PracticeArea = () => {
   }
   return (
     <>
+      <DynamicHeader
+        headerTitle={practiceArea.title}
+        src={practiceArea.banner}
+        backgroundPosition="center"
+      />
       <div className="bg-gray-100 px-10">
         <div className="container mx-auto py-8">
           <div className="grid grid-cols-12 gap-6 px-4">
@@ -30,8 +37,8 @@ const PracticeArea = () => {
               <div className="bg-white shadow w-full rounded-lg p-6">
                 <div className="flex flex-col items-start">
                   <img
-                    src={practiceArea.img}
-                    className=" bg-gray-300 object-cover object-top mb-4 shrink-0"
+                    src={practiceArea.banner}
+                    className="w-full h-[480px] bg-gray-300 object-cover object-center mb-4 shrink-0"
                   ></img>
                   <h2 className="text-xl font-bold mb-4">
                     {practiceArea.title}
@@ -49,7 +56,7 @@ const PracticeArea = () => {
                   {practiceAreas.map((area) => (
                     <li key={area.id} className="text-[16px]">
                       <button
-                        className={`hover:text-[#AC2333] focus:outline-none ${
+                        className={`hover:text-[#AC2333] text-start focus:outline-none ${
                           area.id === id ? "font-bold text-[#AC2333]" : ""
                         }`}
                         onClick={() => navigate(`/practice/${area.id}`)}
