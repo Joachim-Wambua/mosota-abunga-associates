@@ -37,8 +37,8 @@ const PracticeArea = () => {
               <div className="bg-white shadow w-full rounded-lg p-6">
                 <div className="flex flex-col items-start">
                   <img
-                    src={practiceArea.banner}
-                    className="w-full h-[480px] bg-gray-300 object-cover object-center mb-4 shrink-0"
+                    src={practiceArea.secondaryImg}
+                    className="w-full h-[360px] bg-gray-300 object-cover object-center mb-4 shrink-0"
                   ></img>
                   <h2 className="text-xl font-bold mb-4">
                     {practiceArea.title}

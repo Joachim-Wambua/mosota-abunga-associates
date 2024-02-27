@@ -8,6 +8,7 @@ const ProfileCard = ({ name, profile_img, credentials, role, profile }) => {
   const profileLines = profile.split("\n").map((line, index) => (
     <Typography
       key={index}
+      className="text-justify"
       variant="subtitle1"
       style={{ marginBottom: "0.75rem" }}
     >

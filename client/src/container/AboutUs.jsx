@@ -3,13 +3,13 @@ import { useNavigate } from "react-router-dom";
 
 const AboutUs = () => {
   const navigate = useNavigate();
-  
+
   // Function to handle About Page Button Clicks
   const handleAboutClick = () => {
     // Navigate to the desired endpoint
     navigate("/about");
-  }
-  
+  };
+
   return (
     <>
       <section id="about-section" className="about-section">
@@ -45,8 +45,13 @@ const AboutUs = () => {
               Kenya, entrust your legal matters to us.
             </p>
 
-            <div className="mt-8 flex items-center justify-start">
-              <Button variant="outlined" size="large" color="maroon_primary" onClick={handleAboutClick}>
+            <div className="mt-8 flex items-center justify-center">
+              <Button
+                variant="outlined"
+                size="large"
+                color="maroon_primary"
+                onClick={handleAboutClick}
+              >
                 <Typography
                   variant="body2"
                   style={{ fontWeight: 600, padding: 3 }}
