@@ -1,9 +1,14 @@
 import { Typography, Button, IconButton } from "@mui/material";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 
-
-const ProfileCard = ({ name, profile_img, credentials, role, profile }) => {
+const ProfileCard = ({ id, name, profile_img, credentials, role, profile }) => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    // Navigate to the desired endpoint
+    navigate(`/lawyers/${id}`);
+  };
   // Split the profile text using \n and create an array of JSX elements
   const profileLines = profile.split("\n").map((line, index) => (
     <Typography
@@ -45,6 +50,7 @@ const ProfileCard = ({ name, profile_img, credentials, role, profile }) => {
               size="large"
               color="maroon_primary"
               style={{ marginBottom: "1rem" }}
+              onClick={handleClick}
             >
               <Typography
                 variant="body2"

@@ -4,8 +4,15 @@ import { practiceAreas } from "../constants/data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useNavigate } from "react-router-dom";
 
 const PracticeAreas = () => {
+  const navigate = useNavigate();
+
+  const handleClick = ({ id }) => {
+    navigate(`practice/${id}`);
+  };
+
   const settings = {
     accessibility: true,
     dots: true,
@@ -63,12 +70,12 @@ const PracticeAreas = () => {
         <div className="mt-10">
           <Slider {...settings}>
             {practiceAreas.map((practice) => (
-              <div className="card" key={practice.title}>
+              <div key={practice.title} className="card">
                 <img src={practice.img} alt="" />
                 <div className="card-content">
                   <h2>{practice.title}</h2>
                   <p>{practice.briefDescription}</p>
-                  <a href="#" className="button">
+                  <a href={`practice/${practice.id}`} className="button">
                     <div className="flex flex-row justify-center items-center italic hover:underline">
                       Find out more{" "}
                       <FaArrowRight fontSize={15} className="ml-2" />

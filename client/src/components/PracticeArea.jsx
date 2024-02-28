@@ -1,16 +1,15 @@
 import { practiceAreas } from "../constants/data";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import Navbar from "./NavBar/Navbar";
 import DynamicHeader from "./DynamicHeader";
 
 const PracticeArea = () => {
   const navigate = useNavigate();
 
-  //   const handleClick = () => {
-  //     // Navigate to the desired endpoint
-  //     navigate(`/practice/${id}`);
-  //   };
+    // const handleClick = () => {
+    //   // Navigate to the desired endpoint
+    //   navigate(`/practice/${id}`);
+    // };
 
   // Extracting the practice Area's name from the URL parameter
   const { id } = useParams();
@@ -34,7 +33,7 @@ const PracticeArea = () => {
         <div className="container mx-auto py-8">
           <div className="grid grid-cols-12 gap-6 px-4">
             <div className="practice-content mx-auto">
-              <div className="bg-white shadow w-full rounded-lg p-6">
+              <div className="bg-white shadow w-full rounded-lg p-8">
                 <div className="flex flex-col items-start">
                   <img
                     src={practiceArea.secondaryImg}
