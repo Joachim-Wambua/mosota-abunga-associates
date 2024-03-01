@@ -105,7 +105,7 @@ const profiles = [
     credentials: "LLB, LLM, MBA",
     role: "Associate Advocate",
     profile:
-      "Meet Terry, an Advocate of the High Court of Kenya with a passion for diverse legal realms. Specializing in complex commercial litigation, employment law, conveyancing, and more, she brings a wealth of expertise to our team. Terry's dedication to family law extends to championing the Rights of the Child, both locally and internationally. With her sharp analytical skills and adept management, she ensures the seamless delivery of top-notch legal services to our clients.",
+      "Terry is an Advocate of the High Court of Kenya. Specializing in complex commercial litigation, employment law, conveyancing, and more, she brings a wealth of expertise to our team. Terry is dedicated to family law and champions the Rights of the Child locally and internationally. With sharp analytical skills, she ensures seamless delivery of top-notch legal services to our clients.",
   },
 
   {
@@ -128,6 +128,17 @@ const profiles = [
     role: "Associate Advocate",
     profile:
       "Brian Anyanzwa is a licensed legal practitioner and an Advocate of the High Court of Kenya. He has vast experience in Conveyancing, Commercial law, and Criminal Litigation. He is the head of Criminal Litigation at the firm.",
+  },
+
+  {
+    id: "divina-moses",
+    name: "Divina Moses",
+    profile_img:
+      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+    credentials: "LLB, Dip, KSL",
+    role: "Associate Advocate",
+    profile:
+      " Divina Moses, our Associate specializing in Commercial Law, Litigation, Dispute Resolution, and Family Law. As an advocate of the High Court of Kenya, her expertise spans Employment, Commercial, Family & Succession Law, and Alternative Dispute Resolution.",
   },
 ];
 
@@ -396,6 +407,45 @@ const lawyerProfiles = [
         role: "Pupillage",
         date: "2021 - 2022",
         firm: "Khaminwa & Khaminwa",
+      },
+    ],
+  },
+  {
+    id: "divina-moses",
+    name: "Divina Moses",
+    role: "Associate",
+    profile:
+      "Meet Divina Moses, an Associate at our firm. With a focus on Commercial Law, Litigation, Dispute Resolution, and Family Law, Divina is an advocate of the High Court of Kenya. Her expertise includes Employment Law, Commercial Law, Family & Succession Law, and Alternative Dispute Resolution. \n\nDriven by confidence, attention to detail, and goal-oriented mindset, Divina provides strategic legal counsel to our clients. Partner with her for tailored advice and exceptional representation, ensuring your legal needs are met with excellence.",
+    profileImg:
+      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+    education: [
+      {
+        degree: "Bachelor of Laws. LL. B",
+        university: "Africa Nazarene University",
+      },
+      {
+        degree: "Postgraduate Diploma",
+        university: "Kenya School of Law",
+      },
+    ],
+    memberships: ["Law Society of Kenya"],
+    practiceAreas: [
+      "Conveyancing Law",
+      "Commercial Law",
+      "Family & Succession Law",
+      "Civil Litigation",
+      "Alternative Dispute Resolution",
+    ],
+    career: [
+      {
+        role: "Associate",
+        date: "2023 - To Date",
+        firm: "Mosota Abunga & Associates Advocates, LLP",
+      },
+      {
+        role: "Pupillage",
+        date: "2022 - 2023",
+        firm: "Okoth & Kiplagat Advocates ",
       },
     ],
   },
