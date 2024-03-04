@@ -128,8 +128,8 @@ const profiles = [
   {
     id: "divina-moses",
     name: "Divina Moses",
-    linkedin: "",
-    email: "",
+    linkedin: "https://www.linkedin.com/in/divina-moses-308b66189/",
+    email: "divinamoses@gmail.com",
     profile_img:
       "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
     credentials: "LLB, Dip, KSL",
@@ -377,8 +377,8 @@ const lawyerProfiles = [
     id: "divina-moses",
     name: "Divina Moses",
     role: "Associate",
-    linkedin: "",
-    email: "",
+    linkedin: "https://www.linkedin.com/in/divina-moses-308b66189/",
+    email: "divinamoses@gmail.com",
     profile:
       "Meet Divina Moses, an Associate at our firm. With a focus on Commercial Law, Litigation, Dispute Resolution, and Family Law, Divina is an advocate of the High Court of Kenya. Her expertise includes Employment Law, Commercial Law, Family & Succession Law, and Alternative Dispute Resolution. \n\nDriven by confidence, attention to detail, and goal-oriented mindset, Divina provides strategic legal counsel to our clients. Partner with her for tailored advice and exceptional representation, ensuring your legal needs are met with excellence.",
     profileImg:
