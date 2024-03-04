@@ -8,6 +8,16 @@ const Resume = () => {
   // Extracting the lawyer's name from the URL parameter
   const { id } = useParams();
 
+  // Open LinkedIn Profiles
+  const handleLinkedInClick = (linkedInUrl) => {
+    window.open(linkedInUrl, "_blank");
+  };
+
+  // Send Email to Lawyers
+  const handleEmailClick = (lawyerEmail) => {
+    window.location.href = `mailto:${lawyerEmail}`;
+  };
+
   // Finding the corresponding lawyer profile from the data
   const lawyer = lawyerProfiles.find((lawyer) => lawyer.id === id);
 
@@ -129,7 +139,7 @@ const Resume = () => {
                   <a
                     className="text-gray-700 hover:text-[#AC2333]"
                     aria-label="MAA LinkedIn"
-                    href=""
+                    onClick={() => handleLinkedInClick(lawyer.linkedin)}
                     target="_blank"
                   >
                     <svg
@@ -147,7 +157,7 @@ const Resume = () => {
                   <a
                     className="text-gray-700 hover:text-[#AC2333]"
                     aria-label="MAA Email"
-                    href=""
+                    onClick={() => handleEmailClick(lawyer.email)}
                     target="_blank"
                   >
                     <HiOutlineMail fontSize={27} />

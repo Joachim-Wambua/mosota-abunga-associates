@@ -3,12 +3,34 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
-const ProfileCard = ({ id, name, profile_img, credentials, role, profile }) => {
+const ProfileCard = ({
+  id,
+  name,
+  email,
+  linkedin,
+  profile_img,
+  credentials,
+  role,
+  profile,
+}) => {
   const navigate = useNavigate();
+
+  // Navigate to Lawyer Pages
   const handleClick = () => {
     // Navigate to the desired endpoint
     navigate(`/lawyers/${id}`);
   };
+
+  // Open LinkedIn Profiles
+  const handleLinkedInClick = (linkedInUrl) => {
+    window.open(linkedInUrl, "_blank");
+  };
+
+  // Send Email to Lawyers
+  const handleEmailClick = (lawyerEmail) => {
+    window.location.href = `mailto:${lawyerEmail}`;
+  };
+
   // Split the profile text using \n and create an array of JSX elements
   const profileLines = profile.split("\n").map((line, index) => (
     <Typography
@@ -61,11 +83,17 @@ const ProfileCard = ({ id, name, profile_img, credentials, role, profile }) => {
             </Button>
 
             <div className="flex pb-10">
-              <IconButton color="maroon_primary">
+              <IconButton
+                color="maroon_primary"
+                onClick={() => handleLinkedInClick(linkedin)}
+              >
                 <FaLinkedinIn />
               </IconButton>
 
-              <IconButton color="maroon_primary">
+              <IconButton
+                color="maroon_primary"
+                onClick={() => handleEmailClick(email)}
+              >
                 <MdEmail color="maroon_primary" />
               </IconButton>
             </div>
