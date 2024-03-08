@@ -51,7 +51,7 @@ const Home = () => (
       <CallToActionA />
       <AboutUs />
       {/* <Services /> */}
-      <Team />
+      {/* <Team /> */}
       {/* <Articles /> */}
       <CallToActionB />
       <Footer />
