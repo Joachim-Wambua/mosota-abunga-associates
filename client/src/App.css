@@ -158,7 +158,7 @@
 }
 
 .card:hover h2 {
-  inset: auto auto 240px 12px;
+  inset: auto auto 90px 12px;
   transition: inset 0.3s ease-out;
 }
 .card:hover p,
@@ -242,7 +242,7 @@
   display: flex;
   flex-direction: row;
   max-width: 900px;
-  height: 480px;
+  height: 360px;
   margin: auto;
   margin-top: 1.8rem;
   background: #fff;
@@ -257,7 +257,7 @@
   position: relative;
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: center center;
+  background-position: bottom center;
   transition: 0.9s;
 }
 

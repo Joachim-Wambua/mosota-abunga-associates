@@ -82,19 +82,19 @@ const profiles = [
     name: "Victor Mosota, Esq.",
     profile_img:
       "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689915/Wakili_iuvm0z.jpg",
-    credentials: "LLB, Dip.KSL",
-    role: "Legal Practice Director",
+    credentials: "LLB, LLM, Dip.KSL",
+    role: "Managing Partner",
     profile:
-      "Victor is a highly experienced and practical commercial and property lawyer (with almost a decade of licenced legal experience).\n\nPrior to establishing Mosota Abunga & Associates Advocates, LLP , Victor was a commercial and property lawyer at one of Africa's leading top-tier law firms.",
+      "Victor is a highly experienced and practical commercial and property lawyer (with almost a decade of legal experience).\n\nPrior to establishing Mosota Abunga & Associates Advocates, LLP , Victor was a commercial and property lawyer at one of Africa's leading top-tier law firms.",
   },
   {
     id: "dennis-kariuki",
-    name: "Dennis Kariuki, Esq.",
+    name: "Dennis Kariuki",
     linkedin: "https://www.linkedin.com/in/dennis-kariuki-961486143/",
     email: "dkariuki516@gmail.com",
     profile_img:
-      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689939/20231214171639_IMG_0006_qgx3xx.jpg",
-    credentials: "LLB, LLM, MBA",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709898242/Dennis_Pic_ckup1t.jpg",
+    credentials: "LLB, Dip.KSL",
     role: "Associate Advocate",
     profile:
       "Dennis Kariuki, Esq. is a seasoned advocate with over seven years of expertise across civil litigation, commercial transactions, criminal law, succession law, and conveyancing. His adeptness extends from client interviews to courtroom proceedings, showcasing his versatility and adaptability. With a commitment to excellence and a passion for justice, Dennis is your trusted ally in navigating complex legal landscapes.",
@@ -106,7 +106,7 @@ const profiles = [
     email: "misikolaw@gmail.com",
     profile_img:
       "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
-    credentials: "LLB, LLM, MBA",
+    credentials: "LLB, Dip.KSL",
     role: "Associate Advocate",
     profile:
       "Terry is an Advocate of the High Court of Kenya. Specializing in complex commercial litigation, employment law, conveyancing, and more, she brings a wealth of expertise to our team. Terry is dedicated to family law and champions the Rights of the Child locally and internationally. With sharp analytical skills, she ensures seamless delivery of top-notch legal services to our clients.",
@@ -119,7 +119,7 @@ const profiles = [
     linkedin: "https://www.linkedin.com/in/lyster-moenga-804452283/",
     profile_img:
       "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
-    credentials: "LLB, LLM, MBA",
+    credentials: "LLB, Dip.KSL",
     role: "Associate Advocate",
     profile:
       "Lyster Moenga is an advocate of the High Court of Kenya. Her practice focuses mainly on Conveyancing, Criminal law, Commercial law, and Family & Succession. She is a passionate and focused lawyer who strives to exceed expectations when delivering legal services and ensure the best results for the firm.",
@@ -204,14 +204,14 @@ const lawyerProfiles = [
 
   {
     id: "dennis-kariuki",
-    name: "Dennis Kariuki, Esq.",
+    name: "Dennis Kariuki",
     role: "Associate",
     linkedin: "https://www.linkedin.com/in/dennis-kariuki-961486143/",
     email: "dkariuki516@gmail.com",
     profile:
       "Dennis Kariuki, Esq., is a highly skilled advocate with over seven years of experience in the legal services industry. He has a proven track record of success in various areas of law, including civil litigation, commercial transactions, criminal law, succession law, and conveyancing.\n\n His duties include conducting client interviews to understand their legal needs and concerns, drafting and instituting legal proceedings, and attending court sessions for a variety of matters spanning civil, criminal, and commercial law. He has also prepared various conveyances, demonstrating his comprehensive understanding of property and land laws.\n\n With hands-on experience, Kariuki is versatile and adaptable to different legal environments. His commitment to providing top-notch service to clients, coupled with his confidence in handling complex legal matters, sets him apart in the legal field. He is driven by a strong sense of values, a passion for truth, and a thirst for justice.\n\n In summary, Dennis Kariuki, Esq., is a dedicated legal professional who brings a wealth of experience, expertise, and commitment to his practice. His comprehensive understanding of various areas of law, combined with his passion for justice and truth, make him an invaluable asset to his clients and to his firm.",
     profileImg:
-      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689939/20231214171639_IMG_0006_qgx3xx.jpg",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709898242/Dennis_Pic_ckup1t.jpg",
     education: [
       {
         degree: "Bachelor of Laws. LL. B",
@@ -469,7 +469,7 @@ const practiceAreas = [
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709027875/ip-sec_btocqp.png",
     briefDescription:
       "We safeguard and maximize your intellectual property assets, from patents to trademarks. Specializing in protection and licensing, we ensure your ideas are valued and defended.",
-    par1: "We understand the complexities of creating, exploiting, and enforcing intellectual property rights in the country’s growing domestic and regional markets. We therefore work hard to protect and promote clients’ ideas, inventions, and trademarks because Intellectual property is and invaluable company asset.",
+    par1: "We understand the complexities of creating, exploiting, and enforcing intellectual property rights in the country’s growing domestic and regional markets. We therefore work hard to protect and promote clients’ ideas, inventions, and trademarks because intellectual property is an invaluable asset to companies and individuals.",
     par2: "The principal practice areas include, patents, copyright, trademark licensing, Anti-counterfeit procedures among others.",
   },
 
@@ -483,7 +483,7 @@ const practiceAreas = [
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709027869/financial-sec_v1m1i5.png",
     briefDescription:
       "Trusted advisors for distressed businesses and financial guidance. From insolvency to project finance, we specialize in navigating complex transactions and securing your financial interests.",
-    par1: "Our firm advice various stakeholders with financially distressed businesses including debtors, and issuers of both publics and private securities, creditors, equity holders and investors. Clients depend on us for advice on their day-to-day banking and financial instruments as well as for our leadership in and guidance on complex cross-boarder banking and financial transactions.",
+    par1: "Our firm advises various stakeholders with financially distressed businesses including debtors, and issuers of both publics and private securities, creditors, equity holders and investors. Clients depend on us for advice on their day-to-day banking and financial instruments as well as for our leadership in and guidance on complex cross-boarder banking and financial transactions.",
     par2: " Our main areas of practice include, Insolvency and debt restructuring, Fintech, Asset financing and Project finance.",
   },
 

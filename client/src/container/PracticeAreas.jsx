@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import { FaArrowRight } from "react-icons/fa";
 import { practiceAreas } from "../constants/data";
 import Slider from "react-slick";
@@ -74,7 +74,8 @@ const PracticeAreas = () => {
                 <img src={practice.img} alt="" />
                 <div className="card-content">
                   <h2>{practice.title}</h2>
-                  <p>{practice.briefDescription}</p>
+                  {/* <p>{practice.briefDescription}</p> */}
+
                   <a href={`practice/${practice.id}`} className="button">
                     <div className="flex flex-row justify-center items-center italic hover:underline">
                       Find out more{" "}

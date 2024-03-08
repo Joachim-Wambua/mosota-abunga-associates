@@ -66,7 +66,7 @@ const ProfileCard = ({
               {role}
             </Typography>
             {/* Render the profileLines array */}
-            {profileLines}
+            {/* {profileLines} */}
             <Button
               variant="outlined"
               size="large"

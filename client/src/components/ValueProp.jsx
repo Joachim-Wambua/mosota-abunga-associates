@@ -30,7 +30,8 @@ const ValueProp = () => {
           </p>
 
           <p className="mt-8 lg:max-w-lg">
-            Contact us today on <span className="font-bold">0725 735 499</span> to see how we can assist you
+            Contact us today on <span className="font-bold">+254721101101</span>{" "}
+            to see how we can assist you
           </p>
           <div className="mt-11 flex flex-wrap gap-4"></div>
         </div>

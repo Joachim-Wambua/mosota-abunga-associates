@@ -33,7 +33,7 @@ const AboutUs = () => {
           </div>
 
           <div className="about-text flex flex-1 flex-col ml-10 mx-12">
-            <p className="abt-txt lg:max-w-lg leading-7">
+            <p className="abt-txt lg:max-w-lg leading-7 text-justify">
               Mosota Abunga & Associates Advocates, LLP stands out as a boutique
               law firm excelling in commercial, property, and dispute resolution
               law, with expertise spanning diverse legal areas. Our team,
@@ -45,10 +45,11 @@ const AboutUs = () => {
               Kenya, entrust your legal matters to us.
             </p>
 
-            <div className="mt-8 flex items-center justify-center">
+            <div className="mt-8 flex">
               <Button
                 variant="outlined"
                 size="large"
+                className=""
                 color="maroon_primary"
                 onClick={handleAboutClick}
               >

@@ -171,7 +171,7 @@ const Navbar = () => {
             </MenuList>
           </Menu>
         </li>
-        <li className="p_opensans">
+        {/* <li className="p_opensans">
           <a className="drop-menu" onClick={handleAboutMenuOpen}>
             About <MdArrowDropDown />
           </a>
@@ -195,10 +195,19 @@ const Navbar = () => {
               </MenuItem>
             </MenuList>
           </Menu>
-        </li>
+        </li> */}
+
         <li className="p_opensans">
-          <a href="/articles">Articles</a>
+          <a href="/about">About Us</a>
         </li>
+
+        <li className="p_opensans">
+          <a href="/lawyers">Our Team</a>
+        </li>
+        {/* TODO: Articles are hidden */}
+        {/* <li className="p_opensans">
+          <a href="/articles">Articles</a>
+        </li> */}
         <li className="p_opensans">
           <a href="/contact">Contact</a>
         </li>
@@ -357,7 +366,7 @@ const Navbar = () => {
                   </MenuList>
                 </Menu>
               </li>
-              <li>
+              {/* <li>
                 <a className="drop-menu" onClick={handleAboutMenuOpen}>
                   About <MdArrowDropDown />
                 </a>
@@ -385,10 +394,21 @@ const Navbar = () => {
                     </MenuItem>
                   </MenuList>
                 </Menu>
-              </li>
+              </li> */}
+
               <li className="p_opensans">
-                <a href="/articles">Articles</a>
+                <a href="/about">About Us</a>
               </li>
+
+              <li className="p_opensans">
+                <a href="/lawyers">Our Team</a>
+              </li>
+
+              {/* TODO: Hidden Articles */}
+              {/* <li className="p_opensans">
+                <a href="/articles">Articles</a>
+              </li> */}
+
               <li className="p_opensans">
                 <a href="/contact">Contact</a>
               </li>
