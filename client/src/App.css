@@ -21,10 +21,9 @@
 }
 
 .header-style {
-  height: 60vh;
   background-size: cover;
   background-position: top;
-  background-color: #cd6370;
+  background-color: #e46e7bc4;
   background-blend-mode: multiply;
 }
 
@@ -36,7 +35,6 @@
 }
 
 .dynamic-header {
-  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -51,9 +51,9 @@ const Home = () => (
       <PracticeAreas />
       <CallToActionA />
       {/* <Services /> */}
-      <Team />
+      {/* <Team /> */}
       {/* <Articles /> */}
-      <CallToActionB />
+      {/* <CallToActionB /> */}
       <Footer />
     </div>
   </>

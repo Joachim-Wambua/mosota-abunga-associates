@@ -11,6 +11,7 @@ const About = () => {
         headerTitle="EXPERIENCE, TRUST, SOUND ADVICE"
         src="https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705666313/patrick-fore-H5Lf0nGyetk-unsplash_yminvw.jpg"
         backgroundPosition="center"
+        header_height="60vh"
       />
       <WhoWeAre />
       <ValueProp />

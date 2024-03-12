@@ -9,6 +9,7 @@ const Articles = () => {
         headerTitle="Articles"
         src="https://res.cloudinary.com/dfdn7sxwi/image/upload/v1706036176/article-3_vtiaib.png"
         backgroundPosition='top'
+        header_height="60vh"
       />
       <ArticleCard />
       <Footer />

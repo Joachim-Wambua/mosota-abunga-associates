@@ -118,7 +118,7 @@ const profiles = [
     email: "lystermoenga@gmail.com",
     linkedin: "https://www.linkedin.com/in/lyster-moenga-804452283/",
     profile_img:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1710231839/Lyster_Moenga_ycazpm.jpg",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1710238688/Lyster2_o4ddnu.jpg",
     credentials: "LLB, Dip.KSL",
     role: "Associate Advocate",
     profile:
@@ -337,7 +337,7 @@ const lawyerProfiles = [
     profile:
       "Lyster Moenga is an advocate of the High Court of Kenya. Her practice focuses mainly on Conveyancing, Criminal law, Commercial law, and Family & Succession. She is a passionate and focused lawyer who strives to exceed expectations when delivering legal services and ensure the best results for the firm.",
     profileImg:
-      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1710238688/Lyster2_o4ddnu.jpg",
     education: [
       {
         degree: "Bachelor of Laws. LL. B",

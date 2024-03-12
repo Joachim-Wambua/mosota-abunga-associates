@@ -8,8 +8,9 @@ const Lawyers = () => {
     <>
       <DynamicHeader
         headerTitle="Our Lawyers"
-        src="https://res.cloudinary.com/dfdn7sxwi/image/upload/v1706117437/closeup-gavel-judgement-concept_2_hcuagb.jpg"
-        backgroundPosition="center"
+        src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1710238692/MAA_afisws.jpg"
+        backgroundPosition="top"
+        header_height="100vh"
       />
       {profiles.map((profile) => (
         <LawyerCard

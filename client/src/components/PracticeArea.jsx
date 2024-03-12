@@ -28,6 +28,7 @@ const PracticeArea = () => {
         headerTitle={practiceArea.title}
         src={practiceArea.banner}
         backgroundPosition="center"
+        header_height="60vh"
       />
       <div className="bg-gray-100 px-10">
         <div className="container mx-auto py-8">

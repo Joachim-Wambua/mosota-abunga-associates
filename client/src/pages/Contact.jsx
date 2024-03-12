@@ -9,7 +9,8 @@ const Contact = () => {
       <DynamicHeader
         headerTitle="Contact Us"
         src="https://res.cloudinary.com/dfdn7sxwi/image/upload/v1706038450/still-life-with-scales-justice_2_ffcyob.jpg"
-        backgroundPosition='center'
+        backgroundPosition="center"
+        header_height="60vh"
       />
       <ContactForm />
       <MapEmbed />
