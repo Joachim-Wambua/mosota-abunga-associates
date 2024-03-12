@@ -1,6 +1,5 @@
-import { Typography, Button, IconButton } from "@mui/material";
-import { FaLinkedinIn } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { MdOutlineMailOutline } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
 const ProfileCard = ({
@@ -9,9 +8,7 @@ const ProfileCard = ({
   email,
   linkedin,
   profile_img,
-  credentials,
   role,
-  profile,
 }) => {
   const navigate = useNavigate();
 
@@ -21,84 +18,43 @@ const ProfileCard = ({
     navigate(`/lawyers/${id}`);
   };
 
-  // Open LinkedIn Profiles
-  const handleLinkedInClick = (linkedInUrl) => {
-    window.open(linkedInUrl, "_blank");
-  };
-
-  // Send Email to Lawyers
-  const handleEmailClick = (lawyerEmail) => {
-    window.location.href = `mailto:${lawyerEmail}`;
-  };
-
-  // Split the profile text using \n and create an array of JSX elements
-  const profileLines = profile.split("\n").map((line, index) => (
-    <Typography
-      key={index}
-      className="text-justify"
-      variant="subtitle1"
-      style={{ marginBottom: "0.75rem" }}
-    >
-      {line}
-    </Typography>
-  ));
-
   return (
     <>
-      <div className="profile-wrapper">
-        <div className="img-area">
-          <div className="img-box">
-            <img src={profile_img} alt={name} />
-          </div>
-        </div>
-        <div className="profile-content">
-          <div className="profile-title mt-2">
-            <Typography
-              variant="h3"
-              style={{ marginBottom: "0.75rem", fontSize: "2.4rem" }}
-            >
-              {name}
-            </Typography>
-            <Typography variant="subtitle2" style={{ marginBottom: "0.75rem" }}>
-              {credentials}
-            </Typography>
-            <Typography variant="subtitle1" style={{ marginBottom: "0.75rem" }}>
-              {role}
-            </Typography>
-            {/* Render the profileLines array */}
-            {/* {profileLines} */}
-            <Button
-              variant="outlined"
-              size="large"
-              color="maroon_primary"
-              style={{ marginBottom: "1rem" }}
-              onClick={handleClick}
-            >
-              <Typography
-                variant="body2"
-                style={{ fontWeight: 600, padding: 3 }}
-              >
-                Full Profile
-              </Typography>
-            </Button>
+      <div>
+        <a onClick={handleClick} className="hover:cursor-pointer">
+          <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+            <img
+              className="object-cover object-top w-full h-56 md:h-64 xl:h-80 hover:scale-110  transition-transform"
+              src={`${profile_img}`}
+              alt={`${id}`}
+            />
+            <div className="absolute inset-0 flex flex-col justify-end px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-90">
+              <p className="mb-1 text-lg font-bold text-gray-100">{name}</p>
+              <p className="mb-4 text-xs text-gray-100">{role}</p>
 
-            <div className="flex pb-10">
-              <IconButton
-                color="maroon_primary"
-                onClick={() => handleLinkedInClick(linkedin)}
-              >
-                <FaLinkedinIn />
-              </IconButton>
-
-              <IconButton
-                color="maroon_primary"
-                onClick={() => handleEmailClick(email)}
-              >
-                <MdEmail color="maroon_primary" />
-              </IconButton>
+              <div className="flex items-center justify-center space-x-3">
+                <a
+                  href={`mailto:${email}`}
+                  className="text-white transition-colors duration-300"
+                >
+                  <MdOutlineMailOutline
+                    className="hover:text-[#AC2333]"
+                    fontSize={24}
+                  />
+                </a>
+                <a
+                  href={`${linkedin}`}
+                  className="text-white transition-colors duration-300"
+                >
+                  <FaLinkedinIn
+                    className="hover:text-[#AC2333]"
+                    fontSize={24}
+                  />
+                </a>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </>
   );

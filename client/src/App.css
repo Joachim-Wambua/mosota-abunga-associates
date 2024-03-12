@@ -286,6 +286,11 @@
   color: #ac2333; /* Change text color on hover */
 }
 
+/* Team Section */
+.profile-img:hover{
+  scale: 105%;
+}
+
 /* Articles Section */
 .container {
   display: flex;

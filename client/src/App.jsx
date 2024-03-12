@@ -47,11 +47,11 @@ const Home = () => (
   <>
     <div>
       <Header />
+      <AboutUs />
       <PracticeAreas />
       <CallToActionA />
-      <AboutUs />
       {/* <Services /> */}
-      {/* <Team /> */}
+      <Team />
       {/* <Articles /> */}
       <CallToActionB />
       <Footer />

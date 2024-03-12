@@ -44,22 +44,21 @@ const Team = () => {
     <>
       <section id="lawyers" className="pt-10 profile-section">
         <div className="text-center">
-          <Typography
-            variant="h3"
-            style={{ marginBottom: "0.75rem", color: "#AC2333" }}
-          >
-            Our Lawyers
+          <Typography variant="h3" style={{ color: "#AC2333" }}>
+            Meet Our Lawyers
           </Typography>
         </div>
 
-        <div className="w-3/4 m-auto pb-10">
-          <div className="mt-10">
-            <Slider {...settings}>
-              {profiles.map((profile) => (
-                <ProfileCard key={profile.name} {...profile} />
-              ))}
-            </Slider>
+        {/* <div className="w-3/4 mx-auto pb-10"> */}
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+            {/* <Slider {...settings}> */}
+            {profiles.map((profile) => (
+              <ProfileCard key={profile.name} {...profile} />
+            ))}
+            {/* </Slider> */}
           </div>
+          {/* </div> */}
         </div>
       </section>
     </>

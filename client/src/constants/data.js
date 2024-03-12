@@ -118,7 +118,7 @@ const profiles = [
     email: "lystermoenga@gmail.com",
     linkedin: "https://www.linkedin.com/in/lyster-moenga-804452283/",
     profile_img:
-      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1710231839/Lyster_Moenga_ycazpm.jpg",
     credentials: "LLB, Dip.KSL",
     role: "Associate Advocate",
     profile:

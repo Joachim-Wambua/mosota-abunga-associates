@@ -49,7 +49,7 @@ const AboutUs = () => {
               <Button
                 variant="outlined"
                 size="large"
-                className=""
+                className="sm:justify-center"
                 color="maroon_primary"
                 onClick={handleAboutClick}
               >
