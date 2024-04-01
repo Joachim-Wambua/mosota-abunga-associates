@@ -107,7 +107,7 @@ const profiles = [
     linkedin: "https://www.linkedin.com/in/terry-agatha-42a132a6/",
     email: "terry@maaassociates.co.ke",
     profile_img:
-      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711982940/Terry2_1_jadvft.jpg",
     credentials: "LLB, Dip.KSL",
     role: "Associate Advocate",
     profile:
@@ -139,6 +139,14 @@ const profiles = [
   //   profile:
   //     " Divina Moses, our Associate specializing in Commercial Law, Litigation, Dispute Resolution, and Family Law. As an advocate of the High Court of Kenya, her expertise spans Employment, Commercial, Family & Succession Law, and Alternative Dispute Resolution.",
   // },
+
+  {
+    id: "tracy-adenya",
+    name: "Tracy Adenya",
+    role: "Legal Admin Assistant",
+    profile_img:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711982476/tracy_1_lezmyx.jpg",
+  },
 ];
 
 const lawyerProfiles = [
@@ -284,7 +292,7 @@ const lawyerProfiles = [
     profile:
       "Terry is an Advocate of the High Court of Kenya. She has a proficiency and keen interest in various areas of legal practice and advisory, including complex commercial and civil litigation, employment law, conveyancing, banking, and securities perfection among others. \n\nHer interest in family law has seen her actively engage in research, trainings and legal matters surrounding Rights of the Child and Children in Conflict with the Law both in Kenya and Internationally. Her experience coupled with situation analysis and management is a great addition to the team, aiding in and ensuring delivery of efficient and effective services to the Firm’s Clients.",
     profileImg:
-      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711982940/Terry2_1_jadvft.jpg",
     education: [
       {
         degree: "Bachelor of Laws. LL. B",

@@ -41,6 +41,8 @@ const LawyerCard = ({ id, name, profile_img, credentials, role, profile }) => {
             </p>
             <p className="pt-8 text-sm">{profile}</p>
 
+
+            
             <div className="pt-12 pb-8">
               <button
                 className="bg-[#AC2333] hover:bg-[#990012] text-white font-bold py-2 px-4 rounded-full"
