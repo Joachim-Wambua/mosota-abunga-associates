@@ -146,7 +146,7 @@ const ContactForm = () => {
                 >
                   {" "}
                   <MdEmail fontSize={18} className="mr-3" />{" "}
-                  info@mosotaabungaassociates.co.ke{" "}
+                  info@maaassociates.co.ke{" "}
                 </a>
 
                 <address className="flex flex-row items-center font-normal text-[#454545] mt-4 my-3 not-italic">
