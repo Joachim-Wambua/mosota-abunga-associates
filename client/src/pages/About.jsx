@@ -9,7 +9,7 @@ const About = () => {
     <>
       <DynamicHeader
         headerTitle="EXPERIENCE, TRUST, SOUND ADVICE"
-        src="https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705666313/patrick-fore-H5Lf0nGyetk-unsplash_yminvw.jpg"
+        src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1712006474/about-header_lqaxmz.png"
         backgroundPosition="center"
         header_height="60vh"
       />

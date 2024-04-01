@@ -23,8 +23,10 @@
 .header-style {
   background-size: cover;
   background-position: top;
-  background-color: #e46e7bc4;
-  background-blend-mode: multiply;
+  
+  /* background-color: #0a0a0a; */
+  /* filter: grayscale(100%); */
+  background-blend-mode: normal;
 }
 
 .main-header {
@@ -285,7 +287,7 @@
 }
 
 /* Team Section */
-.profile-img:hover{
+.profile-img:hover {
   scale: 105%;
 }
 

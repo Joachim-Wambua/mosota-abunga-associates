@@ -8,7 +8,7 @@ const Contact = () => {
     <>
       <DynamicHeader
         headerTitle="Contact Us"
-        src="https://res.cloudinary.com/dfdn7sxwi/image/upload/v1706038450/still-life-with-scales-justice_2_ffcyob.jpg"
+        src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1712006472/contact-header_rcbbfc.png"
         backgroundPosition="center"
         header_height="60vh"
       />

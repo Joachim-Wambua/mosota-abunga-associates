@@ -37,6 +37,7 @@ const Navbar = () => {
   const handleMenuClose = () => {
     setAboutAnchorEl(null);
     setPracticeAnchorEl(null);
+    setToggleMenu(false);
   };
 
   const navigate = useNavigate();
@@ -71,6 +72,26 @@ const Navbar = () => {
         break;
       case "data-protection-and-security":
         navigate(`/practice/data-protection-and-security`);
+        handleMenuClose();
+        break;
+      case "standard-operating-procedure-for-gold-purchase":
+        navigate(`/practice/standard-operating-procedure-for-gold-purchase`);
+        handleMenuClose();
+        break;
+      case "constitutional-and-administrative-law":
+        navigate(`/practice/constitutional-and-administrative-law`);
+        handleMenuClose();
+        break;
+      case "financial-and-commercial-transactions":
+        navigate(`/practice/financial-and-commercial-transactions`);
+        handleMenuClose();
+        break;
+      case "trust-and-trust-administration":
+        navigate(`/practice/trust-and-trust-administration`);
+        handleMenuClose();
+        break;
+      case "immigration-and-labour-law":
+        navigate(`/practice/immigration-and-labour-law`);
         handleMenuClose();
         break;
     }
@@ -167,6 +188,48 @@ const Navbar = () => {
                 onClick={() => handleClick("data-protection-and-security")}
               >
                 <a className="menu-link">Data Protection & Security</a>
+              </MenuItem>
+              <MenuItem
+                className="menu-item"
+                onClick={() =>
+                  handleClick("standard-operating-procedure-for-gold-purchase")
+                }
+              >
+                <a className="menu-link">
+                  Standard Operating Procedures for Gold Purchase
+                </a>
+              </MenuItem>
+
+              <MenuItem
+                className="menu-item"
+                onClick={() =>
+                  handleClick("constitutional-and-administrative-law")
+                }
+              >
+                <a className="menu-link">Constitutional & Administrative Law</a>
+              </MenuItem>
+
+              <MenuItem
+                className="menu-item"
+                onClick={() =>
+                  handleClick("financial-and-commercial-transactions")
+                }
+              >
+                <a className="menu-link">Financial & Commercial Transactions</a>
+              </MenuItem>
+
+              <MenuItem
+                className="menu-item"
+                onClick={() => handleClick("trust-and-trust-administration")}
+              >
+                <a className="menu-link">Trust & Trust Administration</a>
+              </MenuItem>
+
+              <MenuItem
+                className="menu-item"
+                onClick={() => handleClick("immigration-and-labour-law")}
+              >
+                <a className="menu-link">Immigration & Labour Law</a>
               </MenuItem>
             </MenuList>
           </Menu>
@@ -362,6 +425,57 @@ const Navbar = () => {
                       >
                         Data Protection & Security
                       </a>
+                    </MenuItem>
+
+                    <MenuItem
+                      className="menu-item"
+                      onClick={() =>
+                        handleClick(
+                          "standard-operating-procedure-for-gold-purchase"
+                        )
+                      }
+                    >
+                      <a className="menu-link">
+                        Standard Operating Procedures for Gold Purchase
+                      </a>
+                    </MenuItem>
+
+                    <MenuItem
+                      className="menu-item"
+                      onClick={() =>
+                        handleClick("constitutional-and-administrative-law")
+                      }
+                    >
+                      <a className="menu-link">
+                        Constitutional & Administrative Law
+                      </a>
+                    </MenuItem>
+
+                    <MenuItem
+                      className="menu-item"
+                      onClick={() =>
+                        handleClick("financial-and-commercial-transactions")
+                      }
+                    >
+                      <a className="menu-link">
+                        Financial & Commercial Transactions
+                      </a>
+                    </MenuItem>
+
+                    <MenuItem
+                      className="menu-item"
+                      onClick={() =>
+                        handleClick("trust-and-trust-administration")
+                      }
+                    >
+                      <a className="menu-link">Trust & Trust Administration</a>
+                    </MenuItem>
+
+                    <MenuItem
+                      className="menu-item"
+                      onClick={() => handleClick("immigration-and-labour-law")}
+                    >
+                      <a className="menu-link">Immigration & Labour Law</a>
                     </MenuItem>
                   </MenuList>
                 </Menu>

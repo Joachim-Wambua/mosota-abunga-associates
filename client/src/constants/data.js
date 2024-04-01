@@ -432,7 +432,7 @@ const practiceAreas = [
     title: "Litigation & Dispute Resolution",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708960047/litigation_gxztas.png",
     banner:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979989/litigation-banner_dcoz8f.png",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712006469/litigation-header_p6p1y7.png",
     secondaryImg:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709027860/litigation_kw1hwe.png",
     briefDescription:
@@ -446,7 +446,7 @@ const practiceAreas = [
     title: "Real Estate & Conveyancing",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708961090/real-estate_elwe6r.png",
     banner:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979992/real-estate-banner_tpv15v.png",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712006471/real-estate-header_cggkng.png",
     secondaryImg:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709027876/property-sec_vlqdxw.png",
     briefDescription:
@@ -460,7 +460,7 @@ const practiceAreas = [
     title: "Family Law & Succession",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708960048/family-and-succession_xx1iqj.png",
     banner:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979988/family-banner_usb2hs.png",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712006475/family-header_uwdv73.png",
     secondaryImg:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709027871/family-sec_pn7ksr.png",
     briefDescription:
@@ -474,7 +474,7 @@ const practiceAreas = [
     title: "Intellectual Property",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708960044/intellectual-property_lzxwgj.png",
     banner:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979994/ip-banner_vpnq4k.png",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712007523/ip-header_lvmpfm.png",
     secondaryImg:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709027875/ip-sec_btocqp.png",
     briefDescription:
@@ -488,7 +488,7 @@ const practiceAreas = [
     title: "Banking, Corporate & Financial Services",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708960048/financial-services_ypegpc.png",
     banner:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979985/financial-services-banner_bnk1jb.png",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712006479/financial-header_qxllby.png",
     secondaryImg:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709027869/financial-sec_v1m1i5.png",
     briefDescription:
@@ -502,7 +502,7 @@ const practiceAreas = [
     title: "Local & International Trade Law",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708960044/international-trade_o3fity.png",
     banner:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979981/intl-trade-banner_llwm8p.png",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712006479/intl-trade-header_bpvap6.png",
     secondaryImg:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709027877/trade-sec_ggxvve.png",
     briefDescription:
@@ -516,7 +516,7 @@ const practiceAreas = [
     title: "Data Protection and Security",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708960044/data-protectionpracticeArea_r93zbc.png",
     banner:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1708979996/data-protection-banner_mh03ud.png",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712006476/data-protection-header_xqfmmf.png",
     secondaryImg:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709027872/data-sec_ob5cjl.png",
     briefDescription:
@@ -530,7 +530,7 @@ const practiceAreas = [
     title: "Standard Operating Procedures for Gold Purchase",
     img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705860450/scottsdale-mint-2jjc94apOCY-unsplash_vyz31q.jpg",
     banner:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711972921/rc-xyz-nft-gallery-EKPiXskP1yg-unsplash_1_bxrtpu.jpg",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712007339/gold-header_hzkojq.png",
     secondaryImg:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711973135/scottsdale-mint-XHikIfxVZdY-unsplash_1_qzxtox.jpg",
     par1: "Unlock gold acquisition excellence with our expert-guided Standard Operating Procedures (SOPs). From transparent processes to seamless administration, trust us for top-tier guidance in gold purchase.",
@@ -541,7 +541,7 @@ const practiceAreas = [
     title: "Constitutional & Administrative Law",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711974299/886_1_vb3m3z.jpg",
     banner:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711974299/886_1_vb3m3z.jpg",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712007424/admin-header_sbou56.png",
     secondaryImg:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711974617/still-life-with-scales-justice_6_1_t5ipd6.jpg",
     briefDescription:
@@ -557,7 +557,7 @@ const practiceAreas = [
     title: "Financial & Commercial Transactions",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711975908/tranaction-3_bpoukf.jpg",
     banner:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711975912/transaction-banner_1_ankudp.jpg",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712007340/transactions-header_ueyojs.png",
     secondaryImg:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711975909/tranaction-2_1_skuakc.jpg",
     briefDescription:
@@ -571,7 +571,7 @@ const practiceAreas = [
     title: "Trust & Trust Administration",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711977794/trustt1_1_rushmh.jpg",
     banner:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711977798/trust-law_rmmq3j.jpg",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712007342/trust-header_s6tydt.png",
     secondaryImg:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711977794/trustt1_1_rushmh.jpg",
     briefDescription:
@@ -585,7 +585,7 @@ const practiceAreas = [
     title: "Immigration & Labour Law",
     img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711977993/immigration_1_wdf0ss.jpg",
     banner:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711977993/immigration_1_wdf0ss.jpg",
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712007342/immigration-header_jqbxno.png",
     secondaryImg:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711977971/5bd86207a310eff3690371b0_1_tlfe8w.jpg",
     briefDescription:
