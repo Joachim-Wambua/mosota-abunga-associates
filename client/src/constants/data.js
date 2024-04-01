@@ -485,7 +485,7 @@ const practiceAreas = [
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709027869/financial-sec_v1m1i5.png",
     briefDescription:
       "Trusted advisors for distressed businesses and financial guidance. From insolvency to project finance, we specialize in navigating complex transactions and securing your financial interests.",
-    par1: "Our firm advises various stakeholders with financially distressed businesses including debtors, and issuers of both publics and private securities, creditors, equity holders and investors. Clients depend on us for advice on their day-to-day banking and financial instruments as well as for our leadership in and guidance on complex cross-boarder banking and financial transactions.",
+    par1: "Our firm advises various stakeholders with financially distressed businesses including debtors, and issuers of both public and private securities, creditors, equity holders and investors. Clients depend on us for advice on their day-to-day banking and financial instruments as well as for our leadership in and guidance on complex cross-boarder banking and financial transactions.",
     par2: " Our main areas of practice include, Insolvency and debt restructuring, Fintech, Asset financing and Project finance.",
   },
 
@@ -515,6 +515,75 @@ const practiceAreas = [
       "We specialize in data security and privacy, providing litigation support and expert advice to enhance business practices and compliance.",
     par1: "As technology continuously evolves numerous concerns emerge regarding how data is collected, stored, used & disseminated and this has led to the need for transparency and formulation of privacy laws. Our team helps clients cope with data security and privacy issues and issue advice on how to improve their business procedures.",
     par2: "This involves, litigating in data security related issues, Reviewing, negotiating & drafting contracts and service level agreements in areas impacting privacy and data security.",
+  },
+
+  {
+    id: "standard-operating-procedure-for-gold-purchase",
+    title: "Standard Operating Procedures for Gold Purchase",
+    img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705860450/scottsdale-mint-2jjc94apOCY-unsplash_vyz31q.jpg",
+    banner:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711972921/rc-xyz-nft-gallery-EKPiXskP1yg-unsplash_1_bxrtpu.jpg",
+    secondaryImg:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711973135/scottsdale-mint-XHikIfxVZdY-unsplash_1_qzxtox.jpg",
+    par1: "Unlock gold acquisition excellence with our expert-guided Standard Operating Procedures (SOPs). From transparent processes to seamless administration, trust us for top-tier guidance in gold purchase.",
+  },
+
+  {
+    id: "constitutional-and-administrative-law",
+    title: "Constitutional & Administrative Law",
+    img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711974299/886_1_vb3m3z.jpg",
+    banner:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711974299/886_1_vb3m3z.jpg",
+    secondaryImg:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711974617/still-life-with-scales-justice_6_1_t5ipd6.jpg",
+    briefDescription:
+      "We specialize in data security and privacy, providing litigation support and expert advice to enhance business practices and compliance.",
+    par1: "Our expertise in this area include providing advice in interpretation of constitutional provisions, relevant legislation intended to implement speci c aspects of the constitution, constitutional litigation, judicial review and human rights litigation. ",
+    // par2: "This involves, litigating in data security related issues, Reviewing, negotiating & drafting contracts and service level agreements in areas impacting privacy and data security.",
+  },
+
+  // New TODO: Update accordingly
+
+  {
+    id: "financial-and-commercial-transactions",
+    title: "Financial & Commercial Transactions",
+    img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711975908/tranaction-3_bpoukf.jpg",
+    banner:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711975912/transaction-banner_1_ankudp.jpg",
+    secondaryImg:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711975909/tranaction-2_1_skuakc.jpg",
+    briefDescription:
+      "We specialize in data security and privacy, providing litigation support and expert advice to enhance business practices and compliance.",
+    par1: "We take great interest in understanding our clients’ interests and business objectives and o er a collaborative approach in closing complex transactions. We deal with transactional and regulatory issues with rigour and drive of a very knowledgable team of lawyers in the eld. We understand cross border nature of most transactions.",
+    par2: "Our expertise in this area includes acquisitions nancings, takeover defenses, hostile transactions, cross border transactions, going private transactions, management  buy outs.",
+  },
+
+  {
+    id: "trust-and-trust-administration",
+    title: "Trust & Trust Administration",
+    img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711977794/trustt1_1_rushmh.jpg",
+    banner:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711977798/trust-law_rmmq3j.jpg",
+    secondaryImg:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711977794/trustt1_1_rushmh.jpg",
+    briefDescription:
+      "We specialize in data security and privacy, providing litigation support and expert advice to enhance business practices and compliance.",
+    par1: "We help our private and corporate clients establish and manage trusts. We assist with constitution of trusts; facilitate compliance with regulatory aspects; transfer of property to trusts; advice on investments; liability of trustees and management; tax aspects; investments and dispositions of trust property.",
+    par2: " We keep up to date with the current changes in the legal regulatory framework in order to help our clients arrange their a airs in a manner that makes the most economic sense.",
+  },
+
+  {
+    id: "immigration-and-labour-law",
+    title: "Immigration & Labour Law",
+    img: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711977993/immigration_1_wdf0ss.jpg",
+    banner:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711977993/immigration_1_wdf0ss.jpg",
+    secondaryImg:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711977971/5bd86207a310eff3690371b0_1_tlfe8w.jpg",
+    briefDescription:
+      "We specialize in data security and privacy, providing litigation support and expert advice to enhance business practices and compliance.",
+    par1: "Our immigration team supports businesses seeking to recruit or retain international talent by helping to ensure compliance with Kenya and regional immigration laws. whether you are applying  for your rst work permit, developing an immigration policy or planning a work force strategy for your entire organization or for a major project, we provide strategic and practical solutions to meet your immigration needs.",
+    par2: "With the connections we have with rms in all major capitals in the region, we are able to deliver locally while leveraging our resources across the economic block to help ensure high-quality, client focused service.",
   },
 ];
 

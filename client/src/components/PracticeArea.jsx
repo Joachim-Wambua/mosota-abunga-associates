@@ -38,7 +38,7 @@ const PracticeArea = () => {
         headerTitle={practiceArea.title}
         src={practiceArea.banner}
         backgroundPosition="center"
-        header_height="60vh"
+        header_height="80vh"
       />
       <div className="bg-gray-100 px-10">
         <div className="container mx-auto py-8">
@@ -76,7 +76,7 @@ const PracticeArea = () => {
                       >
                         {area.title}
                       </button>
-                      x
+
                     </li>
                   ))}
                 </ul>
