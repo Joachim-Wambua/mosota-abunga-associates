@@ -23,7 +23,6 @@ const Lawyers = () => {
           key={profile.name}
         />
       ))}
-      ;
       <Footer />
     </>
   );
