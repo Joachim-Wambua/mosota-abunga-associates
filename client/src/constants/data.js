@@ -538,7 +538,7 @@ const practiceAreas = [
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711974617/still-life-with-scales-justice_6_1_t5ipd6.jpg",
     briefDescription:
       "We specialize in data security and privacy, providing litigation support and expert advice to enhance business practices and compliance.",
-    par1: "Our expertise in this area include providing advice in interpretation of constitutional provisions, relevant legislation intended to implement speci c aspects of the constitution, constitutional litigation, judicial review and human rights litigation. ",
+    par1: "Our expertise in this area include providing advice in interpretation of constitutional provisions, relevant legislation intended to implement specific aspects of the constitution, constitutional litigation, judicial review and human rights litigation. ",
     // par2: "This involves, litigating in data security related issues, Reviewing, negotiating & drafting contracts and service level agreements in areas impacting privacy and data security.",
   },
 
@@ -554,8 +554,8 @@ const practiceAreas = [
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711975909/tranaction-2_1_skuakc.jpg",
     briefDescription:
       "We specialize in data security and privacy, providing litigation support and expert advice to enhance business practices and compliance.",
-    par1: "We take great interest in understanding our clients’ interests and business objectives and o er a collaborative approach in closing complex transactions. We deal with transactional and regulatory issues with rigour and drive of a very knowledgable team of lawyers in the eld. We understand cross border nature of most transactions.",
-    par2: "Our expertise in this area includes acquisitions nancings, takeover defenses, hostile transactions, cross border transactions, going private transactions, management  buy outs.",
+    par1: "We take great interest in understanding our clients’ interests and business objectives and offer a collaborative approach in closing complex transactions. We deal with transactional and regulatory issues with rigour and drive of a very knowledgable team of lawyers in the field. We understand cross border nature of most transactions.",
+    par2: "Our expertise in this area includes acquisitions financings, takeover defenses, hostile transactions, cross border transactions, going private transactions, management  buy outs.",
   },
 
   {
@@ -569,7 +569,7 @@ const practiceAreas = [
     briefDescription:
       "We specialize in data security and privacy, providing litigation support and expert advice to enhance business practices and compliance.",
     par1: "We help our private and corporate clients establish and manage trusts. We assist with constitution of trusts; facilitate compliance with regulatory aspects; transfer of property to trusts; advice on investments; liability of trustees and management; tax aspects; investments and dispositions of trust property.",
-    par2: " We keep up to date with the current changes in the legal regulatory framework in order to help our clients arrange their a airs in a manner that makes the most economic sense.",
+    par2: " We keep up to date with the current changes in the legal regulatory framework in order to help our clients arrange their affairs in a manner that makes the most economic sense.",
   },
 
   {
@@ -582,8 +582,8 @@ const practiceAreas = [
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711977971/5bd86207a310eff3690371b0_1_tlfe8w.jpg",
     briefDescription:
       "We specialize in data security and privacy, providing litigation support and expert advice to enhance business practices and compliance.",
-    par1: "Our immigration team supports businesses seeking to recruit or retain international talent by helping to ensure compliance with Kenya and regional immigration laws. whether you are applying  for your rst work permit, developing an immigration policy or planning a work force strategy for your entire organization or for a major project, we provide strategic and practical solutions to meet your immigration needs.",
-    par2: "With the connections we have with rms in all major capitals in the region, we are able to deliver locally while leveraging our resources across the economic block to help ensure high-quality, client focused service.",
+    par1: "Our immigration team supports businesses seeking to recruit or retain international talent by helping to ensure compliance with Kenya and regional immigration laws. Whether you are applying for your first work permit, developing an immigration policy or planning a work force strategy for your entire organization or for a major project, we provide strategic and practical solutions to meet your immigration needs.",
+    par2: "With the connections we have with firms in all major capitals in the region, we are able to deliver locally while leveraging our resources across the economic block to help ensure high-quality, client focused service.",
   },
 ];
 
