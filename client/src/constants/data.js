@@ -555,7 +555,7 @@ const practiceAreas = [
     briefDescription:
       "We specialize in data security and privacy, providing litigation support and expert advice to enhance business practices and compliance.",
     par1: "We take great interest in understanding our clients’ interests and business objectives and offer a collaborative approach in closing complex transactions. We deal with transactional and regulatory issues with rigour and drive of a very knowledgable team of lawyers in the field. We understand cross border nature of most transactions.",
-    par2: "Our expertise in this area includes acquisitions financings, takeover defenses, hostile transactions, cross border transactions, going private transactions, management  buy outs.",
+    par2: "Our expertise in this area includes acquisitions financings, takeover defenses, hostile transactions, cross border transactions, going private transactions and management buy outs.",
   },
 
   {
