@@ -8,6 +8,8 @@ const AboutUs = () => {
   const handleAboutClick = () => {
     // Navigate to the desired endpoint
     navigate("/about");
+    // Scroll to the top of the page
+    window.scrollTo(0, 0);
   };
 
   return (

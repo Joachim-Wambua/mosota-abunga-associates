@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { lawyerProfiles } from "../constants/data";
 import { useParams } from "react-router-dom";
 import { Button, Typography } from "@mui/material";
@@ -7,6 +8,11 @@ import DynamicHeader from "./DynamicHeader";
 const Resume = () => {
   // Extracting the lawyer's name from the URL parameter
   const { id } = useParams();
+
+  // Scroll to the top of the page when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]); // Trigger scroll effect whenever `id` changes
 
   // Open LinkedIn Profiles
   const handleLinkedInClick = (linkedInUrl) => {
@@ -41,6 +47,7 @@ const Resume = () => {
     <>
       <DynamicHeader
         headerTitle={`Our Lawyers | ${lawyer.name}`}
+        header_height="70vh"
         src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1708713677/still-life-with-scales-justice_5_1_1_xjtkba.jpg"
         backgroundPosition="center"
       />

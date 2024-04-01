@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const LawyerCard = ({ id, name, profile_img, credentials, role, profile }) => {
@@ -8,6 +9,11 @@ const LawyerCard = ({ id, name, profile_img, credentials, role, profile }) => {
     // Navigate to the desired endpoint
     navigate(`/lawyers/${id}`);
   };
+
+  // Scroll to the top of the page when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]); // Trigger scroll effect whenever `id` changes
 
   return (
     <>

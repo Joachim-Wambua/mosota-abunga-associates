@@ -1,22 +1,22 @@
+import { useEffect } from "react";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
-const ProfileCard = ({
-  id,
-  name,
-  email,
-  linkedin,
-  profile_img,
-  role,
-}) => {
+const ProfileCard = ({ id, name, email, linkedin, profile_img, role }) => {
   const navigate = useNavigate();
 
   // Navigate to Lawyer Pages
   const handleClick = () => {
     // Navigate to the desired endpoint
     navigate(`/lawyers/${id}`);
+    
   };
+
+  // Scroll to the top of the page when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]); // Trigger scroll effect whenever `id` changes
 
   return (
     <>

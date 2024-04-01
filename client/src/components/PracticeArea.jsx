@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { practiceAreas } from "../constants/data";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
@@ -5,11 +6,7 @@ import DynamicHeader from "./DynamicHeader";
 
 const PracticeArea = () => {
   const navigate = useNavigate();
-
-    // const handleClick = () => {
-    //   // Navigate to the desired endpoint
-    //   navigate(`/practice/${id}`);
-    // };
+  const [key, setKey] = useState(0); // State to change the key prop
 
   // Extracting the practice Area's name from the URL parameter
   const { id } = useParams();
@@ -22,8 +19,21 @@ const PracticeArea = () => {
     // Redirect to a not found page
     return <div>Practice Area Not Found!</div>; // Render nothing
   }
+
+  // Scroll to the top of the page when id changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
+
+  // Function to reload the component with a new key
+  const reloadComponent = () => {
+    setKey((prevKey) => prevKey + 1);
+  };
+
   return (
-    <>
+    <div key={key}>
+      {" "}
+      {/* Use key prop here */}
       <DynamicHeader
         headerTitle={practiceArea.title}
         src={practiceArea.banner}
@@ -59,10 +69,14 @@ const PracticeArea = () => {
                         className={`hover:text-[#AC2333] text-start focus:outline-none ${
                           area.id === id ? "font-bold text-[#AC2333]" : ""
                         }`}
-                        onClick={() => navigate(`/practice/${area.id}`)}
+                        onClick={() => {
+                          navigate(`/practice/${area.id}`);
+                          reloadComponent(); // Reload the component when a new area is clicked
+                        }}
                       >
                         {area.title}
                       </button>
+                      x
                     </li>
                   ))}
                 </ul>
@@ -71,7 +85,7 @@ const PracticeArea = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

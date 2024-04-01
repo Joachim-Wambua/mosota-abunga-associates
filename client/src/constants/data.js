@@ -83,6 +83,8 @@ const profiles = [
     profile_img:
       "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689915/Wakili_iuvm0z.jpg",
     credentials: "LLB, LLM, Dip.KSL",
+    email: "victor@maaassociates.co.ke",
+    linkedin: "https://www.linkedin.com/in/victor-mosota-81516b182/",
     role: "Managing Partner",
     profile:
       "Victor is a highly experienced and practical commercial and property lawyer (with almost a decade of legal experience).\n\nPrior to establishing Mosota Abunga & Associates Advocates, LLP , Victor was a commercial and property lawyer at one of Africa's leading top-tier law firms.",
@@ -91,7 +93,7 @@ const profiles = [
     id: "dennis-kariuki",
     name: "Dennis Kariuki",
     linkedin: "https://www.linkedin.com/in/dennis-kariuki-961486143/",
-    email: "dkariuki516@gmail.com",
+    email: "dennis@maaassociates.co.ke",
     profile_img:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709898242/Dennis_Pic_ckup1t.jpg",
     credentials: "LLB, Dip.KSL",
@@ -103,7 +105,7 @@ const profiles = [
     id: "terry-misiko",
     name: "Terry Misiko",
     linkedin: "https://www.linkedin.com/in/terry-agatha-42a132a6/",
-    email: "misikolaw@gmail.com",
+    email: "terry@maaassociates.co.ke",
     profile_img:
       "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
     credentials: "LLB, Dip.KSL",
@@ -115,7 +117,7 @@ const profiles = [
   {
     id: "lyster-moenga",
     name: "Lyster Moenga",
-    email: "lystermoenga@gmail.com",
+    email: "lyster@maaassociates.co.ke",
     linkedin: "https://www.linkedin.com/in/lyster-moenga-804452283/",
     profile_img:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1710238688/Lyster2_o4ddnu.jpg",
@@ -125,18 +127,18 @@ const profiles = [
       "Lyster Moenga is an advocate of the High Court of Kenya. Her practice focuses mainly on Conveyancing, Criminal law, Commercial law, and Family & Succession. She is a passionate and focused lawyer who strives to exceed expectations when delivering legal services and ensure the best results for the firm.",
   },
 
-  {
-    id: "divina-moses",
-    name: "Divina Moses",
-    linkedin: "https://www.linkedin.com/in/divina-moses-308b66189/",
-    email: "divinamoses@gmail.com",
-    profile_img:
-      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
-    credentials: "LLB, Dip, KSL",
-    role: "Associate Advocate",
-    profile:
-      " Divina Moses, our Associate specializing in Commercial Law, Litigation, Dispute Resolution, and Family Law. As an advocate of the High Court of Kenya, her expertise spans Employment, Commercial, Family & Succession Law, and Alternative Dispute Resolution.",
-  },
+  // {
+  //   id: "divina-moses",
+  //   name: "Divina Moses",
+  //   linkedin: "https://www.linkedin.com/in/divina-moses-308b66189/",
+  //   email: "divina@maaassociates.co.ke",
+  //   profile_img:
+  //     "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+  //   credentials: "LLB, Dip, KSL",
+  //   role: "Associate Advocate",
+  //   profile:
+  //     " Divina Moses, our Associate specializing in Commercial Law, Litigation, Dispute Resolution, and Family Law. As an advocate of the High Court of Kenya, her expertise spans Employment, Commercial, Family & Succession Law, and Alternative Dispute Resolution.",
+  // },
 ];
 
 const lawyerProfiles = [
@@ -144,7 +146,7 @@ const lawyerProfiles = [
     id: "victor-mosota",
     name: "Victor Mosota, Esq.",
     linkedin: "https://www.linkedin.com/in/victor-mosota-81516b182/",
-    email: "vmosota@gmail.com",
+    email: "victor@maaassociates.co.ke",
     role: "Managing Partner",
     profile:
       "Victor Mosota is an Advocate of the High Court of Kenya and a distinguished legal professional who has handled numerous complex and precedent-setting litigation matters in criminal law. He has been recognized for his consistent contribution to the rule of law both domestically and internationally. As a leading figure in the firm, Mosota has been responsible for the strategic management and operation of the firm's affairs.\n\n In addition to his work in criminal law, Mosota has amassed extensive expertise in constitutional law. He has been involved in numerous cases related to rights and has also demonstrated a solid background in handling cases related to the right to fair administrative action as part of the rights and fundamental freedoms under the Bill of Rights. His experience extends to cases related to inheritance and the distribution of estates. He has successfully managed business assets, investment incentives, foreign investment, exchange controls, tax implications, and professional undertakings. \n\nNotably, Mosota has a comprehensive understanding of the Law of Contract. He has dealt with numerous cases related to the formation, performance, and enforceability of contracts. His legal practice also includes involvement in public interest litigation cases, judicial review proceedings, tax practice, strategic interest litigation, complex commercial litigation, land and environmental litigation, as well as employment and labour relations proceedings. \n\nIn 2023, Mosota, was awarded the Jurist of the Year Award by the the Kenyan Section of the International Commission of Jurists (ICJ Kenya) Chartered Institute of Arbitrators (Kenya Branch). He was also ranked among the Top 3 Arbitrators in Kenya by Chambers and Partners, and among the Top 4 Arbitrators in Kenya by The Lawyer Africa. These accolades serve as a testament to his dedication and expertise in the field of law.",
@@ -207,7 +209,7 @@ const lawyerProfiles = [
     name: "Dennis Kariuki",
     role: "Associate",
     linkedin: "https://www.linkedin.com/in/dennis-kariuki-961486143/",
-    email: "dkariuki516@gmail.com",
+    email: "dkariuki@maaassociates.co.ke",
     profile:
       "Dennis Kariuki, Esq., is a highly skilled advocate with over seven years of experience in the legal services industry. He has a proven track record of success in various areas of law, including civil litigation, commercial transactions, criminal law, succession law, and conveyancing.\n\n His duties include conducting client interviews to understand their legal needs and concerns, drafting and instituting legal proceedings, and attending court sessions for a variety of matters spanning civil, criminal, and commercial law. He has also prepared various conveyances, demonstrating his comprehensive understanding of property and land laws.\n\n With hands-on experience, Kariuki is versatile and adaptable to different legal environments. His commitment to providing top-notch service to clients, coupled with his confidence in handling complex legal matters, sets him apart in the legal field. He is driven by a strong sense of values, a passion for truth, and a thirst for justice.\n\n In summary, Dennis Kariuki, Esq., is a dedicated legal professional who brings a wealth of experience, expertise, and commitment to his practice. His comprehensive understanding of various areas of law, combined with his passion for justice and truth, make him an invaluable asset to his clients and to his firm.",
     profileImg:
@@ -278,7 +280,7 @@ const lawyerProfiles = [
     name: "Terry Misiko",
     role: "Associate",
     linkedin: "https://www.linkedin.com/in/terry-agatha-42a132a6/",
-    email: "misikolaw@gmail.com",
+    email: "terry@maaassociates.co.ke",
     profile:
       "Terry is an Advocate of the High Court of Kenya. She has a proficiency and keen interest in various areas of legal practice and advisory, including complex commercial and civil litigation, employment law, conveyancing, banking, and securities perfection among others. \n\nHer interest in family law has seen her actively engage in research, trainings and legal matters surrounding Rights of the Child and Children in Conflict with the Law both in Kenya and Internationally. Her experience coupled with situation analysis and management is a great addition to the team, aiding in and ensuring delivery of efficient and effective services to the Firm’s Clients.",
     profileImg:
@@ -332,7 +334,7 @@ const lawyerProfiles = [
     id: "lyster-moenga",
     name: "Lyster Moenga",
     role: "Associate",
-    email: "lystermoenga@gmail.com",
+    email: "lyster@maaassociates.co.ke",
     linkedin: "https://www.linkedin.com/in/lyster-moenga-804452283/",
     profile:
       "Lyster Moenga is an advocate of the High Court of Kenya. Her practice focuses mainly on Conveyancing, Criminal law, Commercial law, and Family & Succession. She is a passionate and focused lawyer who strives to exceed expectations when delivering legal services and ensure the best results for the firm.",
@@ -373,47 +375,47 @@ const lawyerProfiles = [
       },
     ],
   },
-  {
-    id: "divina-moses",
-    name: "Divina Moses",
-    role: "Associate",
-    linkedin: "https://www.linkedin.com/in/divina-moses-308b66189/",
-    email: "divinamoses@gmail.com",
-    profile:
-      "Meet Divina Moses, an Associate at our firm. With a focus on Commercial Law, Litigation, Dispute Resolution, and Family Law, Divina is an advocate of the High Court of Kenya. Her expertise includes Employment Law, Commercial Law, Family & Succession Law, and Alternative Dispute Resolution. \n\nDriven by confidence, attention to detail, and goal-oriented mindset, Divina provides strategic legal counsel to our clients. Partner with her for tailored advice and exceptional representation, ensuring your legal needs are met with excellence.",
-    profileImg:
-      "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
-    education: [
-      {
-        degree: "Bachelor of Laws. LL. B",
-        university: "Africa Nazarene University",
-      },
-      {
-        degree: "Postgraduate Diploma",
-        university: "Kenya School of Law",
-      },
-    ],
-    memberships: ["Law Society of Kenya"],
-    practiceAreas: [
-      "Conveyancing Law",
-      "Commercial Law",
-      "Family & Succession Law",
-      "Civil Litigation",
-      "Alternative Dispute Resolution",
-    ],
-    career: [
-      {
-        role: "Associate",
-        date: "2023 - To Date",
-        firm: "Mosota Abunga & Associates Advocates, LLP",
-      },
-      {
-        role: "Pupillage",
-        date: "2022 - 2023",
-        firm: "Okoth & Kiplagat Advocates ",
-      },
-    ],
-  },
+  // {
+  //   id: "divina-moses",
+  //   name: "Divina Moses",
+  //   role: "Associate",
+  //   linkedin: "https://www.linkedin.com/in/divina-moses-308b66189/",
+  //   email: "divina@gmail.com",
+  //   profile:
+  //     "Meet Divina Moses, an Associate at our firm. With a focus on Commercial Law, Litigation, Dispute Resolution, and Family Law, Divina is an advocate of the High Court of Kenya. Her expertise includes Employment Law, Commercial Law, Family & Succession Law, and Alternative Dispute Resolution. \n\nDriven by confidence, attention to detail, and goal-oriented mindset, Divina provides strategic legal counsel to our clients. Partner with her for tailored advice and exceptional representation, ensuring your legal needs are met with excellence.",
+  //   profileImg:
+  //     "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
+  //   education: [
+  //     {
+  //       degree: "Bachelor of Laws. LL. B",
+  //       university: "Africa Nazarene University",
+  //     },
+  //     {
+  //       degree: "Postgraduate Diploma",
+  //       university: "Kenya School of Law",
+  //     },
+  //   ],
+  //   memberships: ["Law Society of Kenya"],
+  //   practiceAreas: [
+  //     "Conveyancing Law",
+  //     "Commercial Law",
+  //     "Family & Succession Law",
+  //     "Civil Litigation",
+  //     "Alternative Dispute Resolution",
+  //   ],
+  //   career: [
+  //     {
+  //       role: "Associate",
+  //       date: "2023 - To Date",
+  //       firm: "Mosota Abunga & Associates Advocates, LLP",
+  //     },
+  //     {
+  //       role: "Pupillage",
+  //       date: "2022 - 2023",
+  //       firm: "Okoth & Kiplagat Advocates ",
+  //     },
+  //   ],
+  // },
 ];
 
 const practiceAreas = [

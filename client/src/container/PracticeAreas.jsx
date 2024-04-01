@@ -70,20 +70,26 @@ const PracticeAreas = () => {
         <div className="mt-10">
           <Slider {...settings}>
             {practiceAreas.map((practice) => (
-              <div key={practice.title} className="card">
-                <img src={practice.img} alt="" />
-                <div className="card-content">
-                  <h2>{practice.title}</h2>
-                  {/* <p>{practice.briefDescription}</p> */}
+              <a
+                key={practice.title}
+                href={`practice/${practice.id}`}
+                className="card"
+              >
+                <div>
+                  <img src={practice.img} alt="" />
+                  <div className="card-content">
+                    <h2>{practice.title}</h2>
+                    {/* <p>{practice.briefDescription}</p> */}
 
-                  <a href={`practice/${practice.id}`} className="button">
-                    <div className="flex flex-row justify-center items-center italic hover:underline">
-                      Find out more{" "}
-                      <FaArrowRight fontSize={15} className="ml-2" />
-                    </div>
-                  </a>
+                    <a href={`practice/${practice.id}`} className="button">
+                      <div className="flex flex-row justify-center items-center italic hover:underline">
+                        Find out more{" "}
+                        <FaArrowRight fontSize={15} className="ml-2" />
+                      </div>
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </a>
             ))}
           </Slider>
         </div>
