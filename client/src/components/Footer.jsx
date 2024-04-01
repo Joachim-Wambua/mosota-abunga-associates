@@ -27,7 +27,7 @@ const Footer = () => {
               <FaLinkedin />
             </IconButton>
 
-            <IconButton color="white" href="mailto:info@maaassociates.co.ke">
+            <IconButton color="white" href="mailto:info@maassociates.co.ke">
               <MdEmail />
             </IconButton>
           </div>
@@ -53,7 +53,7 @@ const Footer = () => {
             Contact Us
           </h4>
           <p>Phone: +254 720 101 101</p>
-          <p>Email: info@maaassociates.co.ke</p>
+          <p>Email: info@maassociates.co.ke</p>
           {/* TODO: Add another email */}
           {/* <p>Email: info@mosotaabungaassociates.co.ke</p> */}
           <p>Website Terms | Privacy Policy</p>
