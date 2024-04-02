@@ -19,20 +19,23 @@ const Header = () => {
       title: "WELCOME TO MAA ADVOCATES, LLP",
       subtitle:
         "We are a law firm specializing in commercial law, property law and litigation. We strive to provide smart and practical legal solutions for all our clients.",
-      image: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705580776/header-img_v82yvl.png",
+      image:
+        "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705580776/header-img_v82yvl.png",
     },
     // Add more objects for additional slides
     {
       id: 2,
       title: "WELCOME TO MAA ADVOCATES, LLP",
       subtitle: "Value Prop 2.",
-      image: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712044451/home-header-3_qlmmbk.png",
+      image:
+        "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712050586/home-header-4_lnjpys.png",
     },
     {
       id: 3,
       title: "WELCOME TO MAA ADVOCATES, LLP",
       subtitle: "Value Prop 3.",
-      image: "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712044453/home-header-2_g32nqg.png",
+      image:
+        "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712044453/home-header-2_g32nqg.png",
     },
   ];
 
@@ -49,13 +52,16 @@ const Header = () => {
           autoplaySpeed={2500}
           slidesToShow={1}
           slidesToScroll={1}
+          // className="header-container"
         >
           {slides.map((slide) => (
-            <div key={slide.id} className="slider-item">
+            <div key={slide.id} className="flex justify-center items-center slider-item">
               <div
-                className="slider-image"
+                className="slider-image justify-center items-center"
                 style={{
                   backgroundImage: `url(${slide.image})`,
+                  width: "100vw",
+                  overflowX: "hidden",
                 }}
               />
               <div className="header-content">
