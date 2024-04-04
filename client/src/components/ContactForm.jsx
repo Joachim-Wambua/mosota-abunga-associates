@@ -1,10 +1,46 @@
-import { Typography, Button } from "@mui/material";
 import { useState } from "react";
+import { Typography, Button } from "@mui/material";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdEmail, MdLocationPin } from "react-icons/md";
+import axios from "axios";
+import EmailStatusModal from "./EmailStatusModal"; // Import the modal component
 
 const ContactForm = () => {
-  const [focusedInput, setFocusedInput] = useState(null);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const [modalOpen, setModalOpen] = useState(false);
+  const [emailSuccess, setEmailSuccess] = useState(false);
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    axios
+      .post("http://localhost:3001/send-email", formData)
+      .then((response) => {
+        console.log(response.data);
+        setEmailSuccess(true);
+        setModalOpen(true);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        setEmailSuccess(false);
+        setModalOpen(true);
+      });
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
   return (
     <>
       <section className="contact-section bg-gray-100">
@@ -19,22 +55,18 @@ const ContactForm = () => {
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
             <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
-              <form action="" className="space-y-6">
+              <form action="" className="space-y-6" onSubmit={handleSubmit}>
                 <div className="my-2">
                   <label className="sr-only" htmlFor="name">
                     Name
                   </label>
                   <input
-                    className={`w-full rounded-lg border ${
-                      focusedInput === "name"
-                        ? "border-[#AC2333]"
-                        : "border-gray-200"
-                    } p-3 text-sm focus:outline-none focus:border-[#AC2333]`}
+                    className="w-full rounded-lg border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#AC2333]"
                     placeholder="Name"
                     type="text"
                     id="name"
-                    onFocus={() => setFocusedInput("name")}
-                    onBlur={() => setFocusedInput(null)}
+                    value={formData.name}
+                    onChange={handleChange}
                   />
                 </div>
 
@@ -44,16 +76,12 @@ const ContactForm = () => {
                       Email
                     </label>
                     <input
-                      className={`w-full rounded-lg border ${
-                        focusedInput === "email"
-                          ? "border-[#6E000D]"
-                          : "border-gray-200"
-                      } p-3 text-sm focus:outline-none focus:border-[#AC2333]`}
+                      className="w-full rounded-lg border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#AC2333]"
                       placeholder="Email address"
                       type="email"
                       id="email"
-                      onFocus={() => setFocusedInput("email")}
-                      onBlur={() => setFocusedInput(null)}
+                      value={formData.email}
+                      onChange={handleChange}
                     />
                   </div>
 
@@ -62,16 +90,12 @@ const ContactForm = () => {
                       Phone
                     </label>
                     <input
-                      className={`w-full rounded-lg border ${
-                        focusedInput === "phone"
-                          ? "border-[#AC2333]"
-                          : "border-gray-200"
-                      } p-3 text-sm focus:outline-none focus:border-[#AC2333]`}
+                      className="w-full rounded-lg border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#AC2333]"
                       placeholder="Phone Number"
                       type="tel"
                       id="phone"
-                      onFocus={() => setFocusedInput("phone")}
-                      onBlur={() => setFocusedInput(null)}
+                      value={formData.phone}
+                      onChange={handleChange}
                     />
                   </div>
                 </div>
@@ -82,21 +106,18 @@ const ContactForm = () => {
                   </label>
 
                   <textarea
-                    className={`w-full rounded-lg border ${
-                      focusedInput === "message"
-                        ? "border-[#AC2333]"
-                        : "border-gray-200"
-                    } p-3 text-sm focus:outline-none focus:border-[#AC2333]`}
+                    className="w-full rounded-lg border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#AC2333]"
                     placeholder="Message"
                     rows="12"
                     id="message"
-                    onFocus={() => setFocusedInput("message")}
-                    onBlur={() => setFocusedInput(null)}
+                    value={formData.message}
+                    onChange={handleChange}
                   ></textarea>
                 </div>
 
                 <div className="mt-4">
                   <Button
+                    type="submit"
                     className="w-full"
                     variant="contained"
                     color="maroon_primary"
@@ -158,6 +179,11 @@ const ContactForm = () => {
           </div>
         </div>
       </section>
+      <EmailStatusModal
+        open={modalOpen}
+        onClose={closeModal}
+        success={emailSuccess}
+      />
     </>
   );
 };
