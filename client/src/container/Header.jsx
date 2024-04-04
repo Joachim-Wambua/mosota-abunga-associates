@@ -26,14 +26,16 @@ const Header = () => {
     {
       id: 2,
       title: "WELCOME TO MAA ADVOCATES, LLP",
-      subtitle: "Value Prop 2.",
+      subtitle:
+        "From courtrooms to family matters, we excel in litigation, real estate, family law, and trust administration, ensuring justice and stability.",
       image:
         "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712050586/home-header-4_lnjpys.png",
     },
     {
       id: 3,
       title: "WELCOME TO MAA ADVOCATES, LLP",
-      subtitle: "Value Prop 3.",
+      subtitle:
+        "Safeguarding IP, navigating finance, trade, and data security, we offer tailored legal solutions for modern businesses.",
       image:
         "https://res.cloudinary.com/dltjv8zbh/image/upload/v1712044453/home-header-2_g32nqg.png",
     },
@@ -46,22 +48,25 @@ const Header = () => {
         <Slider
           dots={false}
           infinite={true}
-          speed={500}
+          speed={1000}
           arrows={false}
           autoplay={true}
-          autoplaySpeed={2500}
+          autoplaySpeed={5000}
           slidesToShow={1}
           slidesToScroll={1}
-          // className="header-container"
+          // className="slider-item"
         >
           {slides.map((slide) => (
-            <div key={slide.id} className="flex justify-center items-center slider-item">
+            <div
+              key={slide.id}
+              className="flex justify-center items-center slider-item"
+              
+            >
               <div
-                className="slider-image justify-center items-center"
+                className="slider-image"
                 style={{
                   backgroundImage: `url(${slide.image})`,
-                  width: "100vw",
-                  overflowX: "hidden",
+                  // width: "100vw",
                 }}
               />
               <div className="header-content">

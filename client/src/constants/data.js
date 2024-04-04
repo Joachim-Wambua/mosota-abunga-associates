@@ -438,7 +438,7 @@ const practiceAreas = [
     briefDescription:
       "We lead in legal representation, expertly handling criminal, civil, and succession matters. With mediation and arbitration options, we ensure swift resolutions, saving time and serving justice.",
     par1: "The firm has been at the forefront in providing representation to its clients in criminal and civil matters. We have successfully litigated and defended various cases involving criminal liability, contractual disputes, tortious liability, family, and succession matters",
-    par2: "We also believe that not all contemporary matters should be subject to court proceedings therefor we advise our clients on the various alternative dispute resolution mechanisms available including conciliation, mediation, or arbitration services to resolve conflicts outside of court and conclude matters promptly thereby saving judicial time and serving justice.",
+    par2: "We also believe that not all contemporary matters should be subject to court proceedings therefore we advise our clients on the various alternative dispute resolution mechanisms available including conciliation, mediation, or arbitration services to resolve conflicts outside of court and conclude matters promptly thereby saving judicial time and serving justice.",
   },
 
   {

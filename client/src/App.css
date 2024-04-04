@@ -35,12 +35,14 @@
 
 .slick-slider {
   padding: 0;
+  margin: 0;
 }
 
 .slider-image {
   height: 100%;
-  object-fit: cover;
-  object-position: bottom;
+  background-position: center;
+  background-size: cover;
+  width: ;
 }
 
 .header-content {
