@@ -48,10 +48,10 @@ const Header = () => {
         <Slider
           dots={false}
           infinite={true}
-          speed={1000}
+          speed={500}
           arrows={false}
           autoplay={true}
-          autoplaySpeed={5000}
+          autoplaySpeed={3000}
           slidesToShow={1}
           slidesToScroll={1}
           // className="slider-item"
@@ -60,7 +60,6 @@ const Header = () => {
             <div
               key={slide.id}
               className="flex justify-center items-center slider-item"
-              
             >
               <div
                 className="slider-image"

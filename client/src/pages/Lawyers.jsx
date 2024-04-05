@@ -8,8 +8,8 @@ const Lawyers = () => {
     <>
       <DynamicHeader
         headerTitle="Our Team"
-        src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1712006471/team-header_jbu6xf.png"
-        backgroundPosition="top"
+        src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1712342493/team-header3_i9gqdr.png"
+        backgroundPosition="center"
         header_height="100vh"
       />
       {profiles.map((profile) => (
