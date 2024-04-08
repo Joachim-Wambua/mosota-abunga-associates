@@ -1,9 +1,8 @@
+import { Carousel } from "react-responsive-carousel";
 import { Typography, Container, Button } from "@mui/material";
 import Navbar from "../components/NavBar/Navbar";
 import { useNavigate } from "react-router-dom";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -45,28 +44,21 @@ const Header = () => {
     <>
       <header className="header-container">
         <Navbar />
-        <Slider
-          dots={false}
-          infinite={true}
-          speed={500}
-          arrows={false}
-          autoplay={true}
-          autoplaySpeed={3000}
-          slidesToShow={1}
-          slidesToScroll={1}
-          // className="slider-item"
+        <Carousel
+          autoPlay
+          infiniteLoop
+          showArrows={false}
+          showThumbs={false}
+          interval={5000}
+          transitionTime={500}
+          dynamicHeight={false}
         >
           {slides.map((slide) => (
-            <div
-              key={slide.id}
-              className="flex justify-center items-center slider-item"
-            >
-              <div
+            <div key={slide.id} className="slider-item">
+              <img
                 className="slider-image"
-                style={{
-                  backgroundImage: `url(${slide.image})`,
-                  // width: "100vw",
-                }}
+                src={slide.image}
+                alt={`Slide ${slide.id}`}
               />
               <div className="header-content">
                 <Container>
@@ -94,7 +86,7 @@ const Header = () => {
               </div>
             </div>
           ))}
-        </Slider>
+        </Carousel>
       </header>
     </>
   );
