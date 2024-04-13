@@ -8,7 +8,7 @@ const Lawyers = () => {
     <>
       <DynamicHeader
         headerTitle="Our Team"
-        src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1712342493/team-header3_i9gqdr.png"
+        src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1712006469/litigation-header_p6p1y7.png"
         backgroundPosition="center"
         header_height="100vh"
       />

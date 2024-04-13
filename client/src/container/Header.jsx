@@ -15,11 +15,11 @@ const Header = () => {
   const slides = [
     {
       id: 1,
-      title: "WELCOME TO MAA ADVOCATES, LLP",
+      title: "WELCOME TO MOSOTA ABUNGA & ASSOCIATES ADVOCATES, LLP",
       subtitle:
         "We are a law firm specializing in commercial law, property law and litigation. We strive to provide smart and practical legal solutions for all our clients.",
       image:
-        "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705580776/header-img_v82yvl.png",
+        "https://res.cloudinary.com/dltjv8zbh/image/upload/v1713034604/header-img_v82yvl_1_t9vo7u.png",
     },
     // Add more objects for additional slides
     {

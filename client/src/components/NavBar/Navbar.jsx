@@ -40,6 +40,12 @@ const Navbar = () => {
     setToggleMenu(false);
   };
 
+  // Trigger phone call
+  const handleCallButtonClick = () => {
+    const phoneNumber = "+254720101101";
+    window.open(`tel:${phoneNumber}`);
+  };
+
   const navigate = useNavigate();
 
   // Function to handle Contact Button Clicks
@@ -296,6 +302,7 @@ const Navbar = () => {
           size="medium"
           style={{ marginTop: "0.5rem", color: buttonColor }}
           startIcon={<FaPhoneAlt className="call-icon" />}
+          onClick={handleCallButtonClick}
         >
           <p style={{ fontWeight: 600 }}>+254 720 101 101</p>
         </Button>
@@ -551,6 +558,7 @@ const Navbar = () => {
                 size="medium"
                 color="white"
                 startIcon={<FaPhoneAlt />}
+                onClick={handleCallButtonClick}
               >
                 <Typography variant="body2" style={{ fontWeight: 600 }}>
                   +254 720 101 101

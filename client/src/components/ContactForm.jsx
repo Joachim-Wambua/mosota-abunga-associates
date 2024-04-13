@@ -24,7 +24,10 @@ const ContactForm = () => {
     e.preventDefault();
 
     axios
-      .post("http://localhost:3001/send-email", formData)
+      .post(
+        "https://mosota-abunga-associates.onrender.com/send-email",
+        formData
+      )
       .then((response) => {
         console.log(response.data);
         setEmailSuccess(true);

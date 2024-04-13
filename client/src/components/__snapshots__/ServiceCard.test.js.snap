@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceCard matches the snapshot 1`] = `
+<div>
+  <div
+    class="flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-16"
+  >
+    <div
+      class="w-20 h-20 flex justify-center items-center icon-container rounded-full"
+    >
+      <img
+        alt="Test Service"
+        height="45"
+        src="test-img.png"
+        width="45"
+      />
+    </div>
+    <h3
+      class="service-title mt-5 leading-normal"
+    >
+      Test Service
+    </h3>
+    <p
+      class="service-text mt-3 break-words leading-normal"
+    >
+      This is a test service card.
+    </p>
+  </div>
+</div>
+`;

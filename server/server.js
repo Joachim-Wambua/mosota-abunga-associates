@@ -29,8 +29,8 @@ app.post("/send-email", (req, res) => {
   // send mail with defined transport object
   transporter.sendMail(
     {
-      from: "kimwambua96@gmail.com", // sender address
-      to: "kimwambua96@gmail.com", // list of receivers
+      from: "info@maassociates.co.ke", // sender address
+      to: ["kimwambua96@gmail.com", "info@maassociates.co.ke"], // list of receivers
       subject: "New Contact Form Submission", // Subject line
       html: `
       <p>Name: ${name}</p>
