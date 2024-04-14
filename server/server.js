@@ -9,7 +9,8 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Middleware
-app.use(cors()); // Add this line to enable CORS
+app.use(cors());
+app.use(cors({ origin: "https://www.maassociates.co.ke" })); // Add this line to enable CORS
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 

@@ -45,13 +45,18 @@ const Header = () => {
       <header className="header-container">
         <Navbar />
         <Carousel
-          autoPlay
-          infiniteLoop
+          autoPlay={true}
+          infiniteLoop={true}
           showArrows={false}
+          verticalSwipe={false}
           showThumbs={false}
+          showIndicators={false}
+          swipable={false}
           interval={5000}
           transitionTime={500}
           dynamicHeight={false}
+          preventMovementUntilSwipeScrollTolerance={true}
+          swipeScrollTolerance={50}
         >
           {slides.map((slide) => (
             <div key={slide.id} className="slider-item">
