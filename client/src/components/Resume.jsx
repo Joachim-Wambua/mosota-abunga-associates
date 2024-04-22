@@ -48,7 +48,7 @@ const Resume = () => {
       <DynamicHeader
         headerTitle={`Our Lawyers | ${lawyer.name}`}
         header_height="70vh"
-        src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1708713677/still-life-with-scales-justice_5_1_1_xjtkba.jpg"
+        src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1713812799/lawyer-resume-header_zy2huc.jpg"
         backgroundPosition="center"
       />
       <div className="bg-gray-100 px-20">
@@ -68,7 +68,7 @@ const Resume = () => {
                       variant="contained"
                       size="medium"
                       color="maroon_primary"
-                      href=""
+                      href={`mailto:${lawyer.email}`}
                     >
                       <Typography
                         variant="body1"
