@@ -11,7 +11,7 @@ const Footer = () => {
           <a href="/">
             <img
               src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1730977602/AVA_LAW_LLP_LOGO-04_ds9j9k.png"
-              alt="MAA Associates Logo"
+              alt="AVA Law Logo"
               width={125}
             />
           </a>
@@ -27,7 +27,7 @@ const Footer = () => {
               <FaLinkedin />
             </IconButton>
 
-            <IconButton color="white" href="mailto:info@maassociates.co.ke">
+            <IconButton color="white" href="mailto:info@avalaw.co.ke">
               <MdEmail />
             </IconButton>
           </div>
@@ -53,9 +53,9 @@ const Footer = () => {
             Contact Us
           </h4>
           <p>Phone: +254 720 101 101</p>
-          <p>Email: info@maassociates.co.ke</p>
+          <p>Email: info@avalaw.co.ke</p>
           {/* TODO: Add another email */}
-          {/* <p>Email: info@mosotaabungaassociates.co.ke</p> */}
+          {/* <p>Email: info@avalaw.co.ke</p> */}
           <p>Website Terms | Privacy Policy</p>
         </div>
       </div>

@@ -13,7 +13,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pdfLink =
-    "https://drive.google.com/uc?export=download&id=10kW2hv2ErbljcJbYwmEqO0FIcjzoK9mA";
+    "https://drive.google.com/uc?export=download&id=1qJ3bkeWyBCIGgX2-rvalokQ2r5QcMlvN";
 
   const [logoSrc, setLogoSrc] = useState(
     "https://res.cloudinary.com/dltjv8zbh/image/upload/v1730978690/logo-dark-bgs_vdfs8r.png"

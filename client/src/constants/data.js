@@ -83,17 +83,41 @@ const profiles = [
     profile_img:
       "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689915/Wakili_iuvm0z.jpg",
     credentials: "LLB, LLM, Dip.KSL",
-    email: "victor@maaassociates.co.ke",
+    email: "victor@@avalaw.co.ke",
     linkedin: "https://www.linkedin.com/in/victor-mosota-81516b182/",
     role: "Managing Partner",
     profile:
       "Victor is a highly experienced and practical commercial and property lawyer (with almost a decade of legal experience).\n\nPrior to establishing AVA Law, LLP , Victor was a commercial and property lawyer at one of Africa's leading top-tier law firms.",
   },
   {
+    id: "benjamin-ondigi",
+    name: "Benjamin Ondigi",
+    linkedin: "#",
+    email: "benjamin@avalaw.co.ke",
+    profile_img:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1731001616/Benjamin_Noella-01_vrlv4e.png",
+    credentials: "LLB, Dip.KSL",
+    role: "Partner",
+    profile:
+      "Benjamin Ondigi is a skilled legal professional with deep expertise in Employment, Land, Commercial, and Constitutional Law. Known for his adept handling of complex legal issues, he has represented clients in court, drafted influential legal opinions, and advised employers on compliance with labor laws. Notable achievements include expanding Magistrates Courts' jurisdiction in employment matters and advocating for community land rights and human rights protections.",
+  },
+  {
+    id: "terry-misiko",
+    name: "Terry Misiko",
+    linkedin: "https://www.linkedin.com/in/terry-agatha-42a132a6/",
+    email: "terry@avalaw.co.ke",
+    profile_img:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1716214098/Terry_dk0p5l.jpg",
+    credentials: "LLB, Dip.KSL",
+    role: "Associate Advocate",
+    profile:
+      "Terry Misiko is an Advocate of the High Court of Kenya. Specializing in complex commercial litigation, employment law, conveyancing, and more, she brings a wealth of expertise to our team. Terry is dedicated to family law and champions the Rights of the Child locally and internationally. With sharp analytical skills, she ensures seamless delivery of top-notch legal services to our clients.",
+  },
+  {
     id: "dennis-kariuki",
     name: "Dennis Kariuki",
     linkedin: "https://www.linkedin.com/in/dennis-kariuki-961486143/",
-    email: "dennis@maaassociates.co.ke",
+    email: "dennis@avalaw.co.ke",
     profile_img:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1709898242/Dennis_Pic_ckup1t.jpg",
     credentials: "LLB, Dip.KSL",
@@ -102,22 +126,9 @@ const profiles = [
       "Dennis Kariuki, Esq. is a seasoned advocate with over seven years of expertise across civil litigation, commercial transactions, criminal law, succession law, and conveyancing. His adeptness extends from client interviews to courtroom proceedings, showcasing his versatility and adaptability. With a commitment to excellence and a passion for justice, Dennis is your trusted ally in navigating complex legal landscapes.",
   },
   {
-    id: "terry-misiko",
-    name: "Terry Misiko",
-    linkedin: "https://www.linkedin.com/in/terry-agatha-42a132a6/",
-    email: "terry@maaassociates.co.ke",
-    profile_img:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711982940/Terry2_1_jadvft.jpg",
-    credentials: "LLB, Dip.KSL",
-    role: "Associate Advocate",
-    profile:
-      "Terry is an Advocate of the High Court of Kenya. Specializing in complex commercial litigation, employment law, conveyancing, and more, she brings a wealth of expertise to our team. Terry is dedicated to family law and champions the Rights of the Child locally and internationally. With sharp analytical skills, she ensures seamless delivery of top-notch legal services to our clients.",
-  },
-
-  {
     id: "lyster-moenga",
     name: "Lyster Moenga",
-    email: "lyster@maaassociates.co.ke",
+    email: "lyster@avalaw.co.ke",
     linkedin: "https://www.linkedin.com/in/lyster-moenga-804452283/",
     profile_img:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1710238688/Lyster2_o4ddnu.jpg",
@@ -127,18 +138,18 @@ const profiles = [
       "Lyster Moenga is an advocate of the High Court of Kenya. Her practice focuses mainly on Conveyancing, Criminal law, Commercial law, and Family & Succession. She is a passionate and focused lawyer who strives to exceed expectations when delivering legal services and ensure the best results for the firm.",
   },
 
-  // {
-  //   id: "divina-moses",
-  //   name: "Divina Moses",
-  //   linkedin: "https://www.linkedin.com/in/divina-moses-308b66189/",
-  //   email: "divina@maaassociates.co.ke",
-  //   profile_img:
-  //     "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
-  //   credentials: "LLB, Dip, KSL",
-  //   role: "Associate Advocate",
-  //   profile:
-  //     " Divina Moses, our Associate specializing in Commercial Law, Litigation, Dispute Resolution, and Family Law. As an advocate of the High Court of Kenya, her expertise spans Employment, Commercial, Family & Succession Law, and Alternative Dispute Resolution.",
-  // },
+  {
+    id: "noela-opwapo",
+    name: "Noela Opwapo",
+    linkedin: "#",
+    email: "noella@avalaw.co.ke",
+    profile_img:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1731001605/Benjamin_Noella-02_h0pd9g.jpg",
+    credentials: "LLB, Dip, KSL",
+    role: "Associate Advocate",
+    profile:
+      "Noela Opwapo is a dedicated Advocate of the High Court of Kenya with expertise in Commercial, Employment, Constitutional, and Family Law. With a strong background as a legal officer in a government parastatal, she brings valuable experience in corporate governance, risk analysis, and regulatory compliance. Her commitment to providing top-notch legal guidance ensures the best outcomes for her clients.",
+  },
 
   {
     id: "tracy-adenya",
@@ -154,7 +165,7 @@ const lawyerProfiles = [
     id: "victor-mosota",
     name: "Victor Mosota, Esq.",
     linkedin: "https://www.linkedin.com/in/victor-mosota-81516b182/",
-    email: "victor@maaassociates.co.ke",
+    email: "victor@avalaw.co.ke",
     role: "Managing Partner",
     profile:
       "Victor Mosota is an Advocate of the High Court of Kenya and a distinguished legal professional who has handled numerous complex and precedent-setting litigation matters in criminal law. He has been recognized for his consistent contribution to the rule of law both domestically and internationally. As a leading figure in the firm, Mosota has been responsible for the strategic management and operation of the firm's affairs.\n\n In addition to his work in criminal law, Mosota has amassed extensive expertise in constitutional law. He has been involved in numerous cases related to rights and has also demonstrated a solid background in handling cases related to the right to fair administrative action as part of the rights and fundamental freedoms under the Bill of Rights. His experience extends to cases related to inheritance and the distribution of estates. He has successfully managed business assets, investment incentives, foreign investment, exchange controls, tax implications, and professional undertakings. \n\nNotably, Mosota has a comprehensive understanding of the Law of Contract. He has dealt with numerous cases related to the formation, performance, and enforceability of contracts. His legal practice also includes involvement in public interest litigation cases, judicial review proceedings, tax practice, strategic interest litigation, complex commercial litigation, land and environmental litigation, as well as employment and labour relations proceedings. \n\nIn 2023, Mosota, was awarded the Jurist of the Year Award by the the Kenyan Section of the International Commission of Jurists (ICJ Kenya) Chartered Institute of Arbitrators (Kenya Branch). He was also ranked among the Top 3 Arbitrators in Kenya by Chambers and Partners, and among the Top 4 Arbitrators in Kenya by The Lawyer Africa. These accolades serve as a testament to his dedication and expertise in the field of law.",
@@ -213,11 +224,106 @@ const lawyerProfiles = [
   },
 
   {
+    id: "benjamin-ondigi",
+    name: "Benjamin Ondigi",
+    role: "Partner",
+    linkedin: "#",
+    email: "benjamin@avalaw.co.ke",
+    profile:
+      "Benjamin Obano is a skilled legal professional with deep expertise in Employment, Land, Commercial, and Constitutional Law. Known for his adept handling of complex legal issues, he has represented clients in court, drafted influential legal opinions, and advised employers on compliance with labor laws.",
+    profileImg:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1731001616/Benjamin_Noella-01_vrlv4e.png",
+    education: [
+      {
+        degree: "Bachelor of Laws. LL. B",
+        university: "University of Nairobi",
+      },
+      {
+        degree: "Postgraduate Diploma in Law",
+        university: "Kenya School of Law",
+      },
+      {
+        degree: "Leadership Training East African Uongozi Institute",
+        university: "University of Dar-Es-Salaam",
+      },
+    ],
+    memberships: ["Law Society of Kenya"],
+    practiceAreas: [
+      "Employment Law",
+      "Property Law",
+      "Commercial Law",
+      "Constitutional Law",
+    ],
+    career: [
+      {
+        role: "Partner",
+        date: "2023 - To Date",
+        firm: "AVA Law, LLP",
+      },
+    ],
+  },
+
+  {
+    id: "terry-misiko",
+    name: "Terry Misiko",
+    role: "Associate",
+    linkedin: "https://www.linkedin.com/in/terry-agatha-42a132a6/",
+    email: "terry@avalaw.co.ke",
+    profile:
+      "Terry is an Advocate of the High Court of Kenya. She has a proficiency and keen interest in various areas of legal practice and advisory, including complex commercial and civil litigation, employment law, conveyancing, banking, and securities perfection among others. \n\nHer interest in family law has seen her actively engage in research, trainings and legal matters surrounding Rights of the Child and Children in Conflict with the Law both in Kenya and Internationally. Her experience coupled with situation analysis and management is a great addition to the team, aiding in and ensuring delivery of efficient and effective services to the Firm’s Clients.",
+    profileImg:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1716214098/Terry_dk0p5l.jpg",
+    education: [
+      {
+        degree: "Bachelor of Laws. LL. B",
+        university: "The Catholic University of Eastern Africa (CUEA)",
+      },
+      {
+        degree: "Postgraduate Diploma",
+        university: "Kenya School of Law",
+      },
+      {
+        degree: "Online Child Protection Course",
+        university:
+          "African Advanced Level Telecommunications Institute (AFRALTI)",
+      },
+    ],
+    memberships: [
+      "Law Society of Kenya",
+      "Amnesty International (voluntary membership)",
+    ],
+    practiceAreas: [
+      "Family Law",
+      "Conveyancing Law",
+      "Data Protection Law",
+      "Commercial & Corporate Law",
+      "Banking Law",
+    ],
+    career: [
+      {
+        role: "Managing Partner",
+        date: "2023 - To Date",
+        firm: "AVA Law, LLP",
+      },
+      {
+        role: "Associate",
+        date: "2021 - 2022",
+        firm: "Wandabwa & Associates Advocates",
+      },
+      {
+        role: "Pupillage",
+        date: "2020 - 2021",
+        firm: "Musyoki Mugaka & Associates Advocates",
+      },
+    ],
+  },
+
+  {
     id: "dennis-kariuki",
     name: "Dennis Kariuki",
     role: "Associate",
     linkedin: "https://www.linkedin.com/in/dennis-kariuki-961486143/",
-    email: "dkariuki@maaassociates.co.ke",
+    email: "dkariuki@avalaw.co.ke",
     profile:
       "Dennis Kariuki, Esq., is a highly skilled advocate with over seven years of experience in the legal services industry. He has a proven track record of success in various areas of law, including civil litigation, commercial transactions, criminal law, succession law, and conveyancing.\n\n His duties include conducting client interviews to understand their legal needs and concerns, drafting and instituting legal proceedings, and attending court sessions for a variety of matters spanning civil, criminal, and commercial law. He has also prepared various conveyances, demonstrating his comprehensive understanding of property and land laws.\n\n With hands-on experience, Kariuki is versatile and adaptable to different legal environments. His commitment to providing top-notch service to clients, coupled with his confidence in handling complex legal matters, sets him apart in the legal field. He is driven by a strong sense of values, a passion for truth, and a thirst for justice.\n\n In summary, Dennis Kariuki, Esq., is a dedicated legal professional who brings a wealth of experience, expertise, and commitment to his practice. His comprehensive understanding of various areas of law, combined with his passion for justice and truth, make him an invaluable asset to his clients and to his firm.",
     profileImg:
@@ -284,65 +390,10 @@ const lawyerProfiles = [
   },
 
   {
-    id: "terry-misiko",
-    name: "Terry Misiko",
-    role: "Associate",
-    linkedin: "https://www.linkedin.com/in/terry-agatha-42a132a6/",
-    email: "terry@maaassociates.co.ke",
-    profile:
-      "Terry is an Advocate of the High Court of Kenya. She has a proficiency and keen interest in various areas of legal practice and advisory, including complex commercial and civil litigation, employment law, conveyancing, banking, and securities perfection among others. \n\nHer interest in family law has seen her actively engage in research, trainings and legal matters surrounding Rights of the Child and Children in Conflict with the Law both in Kenya and Internationally. Her experience coupled with situation analysis and management is a great addition to the team, aiding in and ensuring delivery of efficient and effective services to the Firm’s Clients.",
-    profileImg:
-      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711982940/Terry2_1_jadvft.jpg",
-    education: [
-      {
-        degree: "Bachelor of Laws. LL. B",
-        university: "The Catholic University of Eastern Africa (CUEA)",
-      },
-      {
-        degree: "Postgraduate Diploma",
-        university: "Kenya School of Law",
-      },
-      {
-        degree: "Online Child Protection Course",
-        university:
-          "African Advanced Level Telecommunications Institute (AFRALTI)",
-      },
-    ],
-    memberships: [
-      "Law Society of Kenya",
-      "Amnesty International (voluntary membership)",
-    ],
-    practiceAreas: [
-      "Family Law",
-      "Conveyancing Law",
-      "Data Protection Law",
-      "Commercial & Corporate Law",
-      "Banking Law",
-    ],
-    career: [
-      {
-        role: "Managing Partner",
-        date: "2023 - To Date",
-        firm: "AVA Law, LLP",
-      },
-      {
-        role: "Associate",
-        date: "2021 - 2022",
-        firm: "Wandabwa & Associates Advocates",
-      },
-      {
-        role: "Pupillage",
-        date: "2020 - 2021",
-        firm: "Musyoki Mugaka & Associates Advocates",
-      },
-    ],
-  },
-
-  {
     id: "lyster-moenga",
     name: "Lyster Moenga",
     role: "Associate",
-    email: "lyster@maaassociates.co.ke",
+    email: "lyster@avalaw.co.ke",
     linkedin: "https://www.linkedin.com/in/lyster-moenga-804452283/",
     profile:
       "Lyster Moenga is an advocate of the High Court of Kenya. Her practice focuses mainly on Conveyancing, Criminal law, Commercial law, and Family & Succession. She is a passionate and focused lawyer who strives to exceed expectations when delivering legal services and ensure the best results for the firm.",
@@ -383,47 +434,41 @@ const lawyerProfiles = [
       },
     ],
   },
-  // {
-  //   id: "divina-moses",
-  //   name: "Divina Moses",
-  //   role: "Associate",
-  //   linkedin: "https://www.linkedin.com/in/divina-moses-308b66189/",
-  //   email: "divina@gmail.com",
-  //   profile:
-  //     "Meet Divina Moses, an Associate at our firm. With a focus on Commercial Law, Litigation, Dispute Resolution, and Family Law, Divina is an advocate of the High Court of Kenya. Her expertise includes Employment Law, Commercial Law, Family & Succession Law, and Alternative Dispute Resolution. \n\nDriven by confidence, attention to detail, and goal-oriented mindset, Divina provides strategic legal counsel to our clients. Partner with her for tailored advice and exceptional representation, ensuring your legal needs are met with excellence.",
-  //   profileImg:
-  //     "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705690075/lawyer_n31r4p.jpg",
-  //   education: [
-  //     {
-  //       degree: "Bachelor of Laws. LL. B",
-  //       university: "Africa Nazarene University",
-  //     },
-  //     {
-  //       degree: "Postgraduate Diploma",
-  //       university: "Kenya School of Law",
-  //     },
-  //   ],
-  //   memberships: ["Law Society of Kenya"],
-  //   practiceAreas: [
-  //     "Conveyancing Law",
-  //     "Commercial Law",
-  //     "Family & Succession Law",
-  //     "Civil Litigation",
-  //     "Alternative Dispute Resolution",
-  //   ],
-  //   career: [
-  //     {
-  //       role: "Associate",
-  //       date: "2023 - To Date",
-  //       firm: "AVA Law, LLP",
-  //     },
-  //     {
-  //       role: "Pupillage",
-  //       date: "2022 - 2023",
-  //       firm: "Okoth & Kiplagat Advocates ",
-  //     },
-  //   ],
-  // },
+  {
+    id: "noela-opwapo",
+    name: "Noela Opwapo",
+    role: "Associate",
+    linkedin: "#",
+    email: "noela@gmail.com",
+    profile:
+      "Noela Opwapo is a dedicated Advocate of the High Court of Kenya with expertise in Commercial, Employment, Constitutional, and Family Law. With a strong background as a legal officer in a government parastatal, she brings valuable experience in corporate governance, risk analysis, and regulatory compliance. Her commitment to providing top-notch legal guidance ensures the best outcomes for her clients.",
+    profileImg:
+      "https://res.cloudinary.com/dltjv8zbh/image/upload/v1731001581/Benjamin_Noella-02_n1tut8.png",
+    education: [
+      {
+        degree: "Bachelor of Laws. LL. B",
+        university: "Kabarak University",
+      },
+      {
+        degree: "Postgraduate Diploma in Law",
+        university: "Kenya School of Law",
+      },
+    ],
+    memberships: ["Law Society of Kenya"],
+    practiceAreas: [
+      "Commercial Law",
+      "Employment Law",
+      "Constitutional Law",
+      "Family Law",
+    ],
+    career: [
+      {
+        role: "Associate",
+        date: "2023 - To Date",
+        firm: "AVA Law, LLP",
+      }
+    ],
+  },
 ];
 
 const practiceAreas = [
