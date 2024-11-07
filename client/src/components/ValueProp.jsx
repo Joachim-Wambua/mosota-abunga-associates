@@ -7,7 +7,7 @@ const ValueProp = () => {
             Our Difference
           </h2>
           <p className="mt-4 lg:max-w-lg">
-            Mosota Abunga & Associates Advocates, LLP is driven by the desire to
+            AVA Law, LLP is driven by the desire to
             achieve the best possible outcomes for its clients by, for example:
           </p>
           <ul className="about-list">

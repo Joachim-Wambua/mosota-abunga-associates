@@ -15,7 +15,7 @@ const Header = () => {
   const slides = [
     {
       id: 1,
-      title: "WELCOME TO MOSOTA ABUNGA & ASSOCIATES ADVOCATES, LLP",
+      title: "WELCOME TO AVA LAW, LLP",
       subtitle:
         "We are a law firm specializing in commercial law, property law and litigation. We strive to provide smart and practical legal solutions for all our clients.",
       image:
@@ -24,7 +24,7 @@ const Header = () => {
     // Add more objects for additional slides
     {
       id: 2,
-      title: "WELCOME TO MAA ADVOCATES, LLP",
+      title: "WELCOME TO AVA LAW, LLP",
       subtitle:
         "From courtrooms to family matters, we excel in litigation, real estate, family law, and trust administration, ensuring justice and stability.",
       image:
@@ -32,7 +32,7 @@ const Header = () => {
     },
     {
       id: 3,
-      title: "WELCOME TO MAA ADVOCATES, LLP",
+      title: "WELCOME TO AVA LAW, LLP",
       subtitle:
         "Safeguarding IP, navigating finance, trade, and data security, we offer tailored legal solutions for modern businesses.",
       image:

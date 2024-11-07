@@ -16,15 +16,15 @@ const Navbar = () => {
     "https://drive.google.com/uc?export=download&id=10kW2hv2ErbljcJbYwmEqO0FIcjzoK9mA";
 
   const [logoSrc, setLogoSrc] = useState(
-    "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705499896/lpv4hjkskmzrjqi0wbmg.png"
+    "https://res.cloudinary.com/dltjv8zbh/image/upload/v1730978690/logo-dark-bgs_vdfs8r.png"
   );
   const [buttonColor, setButtonColor] = useState("white");
 
   const originalLogo =
-    "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705499896/lpv4hjkskmzrjqi0wbmg.png";
+    "https://res.cloudinary.com/dltjv8zbh/image/upload/v1730978690/logo-dark-bgs_vdfs8r.png";
 
   const scrolledLogoSrc =
-    "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705499897/gmzjo9mpovuxnxtivtgj.png";
+    "https://res.cloudinary.com/dltjv8zbh/image/upload/v1730977602/AVA_LAW_LLP_LOGO-04_ds9j9k.png";
 
   const handleAboutMenuOpen = (event) => {
     setAboutAnchorEl(event.currentTarget);

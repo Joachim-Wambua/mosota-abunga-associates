@@ -10,14 +10,14 @@ const Footer = () => {
         <div className="company-info">
           <a href="/">
             <img
-              src="https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705499896/lpv4hjkskmzrjqi0wbmg.png"
+              src="https://res.cloudinary.com/dltjv8zbh/image/upload/v1730977602/AVA_LAW_LLP_LOGO-04_ds9j9k.png"
               alt="MAA Associates Logo"
               width={125}
             />
           </a>
-          <p className="mt-6 text-base leading-7 text-white sm:max-w-sm">
-            Mosota Abunga & Associates Advocates, LLP
-          </p>
+          {/* <p className="mt-6 text-base leading-7 text-white sm:max-w-sm">
+            AVA Law, LLP
+          </p> */}
           <p className="mt-6 text-base leading-7 text-white sm:max-w-sm">
             ‘Arc of Justice’
           </p>
@@ -43,7 +43,7 @@ const Footer = () => {
           <p>Adak House, 2nd Floor</p>
 
           <h5 className="font-bold text-[18px] mt-10">Postal</h5>
-          <p>MAA ADVOCATES</p>
+          <p>AVA Law, LLP</p>
           <p>P.O. Box 15871-00100</p>
           <p>Nairobi, Kenya</p>
         </div>
@@ -62,7 +62,7 @@ const Footer = () => {
 
       <div className="flex w-full mb-6 text-[13.5px] text-white">
         <p className="flex  flex-col w-1/2 items-center">
-          @Copyright MAA Advocates 2024
+          @Copyright AVA Law, LLP 2024
         </p>
         <div className="flex flex-col  w-1/2 items-center">
           <p className="flex">

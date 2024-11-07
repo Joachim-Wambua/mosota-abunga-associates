@@ -60,19 +60,19 @@ const services = [
     title: "Commercial Law",
     img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705666213/labour-law_l9aigm.png",
     description:
-      "Trust Mosota Abunga & Associates Advocates, LLP for all your commercial legal needs in Kenya. Our seasoned experts specialize in litigation, contract, and employment law. Whether it's a dispute or essential legal documents, we've got you covered.",
+      "Trust AVA Law, LLP for all your commercial legal needs in Kenya. Our seasoned experts specialize in litigation, contract, and employment law. Whether it's a dispute or essential legal documents, we've got you covered.",
   },
   {
     title: "Property Law",
     img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705666213/property-law_hqwlxe.png",
     description:
-      "Secure your property investment with Mosota Abunga & Associates Advocates, LLP. We offer a range of legal property services, from conveyancing to development and dispute resolution. Choose us for expert care of your commercial and residential interests in Kenya.",
+      "Secure your property investment with AVA Law, LLP. We offer a range of legal property services, from conveyancing to development and dispute resolution. Choose us for expert care of your commercial and residential interests in Kenya.",
   },
   {
     title: "Litigation",
     img: "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705678555/gavel_ekfc38.png",
     description:
-      "Count on Mosota Abunga & Associates Advocates, LLP for your litigation needs in Kenya. We specialize in out-of-court settlements, dispute resolution, and courtroom representation. Our dedicated team ensures your best interests are protected. Choose confidence—choose us for expert legal representation.",
+      "Count on AVA Law, LLP for your litigation needs in Kenya. We specialize in out-of-court settlements, dispute resolution, and courtroom representation. Our dedicated team ensures your best interests are protected. Choose confidence—choose us for expert legal representation.",
   },
 ];
 
@@ -87,7 +87,7 @@ const profiles = [
     linkedin: "https://www.linkedin.com/in/victor-mosota-81516b182/",
     role: "Managing Partner",
     profile:
-      "Victor is a highly experienced and practical commercial and property lawyer (with almost a decade of legal experience).\n\nPrior to establishing Mosota Abunga & Associates Advocates, LLP , Victor was a commercial and property lawyer at one of Africa's leading top-tier law firms.",
+      "Victor is a highly experienced and practical commercial and property lawyer (with almost a decade of legal experience).\n\nPrior to establishing AVA Law, LLP , Victor was a commercial and property lawyer at one of Africa's leading top-tier law firms.",
   },
   {
     id: "dennis-kariuki",
@@ -197,7 +197,7 @@ const lawyerProfiles = [
       {
         role: "Managing Partner",
         date: "2023 - To Date",
-        firm: "Mosota Abunga & Associates Advocates, LLP",
+        firm: "AVA Law, LLP",
       },
       {
         role: "Associate Advocate",
@@ -253,7 +253,7 @@ const lawyerProfiles = [
       {
         role: "Associate",
         date: "2024",
-        firm: "Mosota Abunga & Associates Advocates, LLP",
+        firm: "AVA Law, LLP",
       },
       {
         role: "Associate",
@@ -323,7 +323,7 @@ const lawyerProfiles = [
       {
         role: "Managing Partner",
         date: "2023 - To Date",
-        firm: "Mosota Abunga & Associates Advocates, LLP",
+        firm: "AVA Law, LLP",
       },
       {
         role: "Associate",
@@ -374,7 +374,7 @@ const lawyerProfiles = [
       {
         role: "Associate",
         date: "2023 - To Date",
-        firm: "Mosota Abunga & Associates Advocates, LLP",
+        firm: "AVA Law, LLP",
       },
       {
         role: "Pupillage",
@@ -415,7 +415,7 @@ const lawyerProfiles = [
   //     {
   //       role: "Associate",
   //       date: "2023 - To Date",
-  //       firm: "Mosota Abunga & Associates Advocates, LLP",
+  //       firm: "AVA Law, LLP",
   //     },
   //     {
   //       role: "Pupillage",

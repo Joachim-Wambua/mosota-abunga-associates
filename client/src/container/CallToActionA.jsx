@@ -19,11 +19,10 @@ const CallToActionA = () => {
           </Typography>
           <Typography variant="body1">
             For a lawyer in Kenya that you can trust to represent your best
-            interests, contact the team at Mosota Abunga & Associates Advocates,
-            LLP. We are proud to be a team of our outstanding advocates with
-            years of experience in commercial, property and litigation in Kenya.
-            Rely on our team for the best advice and legal representation in all
-            matters.
+            interests, contact the team at AVA Law, LLP. We are proud to be a
+            team of our outstanding advocates with years of experience in
+            commercial, property and litigation in Kenya. Rely on our team for
+            the best advice and legal representation in all matters.
           </Typography>
           <Typography
             variant="h4"
