@@ -83,7 +83,7 @@ const profiles = [
     profile_img:
       "https://res.cloudinary.com/dfdn7sxwi/image/upload/v1705689915/Wakili_iuvm0z.jpg",
     credentials: "LLB, LLM, Dip.KSL",
-    email: "victor@@avalaw.co.ke",
+    email: "victor@avalaw.co.ke",
     linkedin: "https://www.linkedin.com/in/victor-mosota-81516b182/",
     role: "Managing Partner",
     profile:
@@ -142,7 +142,7 @@ const profiles = [
     id: "noela-opwapo",
     name: "Noela Opwapo",
     linkedin: "#",
-    email: "noella@avalaw.co.ke",
+    email: "noela@avalaw.co.ke",
     profile_img:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1731001605/Benjamin_Noella-02_h0pd9g.jpg",
     credentials: "LLB, Dip, KSL",
@@ -155,6 +155,7 @@ const profiles = [
     id: "tracy-adenya",
     name: "Tracy Adenya",
     role: "Legal Admin Assistant",
+    email: "tracy@avalaw.co.ke",
     profile_img:
       "https://res.cloudinary.com/dltjv8zbh/image/upload/v1711982476/tracy_1_lezmyx.jpg",
   },
@@ -323,7 +324,7 @@ const lawyerProfiles = [
     name: "Dennis Kariuki",
     role: "Associate",
     linkedin: "https://www.linkedin.com/in/dennis-kariuki-961486143/",
-    email: "dkariuki@avalaw.co.ke",
+    email: "dennis@avalaw.co.ke",
     profile:
       "Dennis Kariuki, Esq., is a highly skilled advocate with over seven years of experience in the legal services industry. He has a proven track record of success in various areas of law, including civil litigation, commercial transactions, criminal law, succession law, and conveyancing.\n\n His duties include conducting client interviews to understand their legal needs and concerns, drafting and instituting legal proceedings, and attending court sessions for a variety of matters spanning civil, criminal, and commercial law. He has also prepared various conveyances, demonstrating his comprehensive understanding of property and land laws.\n\n With hands-on experience, Kariuki is versatile and adaptable to different legal environments. His commitment to providing top-notch service to clients, coupled with his confidence in handling complex legal matters, sets him apart in the legal field. He is driven by a strong sense of values, a passion for truth, and a thirst for justice.\n\n In summary, Dennis Kariuki, Esq., is a dedicated legal professional who brings a wealth of experience, expertise, and commitment to his practice. His comprehensive understanding of various areas of law, combined with his passion for justice and truth, make him an invaluable asset to his clients and to his firm.",
     profileImg:
@@ -439,7 +440,7 @@ const lawyerProfiles = [
     name: "Noela Opwapo",
     role: "Associate",
     linkedin: "#",
-    email: "noela@gmail.com",
+    email: "noela@avalaw.co.ke",
     profile:
       "Noela Opwapo is a dedicated Advocate of the High Court of Kenya with expertise in Commercial, Employment, Constitutional, and Family Law. With a strong background as a legal officer in a government parastatal, she brings valuable experience in corporate governance, risk analysis, and regulatory compliance. Her commitment to providing top-notch legal guidance ensures the best outcomes for her clients.",
     profileImg:
