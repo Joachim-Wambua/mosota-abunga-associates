@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "https://maassociates.co.ke/",
+  base: "/",
   // Specify the target browsers for compatibility
   // Adjust according to your specific needs
   build: {
